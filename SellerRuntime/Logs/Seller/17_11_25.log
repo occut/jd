@@ -1,0 +1,2931 @@
+[ 2017-11-25T22:06:56+08:00 ] 124.90.193.16 /seller.php/Login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+NOTIC: [8] Constant LANG_SET already defined D:\phpStudy\WWW\ThinkPHPFrame\Library\Behavior\CheckLangBehavior.class.php 第 55 行.
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015600s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015600s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.015600s ]
+INFO: [ app_end ] --END-- [ RunTime:0.015600s ]
+
+[ 2017-11-25T22:07:00+08:00 ] 124.90.193.16 /seller.php/Login/getPic.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+NOTIC: [8] Constant LANG_SET already defined D:\phpStudy\WWW\ThinkPHPFrame\Library\Behavior\CheckLangBehavior.class.php 第 55 行.
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `yefan_admin` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `yefan_upload` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `yefan_admin` WHERE `admin_name` LIKE '%admin%' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `yefan_upload` WHERE `admin_id` = 46 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-11-25T22:07:03+08:00 ] 124.90.193.16 /seller.php/Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.015600s ]
+NOTIC: [8] Constant LANG_SET already defined D:\phpStudy\WWW\ThinkPHPFrame\Library\Behavior\CheckLangBehavior.class.php 第 55 行.
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015600s ]
+SQL: SHOW COLUMNS FROM `yefan_management` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `yefan_management` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `yefan_management` WHERE `ag_name` = 'admin' LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015600s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015600s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-11-25T22:07:05+08:00 ] 120.204.17.67 /seller.php/login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+NOTIC: [8] Constant LANG_SET already defined D:\phpStudy\WWW\ThinkPHPFrame\Library\Behavior\CheckLangBehavior.class.php 第 55 行.
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015600s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015600s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-11-25T22:07:05+08:00 ] 112.65.193.14 /seller.php/Login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+NOTIC: [8] Constant LANG_SET already defined D:\phpStudy\WWW\ThinkPHPFrame\Library\Behavior\CheckLangBehavior.class.php 第 55 行.
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015600s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015600s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-11-25T22:07:09+08:00 ] 101.226.33.224 /seller.php/login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.015600s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+NOTIC: [8] Constant LANG_SET already defined D:\phpStudy\WWW\ThinkPHPFrame\Library\Behavior\CheckLangBehavior.class.php 第 55 行.
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015600s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015600s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-11-25T22:07:13+08:00 ] 58.247.212.98 /seller.php/login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.015600s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+NOTIC: [8] Constant LANG_SET already defined D:\phpStudy\WWW\ThinkPHPFrame\Library\Behavior\CheckLangBehavior.class.php 第 55 行.
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015600s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-11-25T22:07:15+08:00 ] 101.226.66.187 /seller.php/login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+NOTIC: [8] Constant LANG_SET already defined D:\phpStudy\WWW\ThinkPHPFrame\Library\Behavior\CheckLangBehavior.class.php 第 55 行.
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.015600s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015600s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-11-25T22:07:34+08:00 ] 124.90.193.16 /seller.php/Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+NOTIC: [8] Constant LANG_SET already defined D:\phpStudy\WWW\ThinkPHPFrame\Library\Behavior\CheckLangBehavior.class.php 第 55 行.
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.015600s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015600s ]
+SQL: SHOW COLUMNS FROM `yefan_management` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `yefan_management` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `yefan_management` WHERE `ag_name` = 'admin' LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015600s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015600s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-11-25T22:07:58+08:00 ] 124.90.193.16 /seller.php/Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.015600s ]
+NOTIC: [8] Constant LANG_SET already defined D:\phpStudy\WWW\ThinkPHPFrame\Library\Behavior\CheckLangBehavior.class.php 第 55 行.
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015600s ]
+SQL: SHOW COLUMNS FROM `yefan_management` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `yefan_management` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `yefan_management` WHERE `ag_name` = 'admin' LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015600s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015600s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-11-25T22:08:06+08:00 ] 124.90.193.16 /seller.php/Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+NOTIC: [8] Constant LANG_SET already defined D:\phpStudy\WWW\ThinkPHPFrame\Library\Behavior\CheckLangBehavior.class.php 第 55 行.
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.015600s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015600s ]
+SQL: SHOW COLUMNS FROM `yefan_management` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `yefan_management` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `yefan_management` WHERE `ag_name` = 'admin' LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015600s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015600s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-11-25T22:22:41+08:00 ] 124.90.193.16 /seller.php/Login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.015600s ]
+NOTIC: [8] Constant LANG_SET already defined D:\phpStudy\WWW\ThinkPHPFrame\Library\Behavior\CheckLangBehavior.class.php 第 55 行.
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015600s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015600s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015600s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-11-25T22:22:45+08:00 ] 124.90.193.16 /seller.php/Login/getPic.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+NOTIC: [8] Constant LANG_SET already defined D:\phpStudy\WWW\ThinkPHPFrame\Library\Behavior\CheckLangBehavior.class.php 第 55 行.
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.015600s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015600s ]
+SQL: SHOW COLUMNS FROM `yefan_admin` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `yefan_upload` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `yefan_admin` WHERE `admin_name` LIKE '%院长%' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `yefan_upload` WHERE `admin_id` = null LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-11-25T22:22:46+08:00 ] 124.90.193.16 /seller.php/Login/getPic.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+NOTIC: [8] Constant LANG_SET already defined D:\phpStudy\WWW\ThinkPHPFrame\Library\Behavior\CheckLangBehavior.class.php 第 55 行.
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `yefan_admin` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `yefan_upload` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `yefan_admin` WHERE `admin_name` LIKE '%院长测试%' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `yefan_upload` WHERE `admin_id` = null LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-11-25T22:22:47+08:00 ] 124.90.193.16 /seller.php/Login/getPic.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+NOTIC: [8] Constant LANG_SET already defined D:\phpStudy\WWW\ThinkPHPFrame\Library\Behavior\CheckLangBehavior.class.php 第 55 行.
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.015600s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015600s ]
+SQL: SHOW COLUMNS FROM `yefan_admin` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `yefan_upload` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `yefan_admin` WHERE `admin_name` LIKE '%院长测试号%' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `yefan_upload` WHERE `admin_id` = null LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-11-25T22:22:50+08:00 ] 124.90.193.16 /seller.php/Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+NOTIC: [8] Constant LANG_SET already defined D:\phpStudy\WWW\ThinkPHPFrame\Library\Behavior\CheckLangBehavior.class.php 第 55 行.
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `yefan_management` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `yefan_management` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `yefan_management` WHERE `ag_name` = '院长测试号' LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015600s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015600s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-11-25T22:23:00+08:00 ] 124.90.193.16 /seller.php/Login/getPic.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+NOTIC: [8] Constant LANG_SET already defined D:\phpStudy\WWW\ThinkPHPFrame\Library\Behavior\CheckLangBehavior.class.php 第 55 行.
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.015600s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015600s ]
+SQL: SHOW COLUMNS FROM `yefan_admin` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `yefan_upload` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `yefan_admin` WHERE `admin_name` LIKE '%三家%' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `yefan_upload` WHERE `admin_id` = null LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-11-25T22:23:01+08:00 ] 124.90.193.16 /seller.php/Login/getPic.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+NOTIC: [8] Constant LANG_SET already defined D:\phpStudy\WWW\ThinkPHPFrame\Library\Behavior\CheckLangBehavior.class.php 第 55 行.
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.015600s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015600s ]
+SQL: SHOW COLUMNS FROM `yefan_admin` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `yefan_upload` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `yefan_admin` WHERE `admin_name` LIKE '%三%' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `yefan_upload` WHERE `admin_id` = null LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-11-25T22:23:02+08:00 ] 124.90.193.16 /seller.php/Login/getPic.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.015600s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+NOTIC: [8] Constant LANG_SET already defined D:\phpStudy\WWW\ThinkPHPFrame\Library\Behavior\CheckLangBehavior.class.php 第 55 行.
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015600s ]
+SQL: SHOW COLUMNS FROM `yefan_admin` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `yefan_upload` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `yefan_admin` WHERE `admin_name` LIKE '%%' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `yefan_upload` WHERE `admin_id` = 46 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-11-25T22:23:03+08:00 ] 124.90.193.16 /seller.php/Login/getPic.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+NOTIC: [8] Constant LANG_SET already defined D:\phpStudy\WWW\ThinkPHPFrame\Library\Behavior\CheckLangBehavior.class.php 第 55 行.
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `yefan_admin` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `yefan_upload` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `yefan_admin` WHERE `admin_name` LIKE '%商家%' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `yefan_upload` WHERE `admin_id` = null LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-11-25T22:23:04+08:00 ] 124.90.193.16 /seller.php/Login/getPic.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+NOTIC: [8] Constant LANG_SET already defined D:\phpStudy\WWW\ThinkPHPFrame\Library\Behavior\CheckLangBehavior.class.php 第 55 行.
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `yefan_admin` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `yefan_upload` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `yefan_admin` WHERE `admin_name` LIKE '%商家测试%' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `yefan_upload` WHERE `admin_id` = null LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-11-25T22:23:05+08:00 ] 124.90.193.16 /seller.php/Login/getPic.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+NOTIC: [8] Constant LANG_SET already defined D:\phpStudy\WWW\ThinkPHPFrame\Library\Behavior\CheckLangBehavior.class.php 第 55 行.
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `yefan_admin` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `yefan_upload` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `yefan_admin` WHERE `admin_name` LIKE '%商家测试号%' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `yefan_upload` WHERE `admin_id` = null LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-11-25T22:23:07+08:00 ] 124.90.193.16 /seller.php/Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.015600s ]
+NOTIC: [8] Constant LANG_SET already defined D:\phpStudy\WWW\ThinkPHPFrame\Library\Behavior\CheckLangBehavior.class.php 第 55 行.
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015600s ]
+SQL: SHOW COLUMNS FROM `yefan_management` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `yefan_management` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `yefan_management` WHERE `ag_name` = '商家测试号' LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `yefan_management` SET `ag_ltime`='2017-11-25 22:23:07',`ag_ip`='124.90.193.16' WHERE ( ag_id=13 ) [ RunTime:0.0468s ]
+
+[ 2017-11-25T22:23:09+08:00 ] 124.90.193.16 /seller.php/Index/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.015600s ]
+NOTIC: [8] Constant LANG_SET already defined D:\phpStudy\WWW\ThinkPHPFrame\Library\Behavior\CheckLangBehavior.class.php 第 55 行.
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015600s ]
+SQL: SHOW COLUMNS FROM `yefan_web_config` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `yefan_web_config` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `yefan_web_config` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `admin_page` FROM `yefan_web_config` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `admin_page` FROM `yefan_web_config` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `yefan_upload` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `yefan_upload` WHERE `admin_id` = null LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `yefan_seller_menu` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `yefan_seller_menu`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015600s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015600s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-11-25T22:23:19+08:00 ] 61.129.6.110 /seller.php/Index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+NOTIC: [8] Constant LANG_SET already defined D:\phpStudy\WWW\ThinkPHPFrame\Library\Behavior\CheckLangBehavior.class.php 第 55 行.
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `yefan_web_config` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `yefan_web_config` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `yefan_web_config` LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015600s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015600s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-11-25T22:23:19+08:00 ] 120.204.17.73 /seller.php/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+NOTIC: [8] Constant LANG_SET already defined D:\phpStudy\WWW\ThinkPHPFrame\Library\Behavior\CheckLangBehavior.class.php 第 55 行.
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `yefan_web_config` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `yefan_web_config` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `yefan_web_config` LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015600s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015600s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-11-25T22:23:23+08:00 ] 101.226.66.172 /seller.php/Index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.015600s ]
+NOTIC: [8] Constant LANG_SET already defined D:\phpStudy\WWW\ThinkPHPFrame\Library\Behavior\CheckLangBehavior.class.php 第 55 行.
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015600s ]
+SQL: SHOW COLUMNS FROM `yefan_web_config` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `yefan_web_config` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `yefan_web_config` LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015600s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015600s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-11-25T22:23:23+08:00 ] 124.90.193.16 /Seller.php/Profile/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.015600s ]
+NOTIC: [8] Constant LANG_SET already defined D:\phpStudy\WWW\ThinkPHPFrame\Library\Behavior\CheckLangBehavior.class.php 第 55 行.
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015600s ]
+SQL: SHOW COLUMNS FROM `yefan_web_config` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `yefan_web_config` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `yefan_web_config` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `admin_page` FROM `yefan_web_config` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `admin_page` FROM `yefan_web_config` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `yefan_management` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `yefan_management` WHERE `ag_id` = 13 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015600s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015600s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-11-25T22:23:28+08:00 ] 101.226.66.172 /seller.php/Login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+NOTIC: [8] Constant LANG_SET already defined D:\phpStudy\WWW\ThinkPHPFrame\Library\Behavior\CheckLangBehavior.class.php 第 55 行.
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015600s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015600s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-11-25T22:23:30+08:00 ] 124.90.193.16 /Seller.php/Tasks/listTasks
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.015600s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+NOTIC: [8] Constant LANG_SET already defined D:\phpStudy\WWW\ThinkPHPFrame\Library\Behavior\CheckLangBehavior.class.php 第 55 行.
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015600s ]
+SQL: SHOW COLUMNS FROM `yefan_web_config` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `yefan_web_config` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `yefan_web_config` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `admin_page` FROM `yefan_web_config` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `admin_page` FROM `yefan_web_config` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `yefan_seller_task` [ RunTime:0.0156s ]
+SQL: SHOW COLUMNS FROM `yefan_seller_task` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `yefan_seller_task` WHERE yefan_seller_task.seller_id = '13' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `yefan_seller_task` LEFT JOIN yefan_shop ON  yefan_seller_task.shop = yefan_shop.id  WHERE yefan_seller_task.seller_id = '13' ORDER BY addTaskTime asc LIMIT 0,100   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: value D:\phpStudy\WWW\SellerRuntime\Cache\Seller\3f7c3275f219099130ea8c4b1869eb9c.php 第 31 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031200s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031200s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-11-25T22:23:33+08:00 ] 58.247.212.61 /Seller.php/Profile/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+NOTIC: [8] Constant LANG_SET already defined D:\phpStudy\WWW\ThinkPHPFrame\Library\Behavior\CheckLangBehavior.class.php 第 55 行.
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `yefan_web_config` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `yefan_web_config` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `yefan_web_config` LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015600s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015600s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-11-25T22:23:36+08:00 ] 124.90.193.16 /Seller.php/Tasks/liuliangcreate.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+NOTIC: [8] Constant LANG_SET already defined D:\phpStudy\WWW\ThinkPHPFrame\Library\Behavior\CheckLangBehavior.class.php 第 55 行.
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `yefan_web_config` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `yefan_web_config` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `yefan_web_config` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `admin_page` FROM `yefan_web_config` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `admin_page` FROM `yefan_web_config` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `yefan_shop` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `yefan_shop` WHERE `seller_id` = '13' LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031200s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031200s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-11-25T22:23:37+08:00 ] 101.226.64.177 /Seller.php/Profile/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+NOTIC: [8] Constant LANG_SET already defined D:\phpStudy\WWW\ThinkPHPFrame\Library\Behavior\CheckLangBehavior.class.php 第 55 行.
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.015600s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015600s ]
+SQL: SHOW COLUMNS FROM `yefan_web_config` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `yefan_web_config` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `yefan_web_config` LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015600s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015600s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-11-25T22:23:40+08:00 ] 223.167.152.125 /Seller.php/Tasks/listTasks
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.015600s ]
+NOTIC: [8] Constant LANG_SET already defined D:\phpStudy\WWW\ThinkPHPFrame\Library\Behavior\CheckLangBehavior.class.php 第 55 行.
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015600s ]
+SQL: SHOW COLUMNS FROM `yefan_web_config` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `yefan_web_config` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `yefan_web_config` LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015600s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015600s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-11-25T22:23:41+08:00 ] 124.90.193.16 /Seller.php/Tasks/liuliangtasks.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+NOTIC: [8] Constant LANG_SET already defined D:\phpStudy\WWW\ThinkPHPFrame\Library\Behavior\CheckLangBehavior.class.php 第 55 行.
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `yefan_web_config` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `yefan_web_config` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `yefan_web_config` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `admin_page` FROM `yefan_web_config` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `admin_page` FROM `yefan_web_config` LIMIT 1   [ RunTime:0.0000s ]
+ERR: 1146:Table 'tasks.yefan_liuliang' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `yefan_liuliang`
+ERR: 1146:Table 'tasks.yefan_liuliang' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `yefan_liuliang`
+
+[ 2017-11-25T22:23:42+08:00 ] 101.226.64.177 /Seller.php/Login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+NOTIC: [8] Constant LANG_SET already defined D:\phpStudy\WWW\ThinkPHPFrame\Library\Behavior\CheckLangBehavior.class.php 第 55 行.
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015600s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015600s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-11-25T22:23:45+08:00 ] 124.90.193.16 /Seller.php/Tasks/listTasks
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.015600s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+NOTIC: [8] Constant LANG_SET already defined D:\phpStudy\WWW\ThinkPHPFrame\Library\Behavior\CheckLangBehavior.class.php 第 55 行.
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `yefan_web_config` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `yefan_web_config` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `yefan_web_config` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `admin_page` FROM `yefan_web_config` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `admin_page` FROM `yefan_web_config` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `yefan_seller_task` [ RunTime:0.0156s ]
+SQL: SHOW COLUMNS FROM `yefan_seller_task` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `yefan_seller_task` WHERE yefan_seller_task.seller_id = '13' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `yefan_seller_task` LEFT JOIN yefan_shop ON  yefan_seller_task.shop = yefan_shop.id  WHERE yefan_seller_task.seller_id = '13' ORDER BY addTaskTime asc LIMIT 0,100   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: value D:\phpStudy\WWW\SellerRuntime\Cache\Seller\3f7c3275f219099130ea8c4b1869eb9c.php 第 31 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031200s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031200s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-11-25T22:23:46+08:00 ] 112.65.193.15 /Seller.php/Tasks/liuliangcreate.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.015600s ]
+NOTIC: [8] Constant LANG_SET already defined D:\phpStudy\WWW\ThinkPHPFrame\Library\Behavior\CheckLangBehavior.class.php 第 55 行.
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015600s ]
+SQL: SHOW COLUMNS FROM `yefan_web_config` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `yefan_web_config` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `yefan_web_config` LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015600s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015600s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-11-25T22:23:46+08:00 ] 101.226.33.220 /Seller.php/Tasks/listTasks
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+NOTIC: [8] Constant LANG_SET already defined D:\phpStudy\WWW\ThinkPHPFrame\Library\Behavior\CheckLangBehavior.class.php 第 55 行.
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `yefan_web_config` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `yefan_web_config` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `yefan_web_config` LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015600s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015600s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-11-25T22:23:51+08:00 ] 58.246.221.73 /Seller.php/Tasks/liuliangtasks.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+NOTIC: [8] Constant LANG_SET already defined D:\phpStudy\WWW\ThinkPHPFrame\Library\Behavior\CheckLangBehavior.class.php 第 55 行.
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `yefan_web_config` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `yefan_web_config` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `yefan_web_config` LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015600s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015600s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-11-25T22:23:55+08:00 ] 124.90.193.16 /Seller.php/Tasks/taskscreate.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.015600s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+NOTIC: [8] Constant LANG_SET already defined D:\phpStudy\WWW\ThinkPHPFrame\Library\Behavior\CheckLangBehavior.class.php 第 55 行.
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `yefan_web_config` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `yefan_web_config` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `yefan_web_config` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `admin_page` FROM `yefan_web_config` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `admin_page` FROM `yefan_web_config` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `yefan_shop` [ RunTime:0.0156s ]
+SQL: SHOW COLUMNS FROM `yefan_shop` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `yefan_shop` WHERE ( seller_id =13 )  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.046800s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.046800s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-11-25T22:24:05+08:00 ] 112.65.193.14 /Seller.php/Tasks/taskscreate.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+NOTIC: [8] Constant LANG_SET already defined D:\phpStudy\WWW\ThinkPHPFrame\Library\Behavior\CheckLangBehavior.class.php 第 55 行.
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `yefan_web_config` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `yefan_web_config` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `yefan_web_config` LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015600s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015600s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-11-25T22:28:28+08:00 ] 124.90.193.16 /Seller.php/Tasks/tasksstore.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+NOTIC: [8] Constant LANG_SET already defined D:\phpStudy\WWW\ThinkPHPFrame\Library\Behavior\CheckLangBehavior.class.php 第 55 行.
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `yefan_web_config` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `yefan_web_config` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `yefan_web_config` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `admin_page` FROM `yefan_web_config` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `admin_page` FROM `yefan_web_config` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `yefan_management` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `yefan_management` WHERE `ag_id` = 13 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `yefan_seller_task` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `yefan_seller_balance` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `yefan_seller_balance` WHERE `seller_id` = 13 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015600s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015600s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-11-25T22:35:01+08:00 ] 124.90.193.16 /Seller.php/Index/payment
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+NOTIC: [8] Constant LANG_SET already defined D:\phpStudy\WWW\ThinkPHPFrame\Library\Behavior\CheckLangBehavior.class.php 第 55 行.
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `yefan_web_config` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `yefan_web_config` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `yefan_web_config` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `admin_page` FROM `yefan_web_config` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `admin_page` FROM `yefan_web_config` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `yefan_seller_balance` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `yefan_seller_balance` WHERE `seller_id` = 13 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.015600s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015600s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015600s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-11-25T22:35:11+08:00 ] 112.65.193.15 /Seller.php/Index/payment
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+NOTIC: [8] Constant LANG_SET already defined D:\phpStudy\WWW\ThinkPHPFrame\Library\Behavior\CheckLangBehavior.class.php 第 55 行.
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `yefan_web_config` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `yefan_web_config` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `yefan_web_config` LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015600s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015600s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-11-25T22:35:17+08:00 ] 101.226.33.240 /Seller.php/Index/payment
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+NOTIC: [8] Constant LANG_SET already defined D:\phpStudy\WWW\ThinkPHPFrame\Library\Behavior\CheckLangBehavior.class.php 第 55 行.
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.015600s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015600s ]
+SQL: SHOW COLUMNS FROM `yefan_web_config` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `yefan_web_config` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `yefan_web_config` LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015600s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015600s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-11-25T22:35:24+08:00 ] 101.226.33.240 /Seller.php/Login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+NOTIC: [8] Constant LANG_SET already defined D:\phpStudy\WWW\ThinkPHPFrame\Library\Behavior\CheckLangBehavior.class.php 第 55 行.
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015600s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015600s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-11-25T22:36:36+08:00 ] 124.90.193.16 /Seller.php/Index/paypost.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+NOTIC: [8] Constant LANG_SET already defined D:\phpStudy\WWW\ThinkPHPFrame\Library\Behavior\CheckLangBehavior.class.php 第 55 行.
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `yefan_web_config` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `yefan_web_config` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `yefan_web_config` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `admin_page` FROM `yefan_web_config` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `admin_page` FROM `yefan_web_config` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `yefan_seller_charge_detail` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `yefan_seller_charge_detail` WHERE `order_num` = '1' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `yefan_management` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `yefan_management` WHERE `ag_id` = 13 LIMIT 1   [ RunTime:0.0000s ]
+SQL: INSERT INTO `yefan_seller_charge_detail` (`money`,`order_num`,`charge_way`,`mark`,`time`,`seller`,`agent`) VALUES ('10000','1','1','刘柏伟','2017-11-25 22:36:36','0','12') [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015600s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015600s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-11-25T22:36:39+08:00 ] 124.90.193.16 /Seller.php/Index/payment
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.015600s ]
+NOTIC: [8] Constant LANG_SET already defined D:\phpStudy\WWW\ThinkPHPFrame\Library\Behavior\CheckLangBehavior.class.php 第 55 行.
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015600s ]
+SQL: SHOW COLUMNS FROM `yefan_web_config` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `yefan_web_config` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `yefan_web_config` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `admin_page` FROM `yefan_web_config` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `admin_page` FROM `yefan_web_config` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `yefan_seller_balance` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `yefan_seller_balance` WHERE `seller_id` = 13 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015600s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015600s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-11-25T22:36:45+08:00 ] 124.90.193.16 /Seller.php/Index/payment
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+NOTIC: [8] Constant LANG_SET already defined D:\phpStudy\WWW\ThinkPHPFrame\Library\Behavior\CheckLangBehavior.class.php 第 55 行.
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `yefan_web_config` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `yefan_web_config` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `yefan_web_config` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `admin_page` FROM `yefan_web_config` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `admin_page` FROM `yefan_web_config` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `yefan_seller_balance` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `yefan_seller_balance` WHERE `seller_id` = 13 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015600s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015600s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-11-25T22:36:51+08:00 ] 124.90.193.16 /Seller.php/Profile/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+NOTIC: [8] Constant LANG_SET already defined D:\phpStudy\WWW\ThinkPHPFrame\Library\Behavior\CheckLangBehavior.class.php 第 55 行.
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.015600s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015600s ]
+SQL: SHOW COLUMNS FROM `yefan_web_config` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `yefan_web_config` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `yefan_web_config` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `admin_page` FROM `yefan_web_config` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `admin_page` FROM `yefan_web_config` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `yefan_management` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `yefan_management` WHERE `ag_id` = 13 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015600s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015600s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-11-25T22:36:53+08:00 ] 124.90.193.16 /Seller.php/Finance/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+NOTIC: [8] Constant LANG_SET already defined D:\phpStudy\WWW\ThinkPHPFrame\Library\Behavior\CheckLangBehavior.class.php 第 55 行.
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `yefan_web_config` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `yefan_web_config` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `yefan_web_config` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `admin_page` FROM `yefan_web_config` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `admin_page` FROM `yefan_web_config` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `yefan_seller_pay` [ RunTime:0.0156s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `yefan_seller_pay` WHERE `seller` = 13 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `yefan_seller_pay` WHERE `seller` = 13 ORDER BY pay_id desc LIMIT 0,100   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015600s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015600s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-11-25T22:36:57+08:00 ] 124.90.193.16 /Seller.php/Finance/charge.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+NOTIC: [8] Constant LANG_SET already defined D:\phpStudy\WWW\ThinkPHPFrame\Library\Behavior\CheckLangBehavior.class.php 第 55 行.
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.015600s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015600s ]
+SQL: SHOW COLUMNS FROM `yefan_web_config` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `yefan_web_config` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `yefan_web_config` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `admin_page` FROM `yefan_web_config` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `admin_page` FROM `yefan_web_config` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `yefan_seller_charge_detail` [ RunTime:0.0156s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `yefan_seller_charge_detail` WHERE `seller` = 13 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `yefan_seller_charge_detail` WHERE `seller` = 13 ORDER BY id desc LIMIT 0,100   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015600s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015600s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-11-25T22:37:01+08:00 ] 124.90.193.16 /Seller.php/Finance/charge.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.015600s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+NOTIC: [8] Constant LANG_SET already defined D:\phpStudy\WWW\ThinkPHPFrame\Library\Behavior\CheckLangBehavior.class.php 第 55 行.
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015600s ]
+SQL: SHOW COLUMNS FROM `yefan_web_config` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `yefan_web_config` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `yefan_web_config` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `admin_page` FROM `yefan_web_config` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `admin_page` FROM `yefan_web_config` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `yefan_seller_charge_detail` [ RunTime:0.0156s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `yefan_seller_charge_detail` WHERE `seller` = 13 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `yefan_seller_charge_detail` WHERE `seller` = 13 ORDER BY id desc LIMIT 0,100   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015600s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015600s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-11-25T22:37:02+08:00 ] 124.90.193.16 /Seller.php/Finance/liuliang.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+NOTIC: [8] Constant LANG_SET already defined D:\phpStudy\WWW\ThinkPHPFrame\Library\Behavior\CheckLangBehavior.class.php 第 55 行.
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `yefan_web_config` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `yefan_web_config` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `yefan_web_config` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `admin_page` FROM `yefan_web_config` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `admin_page` FROM `yefan_web_config` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `yefan_liuliang_detail` [ RunTime:0.0156s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `yefan_liuliang_detail` WHERE `seller` = '13' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `yefan_liuliang_detail` WHERE `seller` = '13' ORDER BY id desc LIMIT 0,100   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015600s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015600s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-11-25T22:37:05+08:00 ] 124.90.193.16 /Seller.php/Finance/charge.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+NOTIC: [8] Constant LANG_SET already defined D:\phpStudy\WWW\ThinkPHPFrame\Library\Behavior\CheckLangBehavior.class.php 第 55 行.
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015600s ]
+SQL: SHOW COLUMNS FROM `yefan_web_config` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `yefan_web_config` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `yefan_web_config` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `admin_page` FROM `yefan_web_config` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `admin_page` FROM `yefan_web_config` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `yefan_seller_charge_detail` [ RunTime:0.0156s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `yefan_seller_charge_detail` WHERE `seller` = 13 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `yefan_seller_charge_detail` WHERE `seller` = 13 ORDER BY id desc LIMIT 0,100   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015600s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015600s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-11-25T22:37:07+08:00 ] 112.65.193.14 /Seller.php/Finance/charge.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+NOTIC: [8] Constant LANG_SET already defined D:\phpStudy\WWW\ThinkPHPFrame\Library\Behavior\CheckLangBehavior.class.php 第 55 行.
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.015600s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015600s ]
+SQL: SHOW COLUMNS FROM `yefan_web_config` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `yefan_web_config` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `yefan_web_config` LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015600s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015600s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-11-25T22:37:07+08:00 ] 124.90.193.16 /Seller.php/Finance/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+NOTIC: [8] Constant LANG_SET already defined D:\phpStudy\WWW\ThinkPHPFrame\Library\Behavior\CheckLangBehavior.class.php 第 55 行.
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.015600s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015600s ]
+SQL: SHOW COLUMNS FROM `yefan_web_config` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `yefan_web_config` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `yefan_web_config` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `admin_page` FROM `yefan_web_config` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `admin_page` FROM `yefan_web_config` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `yefan_seller_pay` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `yefan_seller_pay` WHERE `seller` = 13 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `yefan_seller_pay` WHERE `seller` = 13 ORDER BY pay_id desc LIMIT 0,100   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015600s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015600s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-11-25T22:37:17+08:00 ] 223.167.152.124 /Seller.php/Finance/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+NOTIC: [8] Constant LANG_SET already defined D:\phpStudy\WWW\ThinkPHPFrame\Library\Behavior\CheckLangBehavior.class.php 第 55 行.
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `yefan_web_config` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `yefan_web_config` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `yefan_web_config` LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015600s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015600s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-11-25T22:37:22+08:00 ] 101.226.66.178 /Seller.php/Finance/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+NOTIC: [8] Constant LANG_SET already defined D:\phpStudy\WWW\ThinkPHPFrame\Library\Behavior\CheckLangBehavior.class.php 第 55 行.
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `yefan_web_config` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `yefan_web_config` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `yefan_web_config` LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015600s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015600s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-11-25T22:37:29+08:00 ] 101.226.66.178 /Seller.php/Login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+NOTIC: [8] Constant LANG_SET already defined D:\phpStudy\WWW\ThinkPHPFrame\Library\Behavior\CheckLangBehavior.class.php 第 55 行.
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015600s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015600s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-11-25T22:38:28+08:00 ] 124.90.193.16 /Seller.php/Finance/charge.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.015600s ]
+NOTIC: [8] Constant LANG_SET already defined D:\phpStudy\WWW\ThinkPHPFrame\Library\Behavior\CheckLangBehavior.class.php 第 55 行.
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015600s ]
+SQL: SHOW COLUMNS FROM `yefan_web_config` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `yefan_web_config` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `yefan_web_config` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `admin_page` FROM `yefan_web_config` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `admin_page` FROM `yefan_web_config` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `yefan_seller_charge_detail` [ RunTime:0.0156s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `yefan_seller_charge_detail` WHERE `seller` = 13 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `yefan_seller_charge_detail` WHERE `seller` = 13 ORDER BY id desc LIMIT 0,100   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015600s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015600s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-11-25T22:38:29+08:00 ] 124.90.193.16 /Seller.php/Finance/charge.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+NOTIC: [8] Constant LANG_SET already defined D:\phpStudy\WWW\ThinkPHPFrame\Library\Behavior\CheckLangBehavior.class.php 第 55 行.
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.015600s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015600s ]
+SQL: SHOW COLUMNS FROM `yefan_web_config` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `yefan_web_config` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `yefan_web_config` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `admin_page` FROM `yefan_web_config` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `admin_page` FROM `yefan_web_config` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `yefan_seller_charge_detail` [ RunTime:0.0156s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `yefan_seller_charge_detail` WHERE `seller` = 13 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `yefan_seller_charge_detail` WHERE `seller` = 13 ORDER BY id desc LIMIT 0,100   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015600s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015600s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-11-25T22:38:31+08:00 ] 124.90.193.16 /Seller.php/Finance/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+NOTIC: [8] Constant LANG_SET already defined D:\phpStudy\WWW\ThinkPHPFrame\Library\Behavior\CheckLangBehavior.class.php 第 55 行.
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `yefan_web_config` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `yefan_web_config` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `yefan_web_config` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `admin_page` FROM `yefan_web_config` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `admin_page` FROM `yefan_web_config` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `yefan_seller_pay` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `yefan_seller_pay` WHERE `seller` = 13 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `yefan_seller_pay` WHERE `seller` = 13 ORDER BY pay_id desc LIMIT 0,100   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015600s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015600s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-11-25T22:38:33+08:00 ] 124.90.193.16 /Seller.php/Finance/charge.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.015600s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+NOTIC: [8] Constant LANG_SET already defined D:\phpStudy\WWW\ThinkPHPFrame\Library\Behavior\CheckLangBehavior.class.php 第 55 行.
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015600s ]
+SQL: SHOW COLUMNS FROM `yefan_web_config` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `yefan_web_config` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `yefan_web_config` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `admin_page` FROM `yefan_web_config` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `admin_page` FROM `yefan_web_config` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `yefan_seller_charge_detail` [ RunTime:0.0156s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `yefan_seller_charge_detail` WHERE `seller` = 13 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `yefan_seller_charge_detail` WHERE `seller` = 13 ORDER BY id desc LIMIT 0,100   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015600s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015600s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-11-25T22:39:12+08:00 ] 124.90.193.16 /Seller.php/Finance/charge.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.015600s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+NOTIC: [8] Constant LANG_SET already defined D:\phpStudy\WWW\ThinkPHPFrame\Library\Behavior\CheckLangBehavior.class.php 第 55 行.
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015600s ]
+SQL: SHOW COLUMNS FROM `yefan_web_config` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `yefan_web_config` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `yefan_web_config` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `admin_page` FROM `yefan_web_config` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `admin_page` FROM `yefan_web_config` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `yefan_seller_charge_detail` [ RunTime:0.0156s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `yefan_seller_charge_detail` WHERE `seller` = 13 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `yefan_seller_charge_detail` WHERE `seller` = 13 ORDER BY id desc LIMIT 0,100   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015600s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015600s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-11-25T22:39:15+08:00 ] 124.90.193.16 /Seller.php/Finance/charge.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+NOTIC: [8] Constant LANG_SET already defined D:\phpStudy\WWW\ThinkPHPFrame\Library\Behavior\CheckLangBehavior.class.php 第 55 行.
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015600s ]
+SQL: SHOW COLUMNS FROM `yefan_web_config` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `yefan_web_config` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `yefan_web_config` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `admin_page` FROM `yefan_web_config` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `admin_page` FROM `yefan_web_config` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `yefan_seller_charge_detail` [ RunTime:0.0156s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `yefan_seller_charge_detail` WHERE `seller` = 13 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `yefan_seller_charge_detail` WHERE `seller` = 13 ORDER BY id desc LIMIT 0,100   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015600s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015600s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-11-25T22:39:19+08:00 ] 124.90.193.16 /Seller.php/Finance/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.015600s ]
+NOTIC: [8] Constant LANG_SET already defined D:\phpStudy\WWW\ThinkPHPFrame\Library\Behavior\CheckLangBehavior.class.php 第 55 行.
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015600s ]
+SQL: SHOW COLUMNS FROM `yefan_web_config` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `yefan_web_config` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `yefan_web_config` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `admin_page` FROM `yefan_web_config` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `admin_page` FROM `yefan_web_config` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `yefan_seller_pay` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `yefan_seller_pay` WHERE `seller` = 13 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `yefan_seller_pay` WHERE `seller` = 13 ORDER BY pay_id desc LIMIT 0,100   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015600s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015600s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-11-25T22:39:21+08:00 ] 124.90.193.16 /Seller.php/Finance/charge.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+NOTIC: [8] Constant LANG_SET already defined D:\phpStudy\WWW\ThinkPHPFrame\Library\Behavior\CheckLangBehavior.class.php 第 55 行.
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `yefan_web_config` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `yefan_web_config` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `yefan_web_config` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `admin_page` FROM `yefan_web_config` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `admin_page` FROM `yefan_web_config` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `yefan_seller_charge_detail` [ RunTime:0.0156s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `yefan_seller_charge_detail` WHERE `seller` = 13 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `yefan_seller_charge_detail` WHERE `seller` = 13 ORDER BY id desc LIMIT 0,100   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015600s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015600s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-11-25T22:40:18+08:00 ] 124.90.193.16 /Seller.php/Index/payment
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+NOTIC: [8] Constant LANG_SET already defined D:\phpStudy\WWW\ThinkPHPFrame\Library\Behavior\CheckLangBehavior.class.php 第 55 行.
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `yefan_web_config` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `yefan_web_config` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `yefan_web_config` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `admin_page` FROM `yefan_web_config` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `admin_page` FROM `yefan_web_config` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `yefan_seller_balance` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `yefan_seller_balance` WHERE `seller_id` = 13 LIMIT 1   [ RunTime:0.0156s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015600s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015600s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-11-25T22:40:21+08:00 ] 124.90.193.16 /Seller.php/Finance/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+NOTIC: [8] Constant LANG_SET already defined D:\phpStudy\WWW\ThinkPHPFrame\Library\Behavior\CheckLangBehavior.class.php 第 55 行.
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `yefan_web_config` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `yefan_web_config` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `yefan_web_config` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `admin_page` FROM `yefan_web_config` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `admin_page` FROM `yefan_web_config` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `yefan_seller_pay` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `yefan_seller_pay` WHERE `seller` = 13 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `yefan_seller_pay` WHERE `seller` = 13 ORDER BY pay_id desc LIMIT 0,100   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015600s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015600s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-11-25T22:42:21+08:00 ] 124.90.193.16 /Seller.php/Tasks/listTasks
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+NOTIC: [8] Constant LANG_SET already defined D:\phpStudy\WWW\ThinkPHPFrame\Library\Behavior\CheckLangBehavior.class.php 第 55 行.
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `yefan_web_config` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `yefan_web_config` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `yefan_web_config` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `admin_page` FROM `yefan_web_config` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `admin_page` FROM `yefan_web_config` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `yefan_seller_task` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `yefan_seller_task` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `yefan_seller_task` WHERE yefan_seller_task.seller_id = '13' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `yefan_seller_task` LEFT JOIN yefan_shop ON  yefan_seller_task.shop = yefan_shop.id  WHERE yefan_seller_task.seller_id = '13' ORDER BY addTaskTime asc LIMIT 0,100   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: value D:\phpStudy\WWW\SellerRuntime\Cache\Seller\3f7c3275f219099130ea8c4b1869eb9c.php 第 31 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031200s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031200s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-11-25T22:42:25+08:00 ] 124.90.193.16 /Seller.php/Tasks/taskscreate.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.015600s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+NOTIC: [8] Constant LANG_SET already defined D:\phpStudy\WWW\ThinkPHPFrame\Library\Behavior\CheckLangBehavior.class.php 第 55 行.
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `yefan_web_config` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `yefan_web_config` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `yefan_web_config` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `admin_page` FROM `yefan_web_config` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `admin_page` FROM `yefan_web_config` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `yefan_shop` [ RunTime:0.0156s ]
+SQL: SHOW COLUMNS FROM `yefan_shop` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `yefan_shop` WHERE ( seller_id =13 )  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015600s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015600s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-11-25T22:43:30+08:00 ] 124.90.193.16 /Seller.php/Profile/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.015600s ]
+NOTIC: [8] Constant LANG_SET already defined D:\phpStudy\WWW\ThinkPHPFrame\Library\Behavior\CheckLangBehavior.class.php 第 55 行.
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015600s ]
+SQL: SHOW COLUMNS FROM `yefan_web_config` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `yefan_web_config` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `yefan_web_config` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `admin_page` FROM `yefan_web_config` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `admin_page` FROM `yefan_web_config` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `yefan_management` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `yefan_management` WHERE `ag_id` = 13 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015600s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015600s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-11-25T22:43:33+08:00 ] 124.90.193.16 /Seller.php/Shop/Shops.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+NOTIC: [8] Constant LANG_SET already defined D:\phpStudy\WWW\ThinkPHPFrame\Library\Behavior\CheckLangBehavior.class.php 第 55 行.
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.015600s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015600s ]
+SQL: SHOW COLUMNS FROM `yefan_web_config` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `yefan_web_config` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `yefan_web_config` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `admin_page` FROM `yefan_web_config` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `admin_page` FROM `yefan_web_config` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `yefan_shop` [ RunTime:0.0156s ]
+SQL: SHOW COLUMNS FROM `yefan_shop` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `yefan_shop`  [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `yefan_shop` WHERE `seller_id` = '13' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `yefan_shop` WHERE `seller_id` = '13' ORDER BY id desc LIMIT 0,100   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.046800s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.046800s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-11-25T22:43:37+08:00 ] 124.90.193.16 /Seller.php/Shop/editAddress/id/53.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.015600s ]
+NOTIC: [8] Constant LANG_SET already defined D:\phpStudy\WWW\ThinkPHPFrame\Library\Behavior\CheckLangBehavior.class.php 第 55 行.
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015600s ]
+SQL: SHOW COLUMNS FROM `yefan_web_config` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `yefan_web_config` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `yefan_web_config` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `admin_page` FROM `yefan_web_config` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `admin_page` FROM `yefan_web_config` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `yefan_province` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `yefan_city` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `yefan_province`  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `yefan_city`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `yefan_shop` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `yefan_shop` WHERE `id` = 53 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `yefan_begin` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `yefan_begin` WHERE `shop` = '53' LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: area D:\phpStudy\WWW\SellerApps\Seller\Controller\ShopController.class.php 第 92 行.
+NOTIC: [8] Undefined variable: pro D:\phpStudy\WWW\SellerApps\Seller\Controller\ShopController.class.php 第 92 行.
+NOTIC: [8] Undefined variable: ci D:\phpStudy\WWW\SellerApps\Seller\Controller\ShopController.class.php 第 92 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.046800s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.046800s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-11-25T22:43:40+08:00 ] 124.90.193.16 /Seller.php/Tasks/city.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+NOTIC: [8] Constant LANG_SET already defined D:\phpStudy\WWW\ThinkPHPFrame\Library\Behavior\CheckLangBehavior.class.php 第 55 行.
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `yefan_web_config` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `yefan_web_config` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `yefan_web_config` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `admin_page` FROM `yefan_web_config` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `admin_page` FROM `yefan_web_config` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `yefan_province` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `yefan_province` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `yefan_city` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `yefan_city` WHERE `fatherID` = 120000  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-11-25T22:43:44+08:00 ] 124.90.193.16 /Seller.php/Shop/editAddress.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.015600s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+NOTIC: [8] Constant LANG_SET already defined D:\phpStudy\WWW\ThinkPHPFrame\Library\Behavior\CheckLangBehavior.class.php 第 55 行.
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `yefan_web_config` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `yefan_web_config` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `yefan_web_config` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `admin_page` FROM `yefan_web_config` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `admin_page` FROM `yefan_web_config` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `yefan_province` [ RunTime:0.0156s ]
+SQL: SHOW COLUMNS FROM `yefan_city` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `yefan_province`  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `yefan_city`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `yefan_shop` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `yefan_shop` WHERE `id` = 53 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `yefan_begin` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `yefan_begin` WHERE `shop` = '53' LIMIT 1   [ RunTime:0.0000s ]
+SQL: INSERT INTO `yefan_begin` (`shop`,`seller`,`province`,`city`,`details`,`phone`,`mb_phone`,`fid`) VALUES ('53','1','2','3','11','11','11','13') [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015600s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015600s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: area D:\phpStudy\WWW\SellerApps\Seller\Controller\ShopController.class.php 第 92 行.
+NOTIC: [8] Undefined variable: pro D:\phpStudy\WWW\SellerApps\Seller\Controller\ShopController.class.php 第 92 行.
+NOTIC: [8] Undefined variable: ci D:\phpStudy\WWW\SellerApps\Seller\Controller\ShopController.class.php 第 92 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.015600s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015600s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.015600s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-11-25T22:43:46+08:00 ] 124.90.193.16 /Seller.php/Shop/shops.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+NOTIC: [8] Constant LANG_SET already defined D:\phpStudy\WWW\ThinkPHPFrame\Library\Behavior\CheckLangBehavior.class.php 第 55 行.
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `yefan_web_config` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `yefan_web_config` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `yefan_web_config` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `admin_page` FROM `yefan_web_config` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `admin_page` FROM `yefan_web_config` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `yefan_shop` [ RunTime:0.0156s ]
+SQL: SHOW COLUMNS FROM `yefan_shop` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `yefan_shop`  [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `yefan_shop` WHERE `seller_id` = '13' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `yefan_shop` WHERE `seller_id` = '13' ORDER BY id desc LIMIT 0,100   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015600s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015600s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-11-25T22:43:47+08:00 ] 58.247.212.61 /Seller.php/Shop/editAddress/id/53.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.015600s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+NOTIC: [8] Constant LANG_SET already defined D:\phpStudy\WWW\ThinkPHPFrame\Library\Behavior\CheckLangBehavior.class.php 第 55 行.
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015600s ]
+SQL: SHOW COLUMNS FROM `yefan_web_config` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `yefan_web_config` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `yefan_web_config` LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015600s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015600s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-11-25T22:43:49+08:00 ] 124.90.193.16 /Seller.php/Profile/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.015600s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+NOTIC: [8] Constant LANG_SET already defined D:\phpStudy\WWW\ThinkPHPFrame\Library\Behavior\CheckLangBehavior.class.php 第 55 行.
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `yefan_web_config` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `yefan_web_config` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `yefan_web_config` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `admin_page` FROM `yefan_web_config` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `admin_page` FROM `yefan_web_config` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `yefan_management` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `yefan_management` WHERE `ag_id` = 13 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015600s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015600s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-11-25T22:43:52+08:00 ] 124.90.193.16 /Seller.php/Shop/Shops.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+NOTIC: [8] Constant LANG_SET already defined D:\phpStudy\WWW\ThinkPHPFrame\Library\Behavior\CheckLangBehavior.class.php 第 55 行.
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `yefan_web_config` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `yefan_web_config` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `yefan_web_config` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `admin_page` FROM `yefan_web_config` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `admin_page` FROM `yefan_web_config` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `yefan_shop` [ RunTime:0.0156s ]
+SQL: SHOW COLUMNS FROM `yefan_shop` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `yefan_shop`  [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `yefan_shop` WHERE `seller_id` = '13' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `yefan_shop` WHERE `seller_id` = '13' ORDER BY id desc LIMIT 0,100   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015600s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015600s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-11-25T22:43:55+08:00 ] 124.90.193.16 /Seller.php/Shop/editAddress/id/53.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+NOTIC: [8] Constant LANG_SET already defined D:\phpStudy\WWW\ThinkPHPFrame\Library\Behavior\CheckLangBehavior.class.php 第 55 行.
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `yefan_web_config` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `yefan_web_config` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `yefan_web_config` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `admin_page` FROM `yefan_web_config` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `admin_page` FROM `yefan_web_config` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `yefan_province` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `yefan_city` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `yefan_province`  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `yefan_city`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `yefan_shop` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `yefan_shop` WHERE `id` = 53 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `yefan_begin` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `yefan_begin` WHERE `shop` = '53' LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: area D:\phpStudy\WWW\SellerApps\Seller\Controller\ShopController.class.php 第 85 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015600s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015600s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-11-25T22:43:59+08:00 ] 124.90.193.16 /Seller.php/Tasks/listTasks
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+NOTIC: [8] Constant LANG_SET already defined D:\phpStudy\WWW\ThinkPHPFrame\Library\Behavior\CheckLangBehavior.class.php 第 55 行.
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `yefan_web_config` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `yefan_web_config` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `yefan_web_config` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `admin_page` FROM `yefan_web_config` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `admin_page` FROM `yefan_web_config` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `yefan_seller_task` [ RunTime:0.0156s ]
+SQL: SHOW COLUMNS FROM `yefan_seller_task` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `yefan_seller_task` WHERE yefan_seller_task.seller_id = '13' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `yefan_seller_task` LEFT JOIN yefan_shop ON  yefan_seller_task.shop = yefan_shop.id  WHERE yefan_seller_task.seller_id = '13' ORDER BY addTaskTime asc LIMIT 0,100   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: value D:\phpStudy\WWW\SellerRuntime\Cache\Seller\3f7c3275f219099130ea8c4b1869eb9c.php 第 31 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031200s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031200s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-11-25T22:44:08+08:00 ] 124.90.193.16 /Seller.php/Tasks/taskscreate.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+NOTIC: [8] Constant LANG_SET already defined D:\phpStudy\WWW\ThinkPHPFrame\Library\Behavior\CheckLangBehavior.class.php 第 55 行.
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `yefan_web_config` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `yefan_web_config` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `yefan_web_config` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `admin_page` FROM `yefan_web_config` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `admin_page` FROM `yefan_web_config` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `yefan_shop` [ RunTime:0.0156s ]
+SQL: SHOW COLUMNS FROM `yefan_shop` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `yefan_shop` WHERE ( seller_id =13 )  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015600s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015600s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-11-25T22:44:37+08:00 ] 124.90.193.16 /Seller.php/Tasks/tasksstore.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+NOTIC: [8] Constant LANG_SET already defined D:\phpStudy\WWW\ThinkPHPFrame\Library\Behavior\CheckLangBehavior.class.php 第 55 行.
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.015600s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015600s ]
+SQL: SHOW COLUMNS FROM `yefan_web_config` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `yefan_web_config` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `yefan_web_config` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `admin_page` FROM `yefan_web_config` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `admin_page` FROM `yefan_web_config` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `yefan_management` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `yefan_management` WHERE `ag_id` = 13 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `yefan_seller_task` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `yefan_seller_balance` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `yefan_seller_balance` WHERE `seller_id` = 13 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015600s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015600s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-11-25T22:44:50+08:00 ] 124.90.193.16 /Seller.php/Index/payment
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+NOTIC: [8] Constant LANG_SET already defined D:\phpStudy\WWW\ThinkPHPFrame\Library\Behavior\CheckLangBehavior.class.php 第 55 行.
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.015600s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015600s ]
+SQL: SHOW COLUMNS FROM `yefan_web_config` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `yefan_web_config` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `yefan_web_config` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `admin_page` FROM `yefan_web_config` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `admin_page` FROM `yefan_web_config` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `yefan_seller_balance` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `yefan_seller_balance` WHERE `seller_id` = 13 LIMIT 1   [ RunTime:0.0156s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015600s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015600s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-11-25T22:44:59+08:00 ] 124.90.193.16 /Seller.php/Index/paypost.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+NOTIC: [8] Constant LANG_SET already defined D:\phpStudy\WWW\ThinkPHPFrame\Library\Behavior\CheckLangBehavior.class.php 第 55 行.
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `yefan_web_config` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `yefan_web_config` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `yefan_web_config` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `admin_page` FROM `yefan_web_config` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `admin_page` FROM `yefan_web_config` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `yefan_seller_charge_detail` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `yefan_seller_charge_detail` WHERE `order_num` = '1' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `yefan_management` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `yefan_management` WHERE `ag_id` = 13 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015600s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015600s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-11-25T22:51:29+08:00 ] 112.65.193.14 /Seller.php/Index/payment
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+NOTIC: [8] Constant LANG_SET already defined D:\phpStudy\WWW\ThinkPHPFrame\Library\Behavior\CheckLangBehavior.class.php 第 55 行.
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.015600s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015600s ]
+SQL: SHOW COLUMNS FROM `yefan_web_config` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `yefan_web_config` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `yefan_web_config` LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015600s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015600s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-11-25T22:51:40+08:00 ] 124.90.193.16 /Seller.php/Index/payment
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+NOTIC: [8] Constant LANG_SET already defined D:\phpStudy\WWW\ThinkPHPFrame\Library\Behavior\CheckLangBehavior.class.php 第 55 行.
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `yefan_web_config` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `yefan_web_config` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `yefan_web_config` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `admin_page` FROM `yefan_web_config` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `admin_page` FROM `yefan_web_config` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `yefan_seller_balance` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `yefan_seller_balance` WHERE `seller_id` = 13 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015600s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015600s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-11-25T22:51:47+08:00 ] 124.90.193.16 /Seller.php/Index/paypost.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+NOTIC: [8] Constant LANG_SET already defined D:\phpStudy\WWW\ThinkPHPFrame\Library\Behavior\CheckLangBehavior.class.php 第 55 行.
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `yefan_web_config` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `yefan_web_config` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `yefan_web_config` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `admin_page` FROM `yefan_web_config` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `admin_page` FROM `yefan_web_config` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `yefan_seller_charge_detail` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `yefan_seller_charge_detail` WHERE `order_num` = '22' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `yefan_management` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `yefan_management` WHERE `ag_id` = 13 LIMIT 1   [ RunTime:0.0000s ]
+SQL: INSERT INTO `yefan_seller_charge_detail` (`money`,`order_num`,`charge_way`,`mark`,`time`,`seller`,`agent`) VALUES ('22','22','1','22','2017-11-25 22:47:51','0','12') [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015600s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015600s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-11-25T22:51:49+08:00 ] 124.90.193.16 /Seller.php/Index/payment
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+NOTIC: [8] Constant LANG_SET already defined D:\phpStudy\WWW\ThinkPHPFrame\Library\Behavior\CheckLangBehavior.class.php 第 55 行.
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `yefan_web_config` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `yefan_web_config` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `yefan_web_config` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `admin_page` FROM `yefan_web_config` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `admin_page` FROM `yefan_web_config` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `yefan_seller_balance` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `yefan_seller_balance` WHERE `seller_id` = 13 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.015600s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.015600s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015600s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015600s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-11-25T22:52:23+08:00 ] 124.90.193.16 /Seller.php/Tasks/listTasks
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+NOTIC: [8] Constant LANG_SET already defined D:\phpStudy\WWW\ThinkPHPFrame\Library\Behavior\CheckLangBehavior.class.php 第 55 行.
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.015600s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015600s ]
+SQL: SHOW COLUMNS FROM `yefan_web_config` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `yefan_web_config` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `yefan_web_config` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `admin_page` FROM `yefan_web_config` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `admin_page` FROM `yefan_web_config` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `yefan_seller_task` [ RunTime:0.0156s ]
+SQL: SHOW COLUMNS FROM `yefan_seller_task` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `yefan_seller_task` WHERE yefan_seller_task.seller_id = '13' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `yefan_seller_task` LEFT JOIN yefan_shop ON  yefan_seller_task.shop = yefan_shop.id  WHERE yefan_seller_task.seller_id = '13' ORDER BY addTaskTime asc LIMIT 0,100   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: value D:\phpStudy\WWW\SellerRuntime\Cache\Seller\3f7c3275f219099130ea8c4b1869eb9c.php 第 31 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031200s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031200s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-11-25T22:52:26+08:00 ] 124.90.193.16 /Seller.php/Tasks/taskscreate.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+NOTIC: [8] Constant LANG_SET already defined D:\phpStudy\WWW\ThinkPHPFrame\Library\Behavior\CheckLangBehavior.class.php 第 55 行.
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `yefan_web_config` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `yefan_web_config` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `yefan_web_config` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `admin_page` FROM `yefan_web_config` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `admin_page` FROM `yefan_web_config` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `yefan_shop` [ RunTime:0.0156s ]
+SQL: SHOW COLUMNS FROM `yefan_shop` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `yefan_shop` WHERE ( seller_id =13 )  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015600s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015600s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-11-25T22:52:48+08:00 ] 124.90.193.16 /Seller.php/Tasks/tasksstore.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+NOTIC: [8] Constant LANG_SET already defined D:\phpStudy\WWW\ThinkPHPFrame\Library\Behavior\CheckLangBehavior.class.php 第 55 行.
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.015600s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015600s ]
+SQL: SHOW COLUMNS FROM `yefan_web_config` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `yefan_web_config` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `yefan_web_config` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `admin_page` FROM `yefan_web_config` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `admin_page` FROM `yefan_web_config` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `yefan_management` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `yefan_management` WHERE `ag_id` = 13 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `yefan_seller_task` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `yefan_seller_balance` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `yefan_seller_balance` WHERE `seller_id` = 13 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015600s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015600s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-11-25T22:52:55+08:00 ] 124.90.193.16 /Seller.php/Index/payment
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+NOTIC: [8] Constant LANG_SET already defined D:\phpStudy\WWW\ThinkPHPFrame\Library\Behavior\CheckLangBehavior.class.php 第 55 行.
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.015600s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015600s ]
+SQL: SHOW COLUMNS FROM `yefan_web_config` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `yefan_web_config` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `yefan_web_config` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `admin_page` FROM `yefan_web_config` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `admin_page` FROM `yefan_web_config` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `yefan_seller_balance` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `yefan_seller_balance` WHERE `seller_id` = 13 LIMIT 1   [ RunTime:0.0156s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015600s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015600s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-11-25T22:53:17+08:00 ] 124.90.193.16 /seller.php/Login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+NOTIC: [8] Constant LANG_SET already defined D:\phpStudy\WWW\ThinkPHPFrame\Library\Behavior\CheckLangBehavior.class.php 第 55 行.
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015600s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015600s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-11-25T22:53:21+08:00 ] 124.90.193.16 /seller.php/Login/getPic.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.015600s ]
+NOTIC: [8] Constant LANG_SET already defined D:\phpStudy\WWW\ThinkPHPFrame\Library\Behavior\CheckLangBehavior.class.php 第 55 行.
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015600s ]
+SQL: SHOW COLUMNS FROM `yefan_admin` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `yefan_upload` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `yefan_admin` WHERE `admin_name` LIKE '%admin%' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `yefan_upload` WHERE `admin_id` = 46 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-11-25T22:53:26+08:00 ] 124.90.193.16 /seller.php/Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.015600s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+NOTIC: [8] Constant LANG_SET already defined D:\phpStudy\WWW\ThinkPHPFrame\Library\Behavior\CheckLangBehavior.class.php 第 55 行.
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015600s ]
+SQL: SHOW COLUMNS FROM `yefan_management` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `yefan_management` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `yefan_management` WHERE `ag_name` = 'admin' LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015600s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015600s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-11-25T22:53:35+08:00 ] 124.90.193.16 /seller.php/Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.015600s ]
+NOTIC: [8] Constant LANG_SET already defined D:\phpStudy\WWW\ThinkPHPFrame\Library\Behavior\CheckLangBehavior.class.php 第 55 行.
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015600s ]
+SQL: SHOW COLUMNS FROM `yefan_management` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `yefan_management` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `yefan_management` WHERE `ag_name` = 'admin' LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015600s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015600s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-11-25T22:53:43+08:00 ] 124.90.193.16 /seller.php/Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+NOTIC: [8] Constant LANG_SET already defined D:\phpStudy\WWW\ThinkPHPFrame\Library\Behavior\CheckLangBehavior.class.php 第 55 行.
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `yefan_management` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `yefan_management` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `yefan_management` WHERE `ag_name` = 'admin' LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015600s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015600s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-11-25T23:23:52+08:00 ] 124.90.193.16 /Seller.php/Tasks/listTasks
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+NOTIC: [8] Constant LANG_SET already defined D:\phpStudy\WWW\ThinkPHPFrame\Library\Behavior\CheckLangBehavior.class.php 第 55 行.
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `yefan_web_config` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `yefan_web_config` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `yefan_web_config` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `admin_page` FROM `yefan_web_config` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `admin_page` FROM `yefan_web_config` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `yefan_seller_task` [ RunTime:0.0156s ]
+SQL: SHOW COLUMNS FROM `yefan_seller_task` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `yefan_seller_task` WHERE yefan_seller_task.seller_id = '13' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `yefan_seller_task` LEFT JOIN yefan_shop ON  yefan_seller_task.shop = yefan_shop.id  WHERE yefan_seller_task.seller_id = '13' ORDER BY addTaskTime asc LIMIT 0,100   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: value D:\phpStudy\WWW\SellerRuntime\Cache\Seller\3f7c3275f219099130ea8c4b1869eb9c.php 第 31 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031200s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031200s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-11-25T23:23:56+08:00 ] 124.90.193.16 /Seller.php/Tasks/liuliangtasks.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.015600s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+NOTIC: [8] Constant LANG_SET already defined D:\phpStudy\WWW\ThinkPHPFrame\Library\Behavior\CheckLangBehavior.class.php 第 55 行.
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015600s ]
+SQL: SHOW COLUMNS FROM `yefan_web_config` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `yefan_web_config` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `yefan_web_config` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `admin_page` FROM `yefan_web_config` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `admin_page` FROM `yefan_web_config` LIMIT 1   [ RunTime:0.0000s ]
+ERR: 1146:Table 'tasks.yefan_liuliang' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `yefan_liuliang`
+ERR: 1146:Table 'tasks.yefan_liuliang' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `yefan_liuliang`
+
+[ 2017-11-25T23:24:00+08:00 ] 124.90.193.16 /Seller.php/Tasks/listTasks
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.015600s ]
+NOTIC: [8] Constant LANG_SET already defined D:\phpStudy\WWW\ThinkPHPFrame\Library\Behavior\CheckLangBehavior.class.php 第 55 行.
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015600s ]
+SQL: SHOW COLUMNS FROM `yefan_web_config` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `yefan_web_config` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `yefan_web_config` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `admin_page` FROM `yefan_web_config` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `admin_page` FROM `yefan_web_config` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `yefan_seller_task` [ RunTime:0.0156s ]
+SQL: SHOW COLUMNS FROM `yefan_seller_task` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `yefan_seller_task` WHERE yefan_seller_task.seller_id = '13' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `yefan_seller_task` LEFT JOIN yefan_shop ON  yefan_seller_task.shop = yefan_shop.id  WHERE yefan_seller_task.seller_id = '13' ORDER BY addTaskTime asc LIMIT 0,100   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: value D:\phpStudy\WWW\SellerRuntime\Cache\Seller\3f7c3275f219099130ea8c4b1869eb9c.php 第 31 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031200s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031200s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-11-25T23:24:05+08:00 ] 124.90.193.16 /Seller.php/Tasks/taskscreate.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+NOTIC: [8] Constant LANG_SET already defined D:\phpStudy\WWW\ThinkPHPFrame\Library\Behavior\CheckLangBehavior.class.php 第 55 行.
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `yefan_web_config` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `yefan_web_config` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `yefan_web_config` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `admin_page` FROM `yefan_web_config` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `admin_page` FROM `yefan_web_config` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `yefan_shop` [ RunTime:0.0156s ]
+SQL: SHOW COLUMNS FROM `yefan_shop` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `yefan_shop` WHERE ( seller_id =13 )  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015600s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015600s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-11-25T23:24:09+08:00 ] 124.90.193.16 /Seller.php/Tasks/listTasks
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.015600s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+NOTIC: [8] Constant LANG_SET already defined D:\phpStudy\WWW\ThinkPHPFrame\Library\Behavior\CheckLangBehavior.class.php 第 55 行.
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015600s ]
+SQL: SHOW COLUMNS FROM `yefan_web_config` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `yefan_web_config` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `yefan_web_config` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `admin_page` FROM `yefan_web_config` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `admin_page` FROM `yefan_web_config` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `yefan_seller_task` [ RunTime:0.0156s ]
+SQL: SHOW COLUMNS FROM `yefan_seller_task` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `yefan_seller_task` WHERE yefan_seller_task.seller_id = '13' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `yefan_seller_task` LEFT JOIN yefan_shop ON  yefan_seller_task.shop = yefan_shop.id  WHERE yefan_seller_task.seller_id = '13' ORDER BY addTaskTime asc LIMIT 0,100   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: value D:\phpStudy\WWW\SellerRuntime\Cache\Seller\3f7c3275f219099130ea8c4b1869eb9c.php 第 31 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031200s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031200s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-11-25T23:24:12+08:00 ] 124.90.193.16 /Seller.php/Tasks/liuliangtasks.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.015600s ]
+NOTIC: [8] Constant LANG_SET already defined D:\phpStudy\WWW\ThinkPHPFrame\Library\Behavior\CheckLangBehavior.class.php 第 55 行.
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015600s ]
+SQL: SHOW COLUMNS FROM `yefan_web_config` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `yefan_web_config` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `yefan_web_config` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `admin_page` FROM `yefan_web_config` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `admin_page` FROM `yefan_web_config` LIMIT 1   [ RunTime:0.0000s ]
+ERR: 1146:Table 'tasks.yefan_liuliang' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `yefan_liuliang`
+ERR: 1146:Table 'tasks.yefan_liuliang' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `yefan_liuliang`
+
+[ 2017-11-25T23:24:15+08:00 ] 223.167.152.124 /Seller.php/Tasks/taskscreate.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+NOTIC: [8] Constant LANG_SET already defined D:\phpStudy\WWW\ThinkPHPFrame\Library\Behavior\CheckLangBehavior.class.php 第 55 行.
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `yefan_web_config` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `yefan_web_config` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `yefan_web_config` LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015600s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015600s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-11-25T23:32:46+08:00 ] 124.90.193.16 /Seller.php/Tasks/listTasks
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+NOTIC: [8] Constant LANG_SET already defined D:\phpStudy\WWW\ThinkPHPFrame\Library\Behavior\CheckLangBehavior.class.php 第 55 行.
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `yefan_web_config` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `yefan_web_config` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `yefan_web_config` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `admin_page` FROM `yefan_web_config` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `admin_page` FROM `yefan_web_config` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `yefan_seller_task` [ RunTime:0.0156s ]
+SQL: SHOW COLUMNS FROM `yefan_seller_task` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `yefan_seller_task` WHERE yefan_seller_task.seller_id = '13' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `yefan_seller_task` LEFT JOIN yefan_shop ON  yefan_seller_task.shop = yefan_shop.id  WHERE yefan_seller_task.seller_id = '13' ORDER BY addTaskTime asc LIMIT 0,100   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: value D:\phpStudy\WWW\SellerRuntime\Cache\Seller\3f7c3275f219099130ea8c4b1869eb9c.php 第 31 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031200s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031200s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-11-25T23:32:49+08:00 ] 124.90.193.16 /Seller.php/Tasks/taskscreate.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.015600s ]
+NOTIC: [8] Constant LANG_SET already defined D:\phpStudy\WWW\ThinkPHPFrame\Library\Behavior\CheckLangBehavior.class.php 第 55 行.
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015600s ]
+SQL: SHOW COLUMNS FROM `yefan_web_config` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `yefan_web_config` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `yefan_web_config` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `admin_page` FROM `yefan_web_config` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `admin_page` FROM `yefan_web_config` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `yefan_shop` [ RunTime:0.0156s ]
+SQL: SHOW COLUMNS FROM `yefan_shop` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `yefan_shop` WHERE ( seller_id =13 )  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015600s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015600s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+

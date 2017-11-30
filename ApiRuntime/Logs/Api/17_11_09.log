@@ -1,0 +1,75 @@
+[ 2017-11-09T10:56:05+08:00 ] ::1 /api.php/api/receiptstatic?number=18374787616&id=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000761s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001946s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002224s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004414s ]
+NOTIC: [2048] Declaration of Api\Controller\ApiController::get() should be compatible with Think\Controller::get($name = '') C:\Users\kai\Desktop\admin.catsayer.xyz\ApiApps\Api\Controller\ApiController.class.php 第 1097 行.
+SQL: SHOW COLUMNS FROM `yefan_weichat` [ RunTime:0.0012s ]
+SQL: UPDATE `yefan_weichat` SET `pay_password`='2' WHERE `wei_number` = '18374787616' [ RunTime:0.0292s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002242s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002406s ]
+
+[ 2017-11-09T11:24:58+08:00 ] ::1 /api.php/api/receiptstatic?number=18374787616&id=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000056s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001281s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001229s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001258s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002720s ]
+NOTIC: [2048] Declaration of Api\Controller\ApiController::get() should be compatible with Think\Controller::get($name = '') C:\Users\kai\Desktop\admin.catsayer.xyz\ApiApps\Api\Controller\ApiController.class.php 第 1097 行.
+SQL: SHOW COLUMNS FROM `yefan_weichat` [ RunTime:0.0014s ]
+SQL: UPDATE `yefan_weichat` SET `pay_password`='2' WHERE `wei_number` = '18374787616' [ RunTime:0.0264s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001577s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001741s ]
+
+[ 2017-11-09T12:32:47+08:00 ] ::1 /api.php/api/receipt?number=15074729857&id=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000570s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000775s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000640s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001610s ]
+NOTIC: [2048] Declaration of Api\Controller\ApiController::get() should be compatible with Think\Controller::get($name = '') C:\Users\kai\Desktop\admin.catsayer.xyz\ApiApps\Api\Controller\ApiController.class.php 第 1123 行.
+SQL: SHOW COLUMNS FROM `yefan_weichat` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `yefan_weichat` WHERE `wei_number` = '15074729857' LIMIT 1   [ RunTime:0.0035s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000941s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001061s ]
+
+[ 2017-11-09T12:32:51+08:00 ] ::1 /api.php/api/receipt?number=15074729857&id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000396s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000704s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000589s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001474s ]
+NOTIC: [2048] Declaration of Api\Controller\ApiController::get() should be compatible with Think\Controller::get($name = '') C:\Users\kai\Desktop\admin.catsayer.xyz\ApiApps\Api\Controller\ApiController.class.php 第 1123 行.
+SQL: SHOW COLUMNS FROM `yefan_weichat` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `yefan_weichat` WHERE `wei_number` = '15074729857' LIMIT 1   [ RunTime:0.0037s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001042s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001225s ]
+
+[ 2017-11-09T12:33:20+08:00 ] ::1 /api.php/api/receipt?number=15074729857&id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000948s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000779s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000589s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001564s ]
+NOTIC: [2048] Declaration of Api\Controller\ApiController::get() should be compatible with Think\Controller::get($name = '') C:\Users\kai\Desktop\admin.catsayer.xyz\ApiApps\Api\Controller\ApiController.class.php 第 1125 行.
+SQL: SHOW COLUMNS FROM `yefan_weichat` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `yefan_weichat` WHERE `wei_number` = '15074729857' LIMIT 1   [ RunTime:0.0033s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000958s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001090s ]
+

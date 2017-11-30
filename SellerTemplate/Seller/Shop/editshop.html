@@ -1,0 +1,132 @@
+<include file="Common/top"/>
+<!-- Content Wrapper. Contains page content -->
+<div class="layui-body" style="left:0px">
+  <div class="content-wrapper" style="margin-left: 0px">
+    <!-- Content Header (Page header) -->
+    <section class="content-header">
+      <h1>
+        编辑收货地址
+        <small></small>
+      </h1>
+     <!--  <ol class="breadcrumb">
+        <li><i class="fa fa-dashboard"></i>首页</li>
+        <li>信息管理</li>
+        <li class="active">编辑店铺</li>
+      </ol> -->
+    </section>
+
+    <!-- Main content -->
+    <section class="content">
+      <div class="row">
+        <!-- left column -->
+        <div class="col-md-12">
+          <!-- general form elements -->
+          <div class="box">
+              <div class="box-header">
+                       <!--  <h3 class="box-title"><a href="{:U('Shop/listShops')}"><button type="button" class="btn btn-block btn-default">所有店铺列表</button></a></h3>    -->                   
+                        <!-- <h3 class="box-title"><a href="#"><button type="button" class="btn btn-block btn-primary">编辑店铺</button></a></h3> -->
+                    </div>
+            <!-- /.box-header -->
+            <!-- form start -->
+            <form role="form" method="post" action="{:U('Shop/editAddress')}" enctype="multipart/form-data" class="layui-form">
+                <input type="hidden" name="beigin_id" value="{$data['id']}">
+              <div class="box-body">
+                 <div class="layui-form-item">
+                    <label class="layui-form-label" style="width:150px;">店铺名称</label>
+                    <div class="layui-input-inline" style="width:200px;margin-left:0px;">
+                        <input type="hidden" name="id" value="{$data.id}">
+                        <input type="text" name="shop_name" required  lay-verify="required" placeholder="请输入店铺名称" value="{$data['shop']}" autocomplete="off" class="layui-input" readonly>
+                    </div>
+                </div>
+                  <div class="layui-form-item">
+                  <label class="layui-form-label" style="width:150px;">寄件人</label>
+                  <div class="layui-input-inline" style="width:200px;margin-left:0px;">
+                      <input type="text" name="seller" required  lay-verify="required" placeholder="" value="{$data['seller']}" autocomplete="off" class="layui-input">
+                  </div>
+              </div>
+                  <div class="layui-form-item">
+                      <label class="layui-form-label"  style="width:150px;">店铺所在地区</label>
+                      <div class="layui-input-inline" style="width:200px;margin-left:0px;">
+                          <select  name="provinceId" lay-verify="required" lay-filter="province">
+                              <volist name="province" id="pr">
+                                  <option value="{$pr.id}" <if condition="$data['pro'] eq $pr['id']">selected</if>>{$pr.province}</option>
+                              </volist>
+                          </select>
+                      </div>
+                      <div class="layui-input-inline" style="width:200px;margin-left:0px;" id="listAllConfigs">
+                          <select  name="cityId" lay-verify="required" >
+                          <volist name="city" id="vo">
+                              <option value="{$vo.id}" <if condition="$data['ci'] eq $vo['id']">selected</if>>{$vo.city}</option>
+                          </volist>
+                          </select>
+                      </div>
+                  </div>
+                  <div class="layui-form-item">
+                      <label class="layui-form-label" style="width:150px;">详细地址</label>
+                      <div class="layui-input-inline" style="width:200px;margin-left:0px;">
+                          <input type="text" name="details" required  lay-verify="required" placeholder="" value="{$data['details']}" autocomplete="off" class="layui-input">
+                      </div>
+                  </div>
+                  <div class="layui-form-item">
+                      <label class="layui-form-label" style="width:150px;">电话</label>
+                      <div class="layui-input-inline" style="width:200px;margin-left:0px;">
+                          <input type="text" name="phone" required  lay-verify="required" placeholder="" value="{$data['phone']}" autocomplete="off" class="layui-input">
+                      </div>
+                  </div>
+                  <div class="layui-form-item">
+                      <label class="layui-form-label" style="width:150px;">手机</label>
+                      <div class="layui-input-inline" style="width:200px;margin-left:0px;">
+                          <input type="text" name="mb_phone" required  lay-verify="required" placeholder="" value="{$data['mb_phone']}" autocomplete="off" class="layui-input">
+                      </div>
+                  </div>
+                <div class="box-footer" style="margin-left: 150px">
+                  <input type="hidden" name="shopid" value="{$data.id}">
+                <button type="submit" class="btn btn-primary">提交</button>
+                <button type="reset" class="btn btn-primary">重置</button>
+              </div>
+					</div>
+              </div>
+              <!-- /.box-body -->
+
+              
+            </form>
+          </div>
+          <!-- /.box -->
+        </div>
+        <!--/.col (right) -->
+      </div>
+      <!-- /.row -->
+    </section>
+    <!-- /.content -->
+  </div>
+  </div>
+  <!-- /.content-wrapper -->
+<include file="Common/button"/>
+<script src="/AdminResource/admin/plugin/layui/layui.js"></script>
+<script src="/AdminResource/admin/plugin/layui/lay/modules/laydate.js"></script>
+<script>
+    layui.use('form', function(){
+        var form = layui.form();
+        form.on('select(province)', function(data){
+//            console.log(data.elem); //得到select原始DOM对象
+            var id = data.value; //得到被选中的值
+//            console.log(data.othis); //得到美化后的DOM对象
+            $.ajax({
+                url:"{:U('Tasks/city')}",
+                type:"post",
+                dataType: "json",
+                data:{'configId':id },
+                async: "false",
+                success:function(result){
+                    // alert(123);
+                    // alert(result.value);
+                    $("#listAllConfigs").empty();
+                    $("#listAllConfigs").append("<select style='display:block'   name='cityId' lay-verify='required'  class='layui-input'>"+result.value+"</select>");
+                }
+
+            })
+
+        });
+        form.render();
+    });
+</script>

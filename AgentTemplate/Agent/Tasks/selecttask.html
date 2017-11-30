@@ -1,0 +1,87 @@
+<include file="Common/top"/>
+
+<div class="layui-body" style="left: 0;">
+    <div class="content-wrapper" style = "margin-left:1px ;">
+        <!-- Content Header (Page header) -->
+        <section class="content-header">
+            <h1>
+                {$value}
+            </h1>
+        </section>
+
+        <!-- Main content -->
+        <section class="content">
+            <div class="row">
+                <div class="col-xs-12">
+                    <div class="box">
+                        <!-- /.box-header -->
+                        <div class="layui-tab-item layui-show">
+                            <volist name="con" id="vo">
+                                <table class="layui-table">
+                                    <tbody>
+                                    <tr>
+                                        <td>SkuId </td>
+                                        <td>{$vo['skuid']}</td>
+                                        <td>件数</td>
+                                        <td>{$vo['num']}</td>
+                                    </tr>
+                                    <tr>
+                                        <td>关键词</td>
+                                        <td>{$vo['keyword']}</td>
+                                        <td>描述</td>
+                                        <td>{$vo['description']}</td>
+                                    </tr>
+                                    <tr>
+                                        <td>订单数量</td>
+                                        <td>{$vo['order_num']}</td>
+                                        <td>任务类型</td>
+                                        <td>
+                                            <if condition="$vo.task_type eq 1">电脑单<else/>手机单</if>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>订单金额</td>
+                                        <td>{$vo['order_money']}</td>
+                                        <td>店铺名</td>
+                                        <td>{$vo['shop_name']}</td>
+                                    </tr>
+                                    <tr>
+                                        <td>是否物流</td>
+                                        <td>
+                                            <if condition="$vo.transfer eq 1">需要物流<else/>不需要物流</if>
+                                        </td>
+                                        <td>时间</td>
+                                        <td>{$vo['addtasktime']}</td>
+                                    </tr>
+                                    <tr>
+                                    <td>买家备注</td>
+                                    <td>{$vo['buyer_mark']}</td>
+                                    <td>结算方式</td>
+                                    <td>
+                                        <if condition="$vo.payway eq 1">垫付<else/>预付</if>
+                                    </td>
+                                    </tr>
+                                    <tr>
+                                        <td>佣金</td>
+                                        <td>{$vo['yongjing']}</td>
+
+                                    </tr>
+                                    </tbody>
+                                </table>
+                            </volist>
+                            <br>
+                            <br>
+                        </div>
+                        <!-- /.box-body -->
+                    </div>
+                    <!-- /.box -->
+                </div>
+                <!-- /.col -->
+            </div>
+        </section>         <!-- /.row -->
+    </div>
+
+    <!-- /.content -->
+</div>
+</div>
+<include file="Common/button"/>

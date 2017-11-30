@@ -1,0 +1,358 @@
+[ 2017-11-17T09:03:08+08:00 ] ::1 /agent.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000448s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000598s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002101s ]
+NOTIC: [8] Constant LANG_SET already defined C:\Users\kai\Desktop\admin.catsayer.xyz\ThinkPHPFrame\Library\Behavior\CheckLangBehavior.class.php 第 55 行.
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000769s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003927s ]
+
+[ 2017-11-17T09:03:36+08:00 ] ::1 /Agent.php/Index/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000520s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000888s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001353s ]
+NOTIC: [8] Constant LANG_SET already defined C:\Users\kai\Desktop\admin.catsayer.xyz\ThinkPHPFrame\Library\Behavior\CheckLangBehavior.class.php 第 55 行.
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000512s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003106s ]
+SQL: SHOW COLUMNS FROM `yefan_web_config` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `yefan_web_config` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `yefan_web_config` LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000107s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000232s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010411s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010565s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000459s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000573s ]
+
+[ 2017-11-17T09:03:39+08:00 ] ::1 /Agent.php/Login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000576s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000690s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001052s ]
+NOTIC: [8] Constant LANG_SET already defined C:\Users\kai\Desktop\admin.catsayer.xyz\ThinkPHPFrame\Library\Behavior\CheckLangBehavior.class.php 第 55 行.
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000605s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002718s ]
+
+[ 2017-11-17T09:04:58+08:00 ] ::1 /Agent.php/Index/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000054s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000721s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000875s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000984s ]
+NOTIC: [8] Constant LANG_SET already defined C:\Users\kai\Desktop\admin.catsayer.xyz\ThinkPHPFrame\Library\Behavior\CheckLangBehavior.class.php 第 55 行.
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000411s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002541s ]
+SQL: SHOW COLUMNS FROM `yefan_web_config` [ RunTime:0.0019s ]
+SQL: SHOW COLUMNS FROM `yefan_web_config` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `yefan_web_config` LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000103s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000273s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008990s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009181s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000862s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001097s ]
+
+[ 2017-11-17T09:05:02+08:00 ] ::1 /Agent.php/Login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000814s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001067s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001012s ]
+NOTIC: [8] Constant LANG_SET already defined C:\Users\kai\Desktop\admin.catsayer.xyz\ThinkPHPFrame\Library\Behavior\CheckLangBehavior.class.php 第 55 行.
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000439s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002845s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000171s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000299s ]
+NOTIC: [8] Undefined variable: resource C:\Users\kai\Desktop\admin.catsayer.xyz\AgentRuntime\Cache\Agent\b7586d05191dc7429c33636ff3196e22.php 第 6 行.
+NOTIC: [8] Undefined variable: resource C:\Users\kai\Desktop\admin.catsayer.xyz\AgentRuntime\Cache\Agent\b7586d05191dc7429c33636ff3196e22.php 第 8 行.
+NOTIC: [8] Undefined variable: resource C:\Users\kai\Desktop\admin.catsayer.xyz\AgentRuntime\Cache\Agent\b7586d05191dc7429c33636ff3196e22.php 第 10 行.
+NOTIC: [8] Undefined variable: resource C:\Users\kai\Desktop\admin.catsayer.xyz\AgentRuntime\Cache\Agent\b7586d05191dc7429c33636ff3196e22.php 第 12 行.
+NOTIC: [8] Undefined variable: resource C:\Users\kai\Desktop\admin.catsayer.xyz\AgentRuntime\Cache\Agent\b7586d05191dc7429c33636ff3196e22.php 第 13 行.
+NOTIC: [8] Undefined variable: resource C:\Users\kai\Desktop\admin.catsayer.xyz\AgentRuntime\Cache\Agent\b7586d05191dc7429c33636ff3196e22.php 第 14 行.
+NOTIC: [8] Undefined variable: resource C:\Users\kai\Desktop\admin.catsayer.xyz\AgentRuntime\Cache\Agent\b7586d05191dc7429c33636ff3196e22.php 第 16 行.
+NOTIC: [8] Undefined variable: resource C:\Users\kai\Desktop\admin.catsayer.xyz\AgentRuntime\Cache\Agent\b7586d05191dc7429c33636ff3196e22.php 第 18 行.
+NOTIC: [8] Undefined variable: resource C:\Users\kai\Desktop\admin.catsayer.xyz\AgentRuntime\Cache\Agent\b7586d05191dc7429c33636ff3196e22.php 第 19 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013534s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013660s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000563s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000674s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001109s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001282s ]
+
+[ 2017-11-17T09:05:02+08:00 ] ::1 /Agent.php/Login/bootstrap/css/bootstrap.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000714s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000948s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001330s ]
+NOTIC: [8] Constant LANG_SET already defined C:\Users\kai\Desktop\admin.catsayer.xyz\ThinkPHPFrame\Library\Behavior\CheckLangBehavior.class.php 第 55 行.
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000774s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003531s ]
+ERR: 非法操作:bootstrap
+
+[ 2017-11-17T09:05:02+08:00 ] ::1 /Agent.php/Login/css/index_style.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000749s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001513s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001605s ]
+NOTIC: [8] Constant LANG_SET already defined C:\Users\kai\Desktop\admin.catsayer.xyz\ThinkPHPFrame\Library\Behavior\CheckLangBehavior.class.php 第 55 行.
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.007274s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010994s ]
+ERR: 非法操作:css
+
+[ 2017-11-17T09:05:02+08:00 ] ::1 /Agent.php/Login/admin/plugin/layui/css/layui.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000724s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001065s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002168s ]
+NOTIC: [8] Constant LANG_SET already defined C:\Users\kai\Desktop\admin.catsayer.xyz\ThinkPHPFrame\Library\Behavior\CheckLangBehavior.class.php 第 55 行.
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000760s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004443s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000270s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000475s ]
+NOTIC: [8] Undefined variable: resource C:\Users\kai\Desktop\admin.catsayer.xyz\AgentRuntime\Cache\Agent\b7586d05191dc7429c33636ff3196e22.php 第 6 行.
+NOTIC: [8] Undefined variable: resource C:\Users\kai\Desktop\admin.catsayer.xyz\AgentRuntime\Cache\Agent\b7586d05191dc7429c33636ff3196e22.php 第 8 行.
+NOTIC: [8] Undefined variable: resource C:\Users\kai\Desktop\admin.catsayer.xyz\AgentRuntime\Cache\Agent\b7586d05191dc7429c33636ff3196e22.php 第 10 行.
+NOTIC: [8] Undefined variable: resource C:\Users\kai\Desktop\admin.catsayer.xyz\AgentRuntime\Cache\Agent\b7586d05191dc7429c33636ff3196e22.php 第 12 行.
+NOTIC: [8] Undefined variable: resource C:\Users\kai\Desktop\admin.catsayer.xyz\AgentRuntime\Cache\Agent\b7586d05191dc7429c33636ff3196e22.php 第 13 行.
+NOTIC: [8] Undefined variable: resource C:\Users\kai\Desktop\admin.catsayer.xyz\AgentRuntime\Cache\Agent\b7586d05191dc7429c33636ff3196e22.php 第 14 行.
+NOTIC: [8] Undefined variable: resource C:\Users\kai\Desktop\admin.catsayer.xyz\AgentRuntime\Cache\Agent\b7586d05191dc7429c33636ff3196e22.php 第 16 行.
+NOTIC: [8] Undefined variable: resource C:\Users\kai\Desktop\admin.catsayer.xyz\AgentRuntime\Cache\Agent\b7586d05191dc7429c33636ff3196e22.php 第 18 行.
+NOTIC: [8] Undefined variable: resource C:\Users\kai\Desktop\admin.catsayer.xyz\AgentRuntime\Cache\Agent\b7586d05191dc7429c33636ff3196e22.php 第 19 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019995s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020220s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001020s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001226s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001620s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001848s ]
+
+[ 2017-11-17T09:05:02+08:00 ] ::1 /Agent.php/Login/admin/plugin/font-awesome/css/font-awesome.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000823s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000952s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001585s ]
+NOTIC: [8] Constant LANG_SET already defined C:\Users\kai\Desktop\admin.catsayer.xyz\ThinkPHPFrame\Library\Behavior\CheckLangBehavior.class.php 第 55 行.
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001017s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004142s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000286s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000495s ]
+NOTIC: [8] Undefined variable: resource C:\Users\kai\Desktop\admin.catsayer.xyz\AgentRuntime\Cache\Agent\b7586d05191dc7429c33636ff3196e22.php 第 6 行.
+NOTIC: [8] Undefined variable: resource C:\Users\kai\Desktop\admin.catsayer.xyz\AgentRuntime\Cache\Agent\b7586d05191dc7429c33636ff3196e22.php 第 8 行.
+NOTIC: [8] Undefined variable: resource C:\Users\kai\Desktop\admin.catsayer.xyz\AgentRuntime\Cache\Agent\b7586d05191dc7429c33636ff3196e22.php 第 10 行.
+NOTIC: [8] Undefined variable: resource C:\Users\kai\Desktop\admin.catsayer.xyz\AgentRuntime\Cache\Agent\b7586d05191dc7429c33636ff3196e22.php 第 12 行.
+NOTIC: [8] Undefined variable: resource C:\Users\kai\Desktop\admin.catsayer.xyz\AgentRuntime\Cache\Agent\b7586d05191dc7429c33636ff3196e22.php 第 13 行.
+NOTIC: [8] Undefined variable: resource C:\Users\kai\Desktop\admin.catsayer.xyz\AgentRuntime\Cache\Agent\b7586d05191dc7429c33636ff3196e22.php 第 14 行.
+NOTIC: [8] Undefined variable: resource C:\Users\kai\Desktop\admin.catsayer.xyz\AgentRuntime\Cache\Agent\b7586d05191dc7429c33636ff3196e22.php 第 16 行.
+NOTIC: [8] Undefined variable: resource C:\Users\kai\Desktop\admin.catsayer.xyz\AgentRuntime\Cache\Agent\b7586d05191dc7429c33636ff3196e22.php 第 18 行.
+NOTIC: [8] Undefined variable: resource C:\Users\kai\Desktop\admin.catsayer.xyz\AgentRuntime\Cache\Agent\b7586d05191dc7429c33636ff3196e22.php 第 19 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017716s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017931s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000763s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000945s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001222s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001459s ]
+
+[ 2017-11-17T09:05:02+08:00 ] ::1 /Agent.php/Login/admin/css/animate.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001628s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000896s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001231s ]
+NOTIC: [8] Constant LANG_SET already defined C:\Users\kai\Desktop\admin.catsayer.xyz\ThinkPHPFrame\Library\Behavior\CheckLangBehavior.class.php 第 55 行.
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000756s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003386s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000266s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000459s ]
+NOTIC: [8] Undefined variable: resource C:\Users\kai\Desktop\admin.catsayer.xyz\AgentRuntime\Cache\Agent\b7586d05191dc7429c33636ff3196e22.php 第 6 行.
+NOTIC: [8] Undefined variable: resource C:\Users\kai\Desktop\admin.catsayer.xyz\AgentRuntime\Cache\Agent\b7586d05191dc7429c33636ff3196e22.php 第 8 行.
+NOTIC: [8] Undefined variable: resource C:\Users\kai\Desktop\admin.catsayer.xyz\AgentRuntime\Cache\Agent\b7586d05191dc7429c33636ff3196e22.php 第 10 行.
+NOTIC: [8] Undefined variable: resource C:\Users\kai\Desktop\admin.catsayer.xyz\AgentRuntime\Cache\Agent\b7586d05191dc7429c33636ff3196e22.php 第 12 行.
+NOTIC: [8] Undefined variable: resource C:\Users\kai\Desktop\admin.catsayer.xyz\AgentRuntime\Cache\Agent\b7586d05191dc7429c33636ff3196e22.php 第 13 行.
+NOTIC: [8] Undefined variable: resource C:\Users\kai\Desktop\admin.catsayer.xyz\AgentRuntime\Cache\Agent\b7586d05191dc7429c33636ff3196e22.php 第 14 行.
+NOTIC: [8] Undefined variable: resource C:\Users\kai\Desktop\admin.catsayer.xyz\AgentRuntime\Cache\Agent\b7586d05191dc7429c33636ff3196e22.php 第 16 行.
+NOTIC: [8] Undefined variable: resource C:\Users\kai\Desktop\admin.catsayer.xyz\AgentRuntime\Cache\Agent\b7586d05191dc7429c33636ff3196e22.php 第 18 行.
+NOTIC: [8] Undefined variable: resource C:\Users\kai\Desktop\admin.catsayer.xyz\AgentRuntime\Cache\Agent\b7586d05191dc7429c33636ff3196e22.php 第 19 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016281s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016492s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000742s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000932s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001075s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001283s ]
+
+[ 2017-11-17T09:05:02+08:00 ] ::1 /Agent.php/Login/css/main.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000780s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000931s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001337s ]
+NOTIC: [8] Constant LANG_SET already defined C:\Users\kai\Desktop\admin.catsayer.xyz\ThinkPHPFrame\Library\Behavior\CheckLangBehavior.class.php 第 55 行.
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.013880s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.016633s ]
+ERR: 非法操作:css
+
+[ 2017-11-17T09:05:02+08:00 ] ::1 /Agent.php/Login/dist/css/AdminLTE.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000614s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001994s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001290s ]
+NOTIC: [8] Constant LANG_SET already defined C:\Users\kai\Desktop\admin.catsayer.xyz\ThinkPHPFrame\Library\Behavior\CheckLangBehavior.class.php 第 55 行.
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000668s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004395s ]
+ERR: 非法操作:dist
+
+[ 2017-11-17T09:05:02+08:00 ] ::1 /Agent.php/Login/bootstrap/css/bootstrap.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000624s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000733s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001313s ]
+NOTIC: [8] Constant LANG_SET already defined C:\Users\kai\Desktop\admin.catsayer.xyz\ThinkPHPFrame\Library\Behavior\CheckLangBehavior.class.php 第 55 行.
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000486s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002937s ]
+ERR: 非法操作:bootstrap
+
+[ 2017-11-17T09:05:02+08:00 ] ::1 /Agent.php/Login/getPic.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000950s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000745s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001131s ]
+NOTIC: [8] Constant LANG_SET already defined C:\Users\kai\Desktop\admin.catsayer.xyz\ThinkPHPFrame\Library\Behavior\CheckLangBehavior.class.php 第 55 行.
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000688s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002928s ]
+SQL: SHOW COLUMNS FROM `yefan_admin` [ RunTime:0.0027s ]
+SQL: SHOW COLUMNS FROM `yefan_upload` [ RunTime:0.0034s ]
+SQL: SELECT * FROM `yefan_admin` WHERE `admin_name` LIKE '%admin%' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `yefan_upload` WHERE `admin_id` = 46 LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001181s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001366s ]
+
+[ 2017-11-17T09:05:05+08:00 ] ::1 /Agent.php/Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000380s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000448s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000863s ]
+NOTIC: [8] Constant LANG_SET already defined C:\Users\kai\Desktop\admin.catsayer.xyz\ThinkPHPFrame\Library\Behavior\CheckLangBehavior.class.php 第 55 行.
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000423s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002033s ]
+SQL: SHOW COLUMNS FROM `yefan_agent` [ RunTime:0.0032s ]
+SQL: SHOW COLUMNS FROM `yefan_agent` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `yefan_agent` WHERE `ag_name` = 'admin' LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `yefan_agent` SET `ag_ltime`='2017-11-17 09:05:05',`ag_ip`='0.0.0.0' WHERE ( ag_id=10 ) [ RunTime:0.0038s ]
+NOTIC: [8] Undefined index: admin_wallpaper C:\Users\kai\Desktop\admin.catsayer.xyz\AgentApps\Agent\Controller\LoginController.class.php 第 63 行.
+NOTIC: [8] Undefined index: admin_header C:\Users\kai\Desktop\admin.catsayer.xyz\AgentApps\Agent\Controller\LoginController.class.php 第 64 行.
+
+[ 2017-11-17T09:05:06+08:00 ] ::1 /Agent.php/Index/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000579s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000652s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001132s ]
+NOTIC: [8] Constant LANG_SET already defined C:\Users\kai\Desktop\admin.catsayer.xyz\ThinkPHPFrame\Library\Behavior\CheckLangBehavior.class.php 第 55 行.
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000900s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003163s ]
+SQL: SHOW COLUMNS FROM `yefan_web_config` [ RunTime:0.0018s ]
+SQL: SHOW COLUMNS FROM `yefan_web_config` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `yefan_web_config` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `admin_page` FROM `yefan_web_config` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `admin_page` FROM `yefan_web_config` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `yefan_upload` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `yefan_upload` WHERE `admin_id` = 46 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `yefan_win_menu` [ RunTime:0.0051s ]
+SQL: SELECT * FROM `yefan_win_menu`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000150s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000274s ]
+NOTIC: [8] Undefined index: ico C:\Users\kai\Desktop\admin.catsayer.xyz\AgentRuntime\Cache\Agent\60f942f5c4734b049e24cfc4a5f85632.php 第 61 行.
+NOTIC: [8] Undefined index: group_name C:\Users\kai\Desktop\admin.catsayer.xyz\AgentRuntime\Cache\Agent\60f942f5c4734b049e24cfc4a5f85632.php 第 61 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013139s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013278s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000522s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000635s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001124s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001313s ]
+
+[ 2017-11-17T09:05:11+08:00 ] ::1 /Agent.php/Shop/shops
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000605s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000732s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001190s ]
+NOTIC: [8] Constant LANG_SET already defined C:\Users\kai\Desktop\admin.catsayer.xyz\ThinkPHPFrame\Library\Behavior\CheckLangBehavior.class.php 第 55 行.
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000426s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002678s ]
+SQL: SHOW COLUMNS FROM `yefan_web_config` [ RunTime:0.0016s ]
+SQL: SHOW COLUMNS FROM `yefan_web_config` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `yefan_web_config` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `admin_page` FROM `yefan_web_config` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `admin_page` FROM `yefan_web_config` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `yefan_shop` [ RunTime:0.0037s ]
+SQL: SHOW COLUMNS FROM `yefan_shop` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `yefan_shop`  [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `yefan_shop` WHERE `ag_id` = 10 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yefan_shop` WHERE `ag_id` = 10 ORDER BY id desc LIMIT 0,100   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000466s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000712s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018412s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018545s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000525s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000640s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001064s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001241s ]
+

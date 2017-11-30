@@ -1,0 +1,302 @@
+[ 2017-11-18T17:06:59+08:00 ] 183.13.21.139 /Agent.php/Index/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+NOTIC: [8] Constant LANG_SET already defined D:\phpStudy\WWW\ThinkPHPFrame\Library\Behavior\CheckLangBehavior.class.php 第 55 行.
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `yefan_web_config` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `yefan_web_config` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `yefan_web_config` LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015600s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015600s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-11-18T17:07:04+08:00 ] 183.13.21.139 /Agent.php/Login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.015600s ]
+NOTIC: [8] Constant LANG_SET already defined D:\phpStudy\WWW\ThinkPHPFrame\Library\Behavior\CheckLangBehavior.class.php 第 55 行.
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015600s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: resource D:\phpStudy\WWW\AgentRuntime\Cache\Agent\b7586d05191dc7429c33636ff3196e22.php 第 6 行.
+NOTIC: [8] Undefined variable: resource D:\phpStudy\WWW\AgentRuntime\Cache\Agent\b7586d05191dc7429c33636ff3196e22.php 第 8 行.
+NOTIC: [8] Undefined variable: resource D:\phpStudy\WWW\AgentRuntime\Cache\Agent\b7586d05191dc7429c33636ff3196e22.php 第 10 行.
+NOTIC: [8] Undefined variable: resource D:\phpStudy\WWW\AgentRuntime\Cache\Agent\b7586d05191dc7429c33636ff3196e22.php 第 12 行.
+NOTIC: [8] Undefined variable: resource D:\phpStudy\WWW\AgentRuntime\Cache\Agent\b7586d05191dc7429c33636ff3196e22.php 第 13 行.
+NOTIC: [8] Undefined variable: resource D:\phpStudy\WWW\AgentRuntime\Cache\Agent\b7586d05191dc7429c33636ff3196e22.php 第 14 行.
+NOTIC: [8] Undefined variable: resource D:\phpStudy\WWW\AgentRuntime\Cache\Agent\b7586d05191dc7429c33636ff3196e22.php 第 16 行.
+NOTIC: [8] Undefined variable: resource D:\phpStudy\WWW\AgentRuntime\Cache\Agent\b7586d05191dc7429c33636ff3196e22.php 第 18 行.
+NOTIC: [8] Undefined variable: resource D:\phpStudy\WWW\AgentRuntime\Cache\Agent\b7586d05191dc7429c33636ff3196e22.php 第 19 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015600s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015600s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-11-18T17:07:04+08:00 ] 183.13.21.139 /Agent.php/Login/admin/plugin/layui/css/layui.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+NOTIC: [8] Constant LANG_SET already defined D:\phpStudy\WWW\ThinkPHPFrame\Library\Behavior\CheckLangBehavior.class.php 第 55 行.
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.015600s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015600s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: resource D:\phpStudy\WWW\AgentRuntime\Cache\Agent\b7586d05191dc7429c33636ff3196e22.php 第 6 行.
+NOTIC: [8] Undefined variable: resource D:\phpStudy\WWW\AgentRuntime\Cache\Agent\b7586d05191dc7429c33636ff3196e22.php 第 8 行.
+NOTIC: [8] Undefined variable: resource D:\phpStudy\WWW\AgentRuntime\Cache\Agent\b7586d05191dc7429c33636ff3196e22.php 第 10 行.
+NOTIC: [8] Undefined variable: resource D:\phpStudy\WWW\AgentRuntime\Cache\Agent\b7586d05191dc7429c33636ff3196e22.php 第 12 行.
+NOTIC: [8] Undefined variable: resource D:\phpStudy\WWW\AgentRuntime\Cache\Agent\b7586d05191dc7429c33636ff3196e22.php 第 13 行.
+NOTIC: [8] Undefined variable: resource D:\phpStudy\WWW\AgentRuntime\Cache\Agent\b7586d05191dc7429c33636ff3196e22.php 第 14 行.
+NOTIC: [8] Undefined variable: resource D:\phpStudy\WWW\AgentRuntime\Cache\Agent\b7586d05191dc7429c33636ff3196e22.php 第 16 行.
+NOTIC: [8] Undefined variable: resource D:\phpStudy\WWW\AgentRuntime\Cache\Agent\b7586d05191dc7429c33636ff3196e22.php 第 18 行.
+NOTIC: [8] Undefined variable: resource D:\phpStudy\WWW\AgentRuntime\Cache\Agent\b7586d05191dc7429c33636ff3196e22.php 第 19 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015600s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015600s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-11-18T17:07:04+08:00 ] 183.13.21.139 /Agent.php/Login/admin/plugin/font-awesome/css/font-awesome.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.015600s ]
+NOTIC: [8] Constant LANG_SET already defined D:\phpStudy\WWW\ThinkPHPFrame\Library\Behavior\CheckLangBehavior.class.php 第 55 行.
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015600s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: resource D:\phpStudy\WWW\AgentRuntime\Cache\Agent\b7586d05191dc7429c33636ff3196e22.php 第 6 行.
+NOTIC: [8] Undefined variable: resource D:\phpStudy\WWW\AgentRuntime\Cache\Agent\b7586d05191dc7429c33636ff3196e22.php 第 8 行.
+NOTIC: [8] Undefined variable: resource D:\phpStudy\WWW\AgentRuntime\Cache\Agent\b7586d05191dc7429c33636ff3196e22.php 第 10 行.
+NOTIC: [8] Undefined variable: resource D:\phpStudy\WWW\AgentRuntime\Cache\Agent\b7586d05191dc7429c33636ff3196e22.php 第 12 行.
+NOTIC: [8] Undefined variable: resource D:\phpStudy\WWW\AgentRuntime\Cache\Agent\b7586d05191dc7429c33636ff3196e22.php 第 13 行.
+NOTIC: [8] Undefined variable: resource D:\phpStudy\WWW\AgentRuntime\Cache\Agent\b7586d05191dc7429c33636ff3196e22.php 第 14 行.
+NOTIC: [8] Undefined variable: resource D:\phpStudy\WWW\AgentRuntime\Cache\Agent\b7586d05191dc7429c33636ff3196e22.php 第 16 行.
+NOTIC: [8] Undefined variable: resource D:\phpStudy\WWW\AgentRuntime\Cache\Agent\b7586d05191dc7429c33636ff3196e22.php 第 18 行.
+NOTIC: [8] Undefined variable: resource D:\phpStudy\WWW\AgentRuntime\Cache\Agent\b7586d05191dc7429c33636ff3196e22.php 第 19 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015600s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015600s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-11-18T17:07:04+08:00 ] 183.13.21.139 /Agent.php/Login/admin/css/animate.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+NOTIC: [8] Constant LANG_SET already defined D:\phpStudy\WWW\ThinkPHPFrame\Library\Behavior\CheckLangBehavior.class.php 第 55 行.
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.015600s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015600s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: resource D:\phpStudy\WWW\AgentRuntime\Cache\Agent\b7586d05191dc7429c33636ff3196e22.php 第 6 行.
+NOTIC: [8] Undefined variable: resource D:\phpStudy\WWW\AgentRuntime\Cache\Agent\b7586d05191dc7429c33636ff3196e22.php 第 8 行.
+NOTIC: [8] Undefined variable: resource D:\phpStudy\WWW\AgentRuntime\Cache\Agent\b7586d05191dc7429c33636ff3196e22.php 第 10 行.
+NOTIC: [8] Undefined variable: resource D:\phpStudy\WWW\AgentRuntime\Cache\Agent\b7586d05191dc7429c33636ff3196e22.php 第 12 行.
+NOTIC: [8] Undefined variable: resource D:\phpStudy\WWW\AgentRuntime\Cache\Agent\b7586d05191dc7429c33636ff3196e22.php 第 13 行.
+NOTIC: [8] Undefined variable: resource D:\phpStudy\WWW\AgentRuntime\Cache\Agent\b7586d05191dc7429c33636ff3196e22.php 第 14 行.
+NOTIC: [8] Undefined variable: resource D:\phpStudy\WWW\AgentRuntime\Cache\Agent\b7586d05191dc7429c33636ff3196e22.php 第 16 行.
+NOTIC: [8] Undefined variable: resource D:\phpStudy\WWW\AgentRuntime\Cache\Agent\b7586d05191dc7429c33636ff3196e22.php 第 18 行.
+NOTIC: [8] Undefined variable: resource D:\phpStudy\WWW\AgentRuntime\Cache\Agent\b7586d05191dc7429c33636ff3196e22.php 第 19 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015600s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015600s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-11-18T17:07:04+08:00 ] 183.13.21.139 /Agent.php/Login/dist/css/AdminLTE.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.015600s ]
+NOTIC: [8] Constant LANG_SET already defined D:\phpStudy\WWW\ThinkPHPFrame\Library\Behavior\CheckLangBehavior.class.php 第 55 行.
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015600s ]
+ERR: 非法操作:dist
+
+[ 2017-11-18T17:07:04+08:00 ] 183.13.21.139 /Agent.php/Login/css/main.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.015600s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+NOTIC: [8] Constant LANG_SET already defined D:\phpStudy\WWW\ThinkPHPFrame\Library\Behavior\CheckLangBehavior.class.php 第 55 行.
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015600s ]
+ERR: 非法操作:css
+
+[ 2017-11-18T17:07:04+08:00 ] 183.13.21.139 /Agent.php/Login/bootstrap/css/bootstrap.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+NOTIC: [8] Constant LANG_SET already defined D:\phpStudy\WWW\ThinkPHPFrame\Library\Behavior\CheckLangBehavior.class.php 第 55 行.
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 非法操作:bootstrap
+
+[ 2017-11-18T17:07:04+08:00 ] 183.13.21.139 /Agent.php/Login/css/index_style.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+NOTIC: [8] Constant LANG_SET already defined D:\phpStudy\WWW\ThinkPHPFrame\Library\Behavior\CheckLangBehavior.class.php 第 55 行.
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 非法操作:css
+
+[ 2017-11-18T17:07:09+08:00 ] 183.13.21.139 /Agent.php/Login/getPic.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+NOTIC: [8] Constant LANG_SET already defined D:\phpStudy\WWW\ThinkPHPFrame\Library\Behavior\CheckLangBehavior.class.php 第 55 行.
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `yefan_admin` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `yefan_upload` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `yefan_admin` WHERE `admin_name` LIKE '%admin%' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `yefan_upload` WHERE `admin_id` = 46 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-11-18T17:07:12+08:00 ] 183.13.21.139 /Agent.php/Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+NOTIC: [8] Constant LANG_SET already defined D:\phpStudy\WWW\ThinkPHPFrame\Library\Behavior\CheckLangBehavior.class.php 第 55 行.
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `yefan_agent` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `yefan_agent` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `yefan_agent` WHERE `ag_name` = 'admin' LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `yefan_agent` SET `ag_ltime`='2017-11-18 17:07:12',`ag_ip`='183.13.21.139' WHERE ( ag_id=10 ) [ RunTime:0.0468s ]
+NOTIC: [8] Undefined index: admin_wallpaper D:\phpStudy\WWW\AgentApps\Agent\Controller\LoginController.class.php 第 64 行.
+NOTIC: [8] Undefined index: admin_header D:\phpStudy\WWW\AgentApps\Agent\Controller\LoginController.class.php 第 65 行.
+
+[ 2017-11-18T17:07:15+08:00 ] 183.13.21.139 /Agent.php/Index/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.015600s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+NOTIC: [8] Constant LANG_SET already defined D:\phpStudy\WWW\ThinkPHPFrame\Library\Behavior\CheckLangBehavior.class.php 第 55 行.
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `yefan_web_config` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `yefan_web_config` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `yefan_web_config` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `admin_page` FROM `yefan_web_config` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `admin_page` FROM `yefan_web_config` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `yefan_upload` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `yefan_upload` WHERE `admin_id` = null LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `yefan_win_menu` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `yefan_win_menu`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: ico D:\phpStudy\WWW\AgentRuntime\Cache\Agent\60f942f5c4734b049e24cfc4a5f85632.php 第 61 行.
+NOTIC: [8] Undefined index: group_name D:\phpStudy\WWW\AgentRuntime\Cache\Agent\60f942f5c4734b049e24cfc4a5f85632.php 第 61 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015600s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015600s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-11-18T17:07:18+08:00 ] 183.13.21.139 /Agent.php/Wechat/WechaGroupsWhole
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+NOTIC: [8] Constant LANG_SET already defined D:\phpStudy\WWW\ThinkPHPFrame\Library\Behavior\CheckLangBehavior.class.php 第 55 行.
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `yefan_web_config` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `yefan_web_config` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `yefan_web_config` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `admin_page` FROM `yefan_web_config` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `admin_page` FROM `yefan_web_config` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `yefan_weichat` [ RunTime:0.0156s ]
+SQL: SHOW COLUMNS FROM `yefan_grouping` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `yefan_grouping`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `yefan_weichat` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `yefan_weichat` WHERE `wei_data` = 'jd' AND `agent_id` = 10 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `yefan_weichat` WHERE `wei_data` = 'jd' AND `agent_id` = 10 ORDER BY wei_id desc LIMIT 0,100   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031200s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031200s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+

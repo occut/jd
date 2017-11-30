@@ -1,0 +1,55 @@
+[ 2017-11-13T10:47:27+08:00 ] 36.5.48.15 /api.php/Api/changeStatus=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Api\Controller\ApiController::get() should be compatible with Think\Controller::get($name = '') D:\phpStudy\WWW\ApiApps\Api\Controller\ApiController.class.php 第 1130 行.
+ERR: 非法操作:changeStatus=1
+
+[ 2017-11-13T10:47:57+08:00 ] 36.5.48.15 /api.php/Api/changeStatus?stats=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Api\Controller\ApiController::get() should be compatible with Think\Controller::get($name = '') D:\phpStudy\WWW\ApiApps\Api\Controller\ApiController.class.php 第 1130 行.
+ERR: 非法操作:changeStatus
+
+[ 2017-11-13T10:58:05+08:00 ] 101.226.225.84 /api.php/Api/changeStatus=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Api\Controller\ApiController::get() should be compatible with Think\Controller::get($name = '') D:\phpStudy\WWW\ApiApps\Api\Controller\ApiController.class.php 第 1130 行.
+ERR: 非法操作:changeStatus=1
+
+[ 2017-11-13T10:58:32+08:00 ] 101.226.33.225 /api.php/Api/changeStatus?stats=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Api\Controller\ApiController::get() should be compatible with Think\Controller::get($name = '') D:\phpStudy\WWW\ApiApps\Api\Controller\ApiController.class.php 第 1130 行.
+ERR: 非法操作:changeStatus
+
+[ 2017-11-13T11:01:07+08:00 ] 101.226.66.174 /api.php/Api/changeStatus?stats=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.015600s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015600s ]
+NOTIC: [2048] Declaration of Api\Controller\ApiController::get() should be compatible with Think\Controller::get($name = '') D:\phpStudy\WWW\ApiApps\Api\Controller\ApiController.class.php 第 1130 行.
+ERR: 非法操作:changeStatus
+

@@ -1,0 +1,1145 @@
+[ 2017-11-17T09:03:08+08:00 ] ::1 /agent.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000448s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000598s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002101s ]
+NOTIC: [8] Constant LANG_SET already defined C:\Users\kai\Desktop\admin.catsayer.xyz\ThinkPHPFrame\Library\Behavior\CheckLangBehavior.class.php 第 55 行.
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000769s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003927s ]
+
+[ 2017-11-17T09:03:36+08:00 ] ::1 /Agent.php/Index/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000520s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000888s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001353s ]
+NOTIC: [8] Constant LANG_SET already defined C:\Users\kai\Desktop\admin.catsayer.xyz\ThinkPHPFrame\Library\Behavior\CheckLangBehavior.class.php 第 55 行.
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000512s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003106s ]
+SQL: SHOW COLUMNS FROM `yefan_web_config` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `yefan_web_config` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `yefan_web_config` LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000107s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000232s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010411s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010565s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000459s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000573s ]
+
+[ 2017-11-17T09:03:39+08:00 ] ::1 /Agent.php/Login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000576s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000690s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001052s ]
+NOTIC: [8] Constant LANG_SET already defined C:\Users\kai\Desktop\admin.catsayer.xyz\ThinkPHPFrame\Library\Behavior\CheckLangBehavior.class.php 第 55 行.
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000605s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002718s ]
+
+[ 2017-11-17T09:04:58+08:00 ] ::1 /Agent.php/Index/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000054s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000721s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000875s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000984s ]
+NOTIC: [8] Constant LANG_SET already defined C:\Users\kai\Desktop\admin.catsayer.xyz\ThinkPHPFrame\Library\Behavior\CheckLangBehavior.class.php 第 55 行.
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000411s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002541s ]
+SQL: SHOW COLUMNS FROM `yefan_web_config` [ RunTime:0.0019s ]
+SQL: SHOW COLUMNS FROM `yefan_web_config` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `yefan_web_config` LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000103s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000273s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008990s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009181s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000862s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001097s ]
+
+[ 2017-11-17T09:05:02+08:00 ] ::1 /Agent.php/Login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000814s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001067s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001012s ]
+NOTIC: [8] Constant LANG_SET already defined C:\Users\kai\Desktop\admin.catsayer.xyz\ThinkPHPFrame\Library\Behavior\CheckLangBehavior.class.php 第 55 行.
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000439s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002845s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000171s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000299s ]
+NOTIC: [8] Undefined variable: resource C:\Users\kai\Desktop\admin.catsayer.xyz\AgentRuntime\Cache\Agent\b7586d05191dc7429c33636ff3196e22.php 第 6 行.
+NOTIC: [8] Undefined variable: resource C:\Users\kai\Desktop\admin.catsayer.xyz\AgentRuntime\Cache\Agent\b7586d05191dc7429c33636ff3196e22.php 第 8 行.
+NOTIC: [8] Undefined variable: resource C:\Users\kai\Desktop\admin.catsayer.xyz\AgentRuntime\Cache\Agent\b7586d05191dc7429c33636ff3196e22.php 第 10 行.
+NOTIC: [8] Undefined variable: resource C:\Users\kai\Desktop\admin.catsayer.xyz\AgentRuntime\Cache\Agent\b7586d05191dc7429c33636ff3196e22.php 第 12 行.
+NOTIC: [8] Undefined variable: resource C:\Users\kai\Desktop\admin.catsayer.xyz\AgentRuntime\Cache\Agent\b7586d05191dc7429c33636ff3196e22.php 第 13 行.
+NOTIC: [8] Undefined variable: resource C:\Users\kai\Desktop\admin.catsayer.xyz\AgentRuntime\Cache\Agent\b7586d05191dc7429c33636ff3196e22.php 第 14 行.
+NOTIC: [8] Undefined variable: resource C:\Users\kai\Desktop\admin.catsayer.xyz\AgentRuntime\Cache\Agent\b7586d05191dc7429c33636ff3196e22.php 第 16 行.
+NOTIC: [8] Undefined variable: resource C:\Users\kai\Desktop\admin.catsayer.xyz\AgentRuntime\Cache\Agent\b7586d05191dc7429c33636ff3196e22.php 第 18 行.
+NOTIC: [8] Undefined variable: resource C:\Users\kai\Desktop\admin.catsayer.xyz\AgentRuntime\Cache\Agent\b7586d05191dc7429c33636ff3196e22.php 第 19 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013534s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013660s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000563s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000674s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001109s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001282s ]
+
+[ 2017-11-17T09:05:02+08:00 ] ::1 /Agent.php/Login/bootstrap/css/bootstrap.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000714s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000948s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001330s ]
+NOTIC: [8] Constant LANG_SET already defined C:\Users\kai\Desktop\admin.catsayer.xyz\ThinkPHPFrame\Library\Behavior\CheckLangBehavior.class.php 第 55 行.
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000774s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003531s ]
+ERR: 非法操作:bootstrap
+
+[ 2017-11-17T09:05:02+08:00 ] ::1 /Agent.php/Login/css/index_style.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000749s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001513s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001605s ]
+NOTIC: [8] Constant LANG_SET already defined C:\Users\kai\Desktop\admin.catsayer.xyz\ThinkPHPFrame\Library\Behavior\CheckLangBehavior.class.php 第 55 行.
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.007274s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010994s ]
+ERR: 非法操作:css
+
+[ 2017-11-17T09:05:02+08:00 ] ::1 /Agent.php/Login/admin/plugin/layui/css/layui.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000724s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001065s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002168s ]
+NOTIC: [8] Constant LANG_SET already defined C:\Users\kai\Desktop\admin.catsayer.xyz\ThinkPHPFrame\Library\Behavior\CheckLangBehavior.class.php 第 55 行.
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000760s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004443s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000270s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000475s ]
+NOTIC: [8] Undefined variable: resource C:\Users\kai\Desktop\admin.catsayer.xyz\AgentRuntime\Cache\Agent\b7586d05191dc7429c33636ff3196e22.php 第 6 行.
+NOTIC: [8] Undefined variable: resource C:\Users\kai\Desktop\admin.catsayer.xyz\AgentRuntime\Cache\Agent\b7586d05191dc7429c33636ff3196e22.php 第 8 行.
+NOTIC: [8] Undefined variable: resource C:\Users\kai\Desktop\admin.catsayer.xyz\AgentRuntime\Cache\Agent\b7586d05191dc7429c33636ff3196e22.php 第 10 行.
+NOTIC: [8] Undefined variable: resource C:\Users\kai\Desktop\admin.catsayer.xyz\AgentRuntime\Cache\Agent\b7586d05191dc7429c33636ff3196e22.php 第 12 行.
+NOTIC: [8] Undefined variable: resource C:\Users\kai\Desktop\admin.catsayer.xyz\AgentRuntime\Cache\Agent\b7586d05191dc7429c33636ff3196e22.php 第 13 行.
+NOTIC: [8] Undefined variable: resource C:\Users\kai\Desktop\admin.catsayer.xyz\AgentRuntime\Cache\Agent\b7586d05191dc7429c33636ff3196e22.php 第 14 行.
+NOTIC: [8] Undefined variable: resource C:\Users\kai\Desktop\admin.catsayer.xyz\AgentRuntime\Cache\Agent\b7586d05191dc7429c33636ff3196e22.php 第 16 行.
+NOTIC: [8] Undefined variable: resource C:\Users\kai\Desktop\admin.catsayer.xyz\AgentRuntime\Cache\Agent\b7586d05191dc7429c33636ff3196e22.php 第 18 行.
+NOTIC: [8] Undefined variable: resource C:\Users\kai\Desktop\admin.catsayer.xyz\AgentRuntime\Cache\Agent\b7586d05191dc7429c33636ff3196e22.php 第 19 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019995s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020220s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001020s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001226s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001620s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001848s ]
+
+[ 2017-11-17T09:05:02+08:00 ] ::1 /Agent.php/Login/admin/plugin/font-awesome/css/font-awesome.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000823s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000952s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001585s ]
+NOTIC: [8] Constant LANG_SET already defined C:\Users\kai\Desktop\admin.catsayer.xyz\ThinkPHPFrame\Library\Behavior\CheckLangBehavior.class.php 第 55 行.
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001017s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004142s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000286s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000495s ]
+NOTIC: [8] Undefined variable: resource C:\Users\kai\Desktop\admin.catsayer.xyz\AgentRuntime\Cache\Agent\b7586d05191dc7429c33636ff3196e22.php 第 6 行.
+NOTIC: [8] Undefined variable: resource C:\Users\kai\Desktop\admin.catsayer.xyz\AgentRuntime\Cache\Agent\b7586d05191dc7429c33636ff3196e22.php 第 8 行.
+NOTIC: [8] Undefined variable: resource C:\Users\kai\Desktop\admin.catsayer.xyz\AgentRuntime\Cache\Agent\b7586d05191dc7429c33636ff3196e22.php 第 10 行.
+NOTIC: [8] Undefined variable: resource C:\Users\kai\Desktop\admin.catsayer.xyz\AgentRuntime\Cache\Agent\b7586d05191dc7429c33636ff3196e22.php 第 12 行.
+NOTIC: [8] Undefined variable: resource C:\Users\kai\Desktop\admin.catsayer.xyz\AgentRuntime\Cache\Agent\b7586d05191dc7429c33636ff3196e22.php 第 13 行.
+NOTIC: [8] Undefined variable: resource C:\Users\kai\Desktop\admin.catsayer.xyz\AgentRuntime\Cache\Agent\b7586d05191dc7429c33636ff3196e22.php 第 14 行.
+NOTIC: [8] Undefined variable: resource C:\Users\kai\Desktop\admin.catsayer.xyz\AgentRuntime\Cache\Agent\b7586d05191dc7429c33636ff3196e22.php 第 16 行.
+NOTIC: [8] Undefined variable: resource C:\Users\kai\Desktop\admin.catsayer.xyz\AgentRuntime\Cache\Agent\b7586d05191dc7429c33636ff3196e22.php 第 18 行.
+NOTIC: [8] Undefined variable: resource C:\Users\kai\Desktop\admin.catsayer.xyz\AgentRuntime\Cache\Agent\b7586d05191dc7429c33636ff3196e22.php 第 19 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017716s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017931s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000763s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000945s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001222s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001459s ]
+
+[ 2017-11-17T09:05:02+08:00 ] ::1 /Agent.php/Login/admin/css/animate.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001628s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000896s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001231s ]
+NOTIC: [8] Constant LANG_SET already defined C:\Users\kai\Desktop\admin.catsayer.xyz\ThinkPHPFrame\Library\Behavior\CheckLangBehavior.class.php 第 55 行.
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000756s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003386s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000266s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000459s ]
+NOTIC: [8] Undefined variable: resource C:\Users\kai\Desktop\admin.catsayer.xyz\AgentRuntime\Cache\Agent\b7586d05191dc7429c33636ff3196e22.php 第 6 行.
+NOTIC: [8] Undefined variable: resource C:\Users\kai\Desktop\admin.catsayer.xyz\AgentRuntime\Cache\Agent\b7586d05191dc7429c33636ff3196e22.php 第 8 行.
+NOTIC: [8] Undefined variable: resource C:\Users\kai\Desktop\admin.catsayer.xyz\AgentRuntime\Cache\Agent\b7586d05191dc7429c33636ff3196e22.php 第 10 行.
+NOTIC: [8] Undefined variable: resource C:\Users\kai\Desktop\admin.catsayer.xyz\AgentRuntime\Cache\Agent\b7586d05191dc7429c33636ff3196e22.php 第 12 行.
+NOTIC: [8] Undefined variable: resource C:\Users\kai\Desktop\admin.catsayer.xyz\AgentRuntime\Cache\Agent\b7586d05191dc7429c33636ff3196e22.php 第 13 行.
+NOTIC: [8] Undefined variable: resource C:\Users\kai\Desktop\admin.catsayer.xyz\AgentRuntime\Cache\Agent\b7586d05191dc7429c33636ff3196e22.php 第 14 行.
+NOTIC: [8] Undefined variable: resource C:\Users\kai\Desktop\admin.catsayer.xyz\AgentRuntime\Cache\Agent\b7586d05191dc7429c33636ff3196e22.php 第 16 行.
+NOTIC: [8] Undefined variable: resource C:\Users\kai\Desktop\admin.catsayer.xyz\AgentRuntime\Cache\Agent\b7586d05191dc7429c33636ff3196e22.php 第 18 行.
+NOTIC: [8] Undefined variable: resource C:\Users\kai\Desktop\admin.catsayer.xyz\AgentRuntime\Cache\Agent\b7586d05191dc7429c33636ff3196e22.php 第 19 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016281s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016492s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000742s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000932s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001075s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001283s ]
+
+[ 2017-11-17T09:05:02+08:00 ] ::1 /Agent.php/Login/css/main.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000780s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000931s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001337s ]
+NOTIC: [8] Constant LANG_SET already defined C:\Users\kai\Desktop\admin.catsayer.xyz\ThinkPHPFrame\Library\Behavior\CheckLangBehavior.class.php 第 55 行.
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.013880s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.016633s ]
+ERR: 非法操作:css
+
+[ 2017-11-17T09:05:02+08:00 ] ::1 /Agent.php/Login/dist/css/AdminLTE.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000614s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001994s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001290s ]
+NOTIC: [8] Constant LANG_SET already defined C:\Users\kai\Desktop\admin.catsayer.xyz\ThinkPHPFrame\Library\Behavior\CheckLangBehavior.class.php 第 55 行.
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000668s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004395s ]
+ERR: 非法操作:dist
+
+[ 2017-11-17T09:05:02+08:00 ] ::1 /Agent.php/Login/bootstrap/css/bootstrap.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000624s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000733s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001313s ]
+NOTIC: [8] Constant LANG_SET already defined C:\Users\kai\Desktop\admin.catsayer.xyz\ThinkPHPFrame\Library\Behavior\CheckLangBehavior.class.php 第 55 行.
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000486s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002937s ]
+ERR: 非法操作:bootstrap
+
+[ 2017-11-17T09:05:02+08:00 ] ::1 /Agent.php/Login/getPic.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000950s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000745s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001131s ]
+NOTIC: [8] Constant LANG_SET already defined C:\Users\kai\Desktop\admin.catsayer.xyz\ThinkPHPFrame\Library\Behavior\CheckLangBehavior.class.php 第 55 行.
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000688s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002928s ]
+SQL: SHOW COLUMNS FROM `yefan_admin` [ RunTime:0.0027s ]
+SQL: SHOW COLUMNS FROM `yefan_upload` [ RunTime:0.0034s ]
+SQL: SELECT * FROM `yefan_admin` WHERE `admin_name` LIKE '%admin%' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `yefan_upload` WHERE `admin_id` = 46 LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001181s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001366s ]
+
+[ 2017-11-17T09:05:05+08:00 ] ::1 /Agent.php/Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000380s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000448s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000863s ]
+NOTIC: [8] Constant LANG_SET already defined C:\Users\kai\Desktop\admin.catsayer.xyz\ThinkPHPFrame\Library\Behavior\CheckLangBehavior.class.php 第 55 行.
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000423s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002033s ]
+SQL: SHOW COLUMNS FROM `yefan_agent` [ RunTime:0.0032s ]
+SQL: SHOW COLUMNS FROM `yefan_agent` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `yefan_agent` WHERE `ag_name` = 'admin' LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `yefan_agent` SET `ag_ltime`='2017-11-17 09:05:05',`ag_ip`='0.0.0.0' WHERE ( ag_id=10 ) [ RunTime:0.0038s ]
+NOTIC: [8] Undefined index: admin_wallpaper C:\Users\kai\Desktop\admin.catsayer.xyz\AgentApps\Agent\Controller\LoginController.class.php 第 63 行.
+NOTIC: [8] Undefined index: admin_header C:\Users\kai\Desktop\admin.catsayer.xyz\AgentApps\Agent\Controller\LoginController.class.php 第 64 行.
+
+[ 2017-11-17T09:05:06+08:00 ] ::1 /Agent.php/Index/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000579s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000652s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001132s ]
+NOTIC: [8] Constant LANG_SET already defined C:\Users\kai\Desktop\admin.catsayer.xyz\ThinkPHPFrame\Library\Behavior\CheckLangBehavior.class.php 第 55 行.
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000900s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003163s ]
+SQL: SHOW COLUMNS FROM `yefan_web_config` [ RunTime:0.0018s ]
+SQL: SHOW COLUMNS FROM `yefan_web_config` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `yefan_web_config` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `admin_page` FROM `yefan_web_config` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `admin_page` FROM `yefan_web_config` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `yefan_upload` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `yefan_upload` WHERE `admin_id` = 46 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `yefan_win_menu` [ RunTime:0.0051s ]
+SQL: SELECT * FROM `yefan_win_menu`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000150s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000274s ]
+NOTIC: [8] Undefined index: ico C:\Users\kai\Desktop\admin.catsayer.xyz\AgentRuntime\Cache\Agent\60f942f5c4734b049e24cfc4a5f85632.php 第 61 行.
+NOTIC: [8] Undefined index: group_name C:\Users\kai\Desktop\admin.catsayer.xyz\AgentRuntime\Cache\Agent\60f942f5c4734b049e24cfc4a5f85632.php 第 61 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013139s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013278s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000522s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000635s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001124s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001313s ]
+
+[ 2017-11-17T09:05:11+08:00 ] ::1 /Agent.php/Shop/shops
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000605s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000732s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001190s ]
+NOTIC: [8] Constant LANG_SET already defined C:\Users\kai\Desktop\admin.catsayer.xyz\ThinkPHPFrame\Library\Behavior\CheckLangBehavior.class.php 第 55 行.
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000426s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002678s ]
+SQL: SHOW COLUMNS FROM `yefan_web_config` [ RunTime:0.0016s ]
+SQL: SHOW COLUMNS FROM `yefan_web_config` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `yefan_web_config` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `admin_page` FROM `yefan_web_config` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `admin_page` FROM `yefan_web_config` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `yefan_shop` [ RunTime:0.0037s ]
+SQL: SHOW COLUMNS FROM `yefan_shop` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `yefan_shop`  [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `yefan_shop` WHERE `ag_id` = 10 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yefan_shop` WHERE `ag_id` = 10 ORDER BY id desc LIMIT 0,100   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000466s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000712s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018412s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018545s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000525s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000640s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001064s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001241s ]
+
+[ 2017-11-17T14:23:16+08:00 ] ::1 /Agent.php/Index/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000579s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000783s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001092s ]
+NOTIC: [8] Constant LANG_SET already defined C:\Users\kai\Desktop\admin.catsayer.xyz\ThinkPHPFrame\Library\Behavior\CheckLangBehavior.class.php 第 55 行.
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000438s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002558s ]
+SQL: SHOW COLUMNS FROM `yefan_web_config` [ RunTime:0.0031s ]
+SQL: SHOW COLUMNS FROM `yefan_web_config` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `yefan_web_config` LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT `admin_page` FROM `yefan_web_config` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `admin_page` FROM `yefan_web_config` LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `yefan_upload` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `yefan_upload` WHERE `admin_id` = 46 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `yefan_win_menu` [ RunTime:0.0039s ]
+SQL: SELECT * FROM `yefan_win_menu`  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000150s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000276s ]
+NOTIC: [8] Undefined index: ico C:\Users\kai\Desktop\admin.catsayer.xyz\AgentRuntime\Cache\Agent\60f942f5c4734b049e24cfc4a5f85632.php 第 61 行.
+NOTIC: [8] Undefined index: group_name C:\Users\kai\Desktop\admin.catsayer.xyz\AgentRuntime\Cache\Agent\60f942f5c4734b049e24cfc4a5f85632.php 第 61 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013115s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013241s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000868s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001034s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001206s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001428s ]
+
+[ 2017-11-17T14:26:21+08:00 ] ::1 /Agent.php/Shop/shops
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001157s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002785s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.003010s ]
+NOTIC: [8] Constant LANG_SET already defined C:\Users\kai\Desktop\admin.catsayer.xyz\ThinkPHPFrame\Library\Behavior\CheckLangBehavior.class.php 第 55 行.
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001036s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007253s ]
+SQL: SHOW COLUMNS FROM `yefan_web_config` [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `yefan_web_config` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `yefan_web_config` LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `admin_page` FROM `yefan_web_config` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `admin_page` FROM `yefan_web_config` LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `yefan_shop` [ RunTime:0.0016s ]
+SQL: SHOW COLUMNS FROM `yefan_shop` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `yefan_shop`  [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `yefan_shop` WHERE `ag_id` = 10 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `yefan_shop` WHERE `ag_id` = 10 ORDER BY id desc LIMIT 0,100   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000134s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000261s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018279s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018454s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001782s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001944s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001828s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001950s ]
+
+[ 2017-11-17T14:26:24+08:00 ] ::1 /Agent.php/Agent/management
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000655s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002822s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001867s ]
+NOTIC: [8] Constant LANG_SET already defined C:\Users\kai\Desktop\admin.catsayer.xyz\ThinkPHPFrame\Library\Behavior\CheckLangBehavior.class.php 第 55 行.
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000467s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006093s ]
+SQL: SHOW COLUMNS FROM `yefan_web_config` [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `yefan_web_config` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `yefan_web_config` LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT `admin_page` FROM `yefan_web_config` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `admin_page` FROM `yefan_web_config` LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `yefan_management` [ RunTime:0.0019s ]
+SQL: SHOW COLUMNS FROM `yefan_management` [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `yefan_management` WHERE `ag_ag` = 10 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `yefan_management` WHERE `ag_ag` = 10 ORDER BY ag_id desc LIMIT 0,100   [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000152s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000292s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021211s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021396s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001785s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002011s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001666s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001854s ]
+
+[ 2017-11-17T14:26:34+08:00 ] ::1 /Agent.php/Agent/addmanagement.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000893s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001586s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001754s ]
+NOTIC: [8] Constant LANG_SET already defined C:\Users\kai\Desktop\admin.catsayer.xyz\ThinkPHPFrame\Library\Behavior\CheckLangBehavior.class.php 第 55 行.
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000396s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004018s ]
+SQL: SHOW COLUMNS FROM `yefan_web_config` [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `yefan_web_config` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `yefan_web_config` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `admin_page` FROM `yefan_web_config` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `admin_page` FROM `yefan_web_config` LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000123s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000268s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013519s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013765s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002403s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002622s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002560s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002720s ]
+
+[ 2017-11-17T14:26:37+08:00 ] ::1 /Agent.php/Agent/management
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000690s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001596s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001813s ]
+NOTIC: [8] Constant LANG_SET already defined C:\Users\kai\Desktop\admin.catsayer.xyz\ThinkPHPFrame\Library\Behavior\CheckLangBehavior.class.php 第 55 行.
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000470s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004190s ]
+SQL: SHOW COLUMNS FROM `yefan_web_config` [ RunTime:0.0017s ]
+SQL: SHOW COLUMNS FROM `yefan_web_config` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `yefan_web_config` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `admin_page` FROM `yefan_web_config` LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `admin_page` FROM `yefan_web_config` LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `yefan_management` [ RunTime:0.0015s ]
+SQL: SHOW COLUMNS FROM `yefan_management` [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `yefan_management` WHERE `ag_ag` = 10 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `yefan_management` WHERE `ag_ag` = 10 ORDER BY ag_id desc LIMIT 0,100   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000168s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000290s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018663s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018849s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001752s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001913s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001520s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001631s ]
+
+[ 2017-11-17T14:27:26+08:00 ] ::1 /Agent.php/Wechat/purchase
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000142s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001447s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000781s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001062s ]
+NOTIC: [8] Constant LANG_SET already defined C:\Users\kai\Desktop\admin.catsayer.xyz\ThinkPHPFrame\Library\Behavior\CheckLangBehavior.class.php 第 55 行.
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000428s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002546s ]
+SQL: SHOW COLUMNS FROM `yefan_web_config` [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `yefan_web_config` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `yefan_web_config` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `admin_page` FROM `yefan_web_config` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `admin_page` FROM `yefan_web_config` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `yefan_account_balance` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `yefan_account_balance` WHERE `ba_name` = '10' LIMIT 1   [ RunTime:0.0013s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000116s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000238s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011802s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012047s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001295s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001635s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001910s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002378s ]
+
+[ 2017-11-17T14:27:30+08:00 ] ::1 /Agent.php/Index/payment
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000610s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001071s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001061s ]
+NOTIC: [8] Constant LANG_SET already defined C:\Users\kai\Desktop\admin.catsayer.xyz\ThinkPHPFrame\Library\Behavior\CheckLangBehavior.class.php 第 55 行.
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000420s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002862s ]
+SQL: SHOW COLUMNS FROM `yefan_web_config` [ RunTime:0.0017s ]
+SQL: SHOW COLUMNS FROM `yefan_web_config` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `yefan_web_config` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `admin_page` FROM `yefan_web_config` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `admin_page` FROM `yefan_web_config` LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `yefan_account_balance` [ RunTime:0.0017s ]
+SQL: SELECT * FROM `yefan_account_balance` WHERE `ba_name` = '10' LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000126s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000253s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012442s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012585s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000684s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000801s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000827s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000939s ]
+
+[ 2017-11-17T14:27:31+08:00 ] ::1 /Agent.php/Index/selectpayment.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000483s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001047s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001758s ]
+NOTIC: [8] Constant LANG_SET already defined C:\Users\kai\Desktop\admin.catsayer.xyz\ThinkPHPFrame\Library\Behavior\CheckLangBehavior.class.php 第 55 行.
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000554s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003767s ]
+SQL: SHOW COLUMNS FROM `yefan_web_config` [ RunTime:0.0014s ]
+SQL: SHOW COLUMNS FROM `yefan_web_config` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `yefan_web_config` LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT `admin_page` FROM `yefan_web_config` LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `admin_page` FROM `yefan_web_config` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `yefan_payment` [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `yefan_payment` [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `yefan_payment` WHERE `ag_id` = 10 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yefan_payment` WHERE `ag_id` = 10 ORDER BY pa_id desc LIMIT 0,100   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000132s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000250s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015469s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015647s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000870s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001098s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001770s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002017s ]
+
+[ 2017-11-17T14:41:34+08:00 ] ::1 /Agent.php/Index/payment.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000470s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000846s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001575s ]
+NOTIC: [8] Constant LANG_SET already defined C:\Users\kai\Desktop\admin.catsayer.xyz\ThinkPHPFrame\Library\Behavior\CheckLangBehavior.class.php 第 55 行.
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000457s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003186s ]
+SQL: SHOW COLUMNS FROM `yefan_web_config` [ RunTime:0.0012s ]
+SQL: SHOW COLUMNS FROM `yefan_web_config` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `yefan_web_config` LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT `admin_page` FROM `yefan_web_config` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `admin_page` FROM `yefan_web_config` LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `yefan_account_balance` [ RunTime:0.0019s ]
+SQL: SELECT * FROM `yefan_account_balance` WHERE `ba_name` = '10' LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000121s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000267s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012356s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012527s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001139s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001341s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000906s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001020s ]
+
+[ 2017-11-17T14:41:38+08:00 ] ::1 /Agent.php/Index/selectpayment.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000466s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001374s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001154s ]
+NOTIC: [8] Constant LANG_SET already defined C:\Users\kai\Desktop\admin.catsayer.xyz\ThinkPHPFrame\Library\Behavior\CheckLangBehavior.class.php 第 55 行.
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000634s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003511s ]
+SQL: SHOW COLUMNS FROM `yefan_web_config` [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `yefan_web_config` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `yefan_web_config` LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT `admin_page` FROM `yefan_web_config` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `admin_page` FROM `yefan_web_config` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `yefan_payment` [ RunTime:0.0017s ]
+SQL: SHOW COLUMNS FROM `yefan_payment` [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `yefan_payment` WHERE `ag_id` = 10 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yefan_payment` WHERE `ag_id` = 10 ORDER BY pa_id desc LIMIT 0,100   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000137s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000264s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015206s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015386s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000746s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000874s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000864s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000989s ]
+
+[ 2017-11-17T14:41:39+08:00 ] ::1 /Agent.php/Index/payment.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000550s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000932s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001054s ]
+NOTIC: [8] Constant LANG_SET already defined C:\Users\kai\Desktop\admin.catsayer.xyz\ThinkPHPFrame\Library\Behavior\CheckLangBehavior.class.php 第 55 行.
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000453s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002691s ]
+SQL: SHOW COLUMNS FROM `yefan_web_config` [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `yefan_web_config` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `yefan_web_config` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `admin_page` FROM `yefan_web_config` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `admin_page` FROM `yefan_web_config` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `yefan_account_balance` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `yefan_account_balance` WHERE `ba_name` = '10' LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000130s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000281s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012255s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012385s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000718s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000833s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001180s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001329s ]
+
+[ 2017-11-17T14:41:42+08:00 ] ::1 /Agent.php/Index/selectpayment.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000731s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000986s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001380s ]
+NOTIC: [8] Constant LANG_SET already defined C:\Users\kai\Desktop\admin.catsayer.xyz\ThinkPHPFrame\Library\Behavior\CheckLangBehavior.class.php 第 55 行.
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000706s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003461s ]
+SQL: SHOW COLUMNS FROM `yefan_web_config` [ RunTime:0.0014s ]
+SQL: SHOW COLUMNS FROM `yefan_web_config` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `yefan_web_config` LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT `admin_page` FROM `yefan_web_config` LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT `admin_page` FROM `yefan_web_config` LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `yefan_payment` [ RunTime:0.0015s ]
+SQL: SHOW COLUMNS FROM `yefan_payment` [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `yefan_payment` WHERE `ag_id` = 10 LIMIT 1   [ RunTime:0.0021s ]
+SQL: SELECT * FROM `yefan_payment` WHERE `ag_id` = 10 ORDER BY pa_id desc LIMIT 0,100   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000291s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000566s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018997s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019191s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001128s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001294s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000995s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001151s ]
+
+[ 2017-11-17T14:41:44+08:00 ] ::1 /Agent.php/Index/payment.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000568s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001137s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001824s ]
+NOTIC: [8] Constant LANG_SET already defined C:\Users\kai\Desktop\admin.catsayer.xyz\ThinkPHPFrame\Library\Behavior\CheckLangBehavior.class.php 第 55 行.
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000951s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004400s ]
+SQL: SHOW COLUMNS FROM `yefan_web_config` [ RunTime:0.0013s ]
+SQL: SHOW COLUMNS FROM `yefan_web_config` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `yefan_web_config` LIMIT 1   [ RunTime:0.0009s ]
+SQL: SELECT `admin_page` FROM `yefan_web_config` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `admin_page` FROM `yefan_web_config` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `yefan_account_balance` [ RunTime:0.0018s ]
+SQL: SELECT * FROM `yefan_account_balance` WHERE `ba_name` = '10' LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000128s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000291s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014869s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015053s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000726s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000845s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000858s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000982s ]
+
+[ 2017-11-17T14:41:50+08:00 ] ::1 /Agent.php/Agent/management
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000634s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000822s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001047s ]
+NOTIC: [8] Constant LANG_SET already defined C:\Users\kai\Desktop\admin.catsayer.xyz\ThinkPHPFrame\Library\Behavior\CheckLangBehavior.class.php 第 55 行.
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000398s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002541s ]
+SQL: SHOW COLUMNS FROM `yefan_web_config` [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `yefan_web_config` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `yefan_web_config` LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT `admin_page` FROM `yefan_web_config` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `admin_page` FROM `yefan_web_config` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `yefan_management` [ RunTime:0.0015s ]
+SQL: SHOW COLUMNS FROM `yefan_management` [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `yefan_management` WHERE `ag_ag` = 10 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yefan_management` WHERE `ag_ag` = 10 ORDER BY ag_id desc LIMIT 0,100   [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000149s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000269s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015560s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015828s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000856s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001085s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001038s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001208s ]
+
+[ 2017-11-17T14:41:54+08:00 ] ::1 /Agent.php/Wechat/purchase
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000571s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001105s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001248s ]
+NOTIC: [8] Constant LANG_SET already defined C:\Users\kai\Desktop\admin.catsayer.xyz\ThinkPHPFrame\Library\Behavior\CheckLangBehavior.class.php 第 55 行.
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000453s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003160s ]
+SQL: SHOW COLUMNS FROM `yefan_web_config` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `yefan_web_config` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `yefan_web_config` LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT `admin_page` FROM `yefan_web_config` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `admin_page` FROM `yefan_web_config` LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `yefan_account_balance` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `yefan_account_balance` WHERE `ba_name` = '10' LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000223s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000514s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012521s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012709s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001084s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001255s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001217s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001421s ]
+
+[ 2017-11-17T14:41:57+08:00 ] ::1 /Agent.php/Index/payment
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000630s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001092s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001452s ]
+NOTIC: [8] Constant LANG_SET already defined C:\Users\kai\Desktop\admin.catsayer.xyz\ThinkPHPFrame\Library\Behavior\CheckLangBehavior.class.php 第 55 行.
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000797s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003696s ]
+SQL: SHOW COLUMNS FROM `yefan_web_config` [ RunTime:0.0016s ]
+SQL: SHOW COLUMNS FROM `yefan_web_config` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `yefan_web_config` LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `admin_page` FROM `yefan_web_config` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `admin_page` FROM `yefan_web_config` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `yefan_account_balance` [ RunTime:0.0018s ]
+SQL: SELECT * FROM `yefan_account_balance` WHERE `ba_name` = '10' LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000120s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000264s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011891s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012083s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001107s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001265s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000844s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000966s ]
+
+[ 2017-11-17T14:42:00+08:00 ] ::1 /Agent.php/Index/selectpayment.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000583s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001677s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002373s ]
+NOTIC: [8] Constant LANG_SET already defined C:\Users\kai\Desktop\admin.catsayer.xyz\ThinkPHPFrame\Library\Behavior\CheckLangBehavior.class.php 第 55 行.
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000957s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005557s ]
+SQL: SHOW COLUMNS FROM `yefan_web_config` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `yefan_web_config` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `yefan_web_config` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `admin_page` FROM `yefan_web_config` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `admin_page` FROM `yefan_web_config` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `yefan_payment` [ RunTime:0.0012s ]
+SQL: SHOW COLUMNS FROM `yefan_payment` [ RunTime:0.0008s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `yefan_payment` WHERE `ag_id` = 10 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yefan_payment` WHERE `ag_id` = 10 ORDER BY pa_id desc LIMIT 0,100   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000132s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000249s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015124s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015264s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000836s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000957s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001031s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001155s ]
+
+[ 2017-11-17T14:42:01+08:00 ] ::1 /Agent.php/Index/payment.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000612s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001313s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001805s ]
+NOTIC: [8] Constant LANG_SET already defined C:\Users\kai\Desktop\admin.catsayer.xyz\ThinkPHPFrame\Library\Behavior\CheckLangBehavior.class.php 第 55 行.
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000941s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004565s ]
+SQL: SHOW COLUMNS FROM `yefan_web_config` [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `yefan_web_config` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `yefan_web_config` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `admin_page` FROM `yefan_web_config` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `admin_page` FROM `yefan_web_config` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `yefan_account_balance` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `yefan_account_balance` WHERE `ba_name` = '10' LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000206s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000460s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013890s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014079s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000859s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000867s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000983s ]
+
+[ 2017-11-17T16:17:53+08:00 ] ::1 /Agent.php/Tasks/listTaskGroups
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000678s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001647s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001605s ]
+NOTIC: [8] Constant LANG_SET already defined C:\Users\kai\Desktop\admin.catsayer.xyz\ThinkPHPFrame\Library\Behavior\CheckLangBehavior.class.php 第 55 行.
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000425s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004287s ]
+SQL: SHOW COLUMNS FROM `yefan_web_config` [ RunTime:0.0028s ]
+SQL: SHOW COLUMNS FROM `yefan_web_config` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `yefan_web_config` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `admin_page` FROM `yefan_web_config` LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `admin_page` FROM `yefan_web_config` LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `yefan_tasks_group` [ RunTime:0.0013s ]
+SQL: SHOW COLUMNS FROM `yefan_tasks_group` [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `yefan_tasks_group` WHERE `ag_id` = 10 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `yefan_tasks_group` WHERE `ag_id` = 10 LIMIT 0,10   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000151s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000276s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019329s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019494s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000788s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000900s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000795s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000907s ]
+
+[ 2017-11-17T16:18:00+08:00 ] ::1 /Agent.php/Navigation/deviceGrouping.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000905s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001017s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001044s ]
+NOTIC: [8] Constant LANG_SET already defined C:\Users\kai\Desktop\admin.catsayer.xyz\ThinkPHPFrame\Library\Behavior\CheckLangBehavior.class.php 第 55 行.
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000415s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002753s ]
+SQL: SHOW COLUMNS FROM `yefan_web_config` [ RunTime:0.0019s ]
+SQL: SHOW COLUMNS FROM `yefan_web_config` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `yefan_web_config` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `admin_page` FROM `yefan_web_config` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `admin_page` FROM `yefan_web_config` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `yefan_grouping` [ RunTime:0.0015s ]
+SQL: SHOW COLUMNS FROM `yefan_grouping` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `yefan_grouping` WHERE `ag_id` = 10 LIMIT 1   [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `yefan_grouping` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `yefan_grouping` WHERE `ag_id` = 10 LIMIT 0,10   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000131s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000267s ]
+NOTIC: [8] Undefined variable: v C:\Users\kai\Desktop\admin.catsayer.xyz\AgentRuntime\Cache\Agent\a5f7c1eace0e9a352d7ea7f19bc1efde.php 第 60 行.
+NOTIC: [8] Undefined variable: v C:\Users\kai\Desktop\admin.catsayer.xyz\AgentRuntime\Cache\Agent\a5f7c1eace0e9a352d7ea7f19bc1efde.php 第 60 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015435s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015638s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000784s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000928s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000859s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000973s ]
+
+[ 2017-11-17T16:18:02+08:00 ] ::1 /Agent.php/Tasks/addTaskGroup.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000527s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000770s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001016s ]
+NOTIC: [8] Constant LANG_SET already defined C:\Users\kai\Desktop\admin.catsayer.xyz\ThinkPHPFrame\Library\Behavior\CheckLangBehavior.class.php 第 55 行.
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000390s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002412s ]
+SQL: SHOW COLUMNS FROM `yefan_web_config` [ RunTime:0.0018s ]
+SQL: SHOW COLUMNS FROM `yefan_web_config` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `yefan_web_config` LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `admin_page` FROM `yefan_web_config` LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT `admin_page` FROM `yefan_web_config` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `yefan_tasks_group` [ RunTime:0.0016s ]
+SQL: SHOW COLUMNS FROM `yefan_tasks_group` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `yefan_tasks_group`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000142s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000278s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013786s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014053s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001177s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001400s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000995s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001201s ]
+
+[ 2017-11-17T16:18:05+08:00 ] ::1 /Agent.php/Tasks/listTaskGroups
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000477s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000778s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001114s ]
+NOTIC: [8] Constant LANG_SET already defined C:\Users\kai\Desktop\admin.catsayer.xyz\ThinkPHPFrame\Library\Behavior\CheckLangBehavior.class.php 第 55 行.
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000493s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002720s ]
+SQL: SHOW COLUMNS FROM `yefan_web_config` [ RunTime:0.0018s ]
+SQL: SHOW COLUMNS FROM `yefan_web_config` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `yefan_web_config` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `admin_page` FROM `yefan_web_config` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `admin_page` FROM `yefan_web_config` LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `yefan_tasks_group` [ RunTime:0.0017s ]
+SQL: SHOW COLUMNS FROM `yefan_tasks_group` [ RunTime:0.0008s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `yefan_tasks_group` WHERE `ag_id` = 10 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `yefan_tasks_group` WHERE `ag_id` = 10 LIMIT 0,10   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000252s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000465s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019860s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019998s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000763s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000922s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000743s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000873s ]
+
+[ 2017-11-17T16:18:06+08:00 ] ::1 /Agent.php/Qq/WechaGroupsWhole
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000064s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001056s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000760s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000950s ]
+NOTIC: [8] Constant LANG_SET already defined C:\Users\kai\Desktop\admin.catsayer.xyz\ThinkPHPFrame\Library\Behavior\CheckLangBehavior.class.php 第 55 行.
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000667s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002724s ]
+SQL: SHOW COLUMNS FROM `yefan_web_config` [ RunTime:0.0018s ]
+SQL: SHOW COLUMNS FROM `yefan_web_config` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `yefan_web_config` LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT `admin_page` FROM `yefan_web_config` LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `admin_page` FROM `yefan_web_config` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `yefan_weichat` [ RunTime:0.0014s ]
+SQL: SHOW COLUMNS FROM `yefan_grouping` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `yefan_grouping`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `yefan_weichat` [ RunTime:0.0008s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `yefan_weichat` WHERE `wei_data` = 'qq' AND `agent_id` = 10 LIMIT 1   [ RunTime:0.0096s ]
+SQL: SELECT * FROM `yefan_weichat` WHERE `wei_data` = 'qq' AND `agent_id` = 10 ORDER BY wei_id desc LIMIT 0,100   [ RunTime:0.0438s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000240s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000405s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026173s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026354s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000563s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000680s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000719s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000883s ]
+
+[ 2017-11-17T16:18:19+08:00 ] ::1 /Agent.php/Qq/WechaGroupsWhole
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000807s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000783s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001474s ]
+NOTIC: [8] Constant LANG_SET already defined C:\Users\kai\Desktop\admin.catsayer.xyz\ThinkPHPFrame\Library\Behavior\CheckLangBehavior.class.php 第 55 行.
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000418s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003074s ]
+SQL: SHOW COLUMNS FROM `yefan_web_config` [ RunTime:0.0017s ]
+SQL: SHOW COLUMNS FROM `yefan_web_config` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `yefan_web_config` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `admin_page` FROM `yefan_web_config` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `admin_page` FROM `yefan_web_config` LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `yefan_weichat` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `yefan_grouping` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `yefan_grouping`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `yefan_weichat` [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `yefan_weichat` WHERE `wei_data` = 'qq' AND `agent_id` = 10 LIMIT 1   [ RunTime:0.0031s ]
+SQL: SELECT * FROM `yefan_weichat` WHERE `wei_data` = 'qq' AND `agent_id` = 10 ORDER BY wei_id desc LIMIT 0,100   [ RunTime:0.0214s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000335s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000490s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025285s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025471s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000592s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000744s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000698s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000817s ]
+
+[ 2017-11-17T16:18:24+08:00 ] ::1 /Agent.php/Index/payment
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000811s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000812s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001003s ]
+NOTIC: [8] Constant LANG_SET already defined C:\Users\kai\Desktop\admin.catsayer.xyz\ThinkPHPFrame\Library\Behavior\CheckLangBehavior.class.php 第 55 行.
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000408s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002520s ]
+SQL: SHOW COLUMNS FROM `yefan_web_config` [ RunTime:0.0017s ]
+SQL: SHOW COLUMNS FROM `yefan_web_config` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `yefan_web_config` LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `admin_page` FROM `yefan_web_config` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `admin_page` FROM `yefan_web_config` LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `yefan_account_balance` [ RunTime:0.0021s ]
+SQL: SELECT * FROM `yefan_account_balance` WHERE `ba_name` = '10' LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000118s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000244s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011614s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011794s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000657s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000768s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000795s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000953s ]
+

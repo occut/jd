@@ -1,0 +1,308 @@
+<include file="Common/top"/>
+
+<div class="layui-body" style="left: 0">
+    <div class="content-wrapper" style="margin-left: 0px">
+        <!-- Content Header (Page header) -->
+        <section class="content-header">
+            <h1>
+                收货管理
+            </h1>
+        </section>
+
+        <!-- Main content -->
+        <section class="content">
+            <div class="row">
+                <div class="col-xs-12">
+                    <div class="box">
+                        <div>
+                            <h3 style="float: left;margin:10px 10px;"><button class="btn layui-btn box-title" onclick="delAll('{:U('Shop/shopsreceipt')}','确定收货么？')">收货</button></h3>
+                            <form method="get" style="float: left;" action="{:U('Shop/exportshop')}">
+                                <div class="box-header">
+                                    <input style="float:left;width:0px;" type="hidden" name="ids" id="ids" vallue="">
+                                    <input type="submit" value="导出" class="btn layui-btn box-title" onclick="iswechat()" style="width: 60px;margin-left: 0px;font-size: 14px;">
+                                </div>
+                            </form>
+                            <input type="submit" value="评论" class="btn layui-btn box-title" onclick="comments('评论')"  style=" float: left;width: 60px;margin:10px 0px;font-size: 14px;">
+                            <form method="post" style="float: left;" action="{:U('Shop/Importshop')}" enctype="multipart/form-data">
+                                <div class="box-header">
+                                    <input style="float: left;"  type="file" name="ex"  >
+                                    <input type="submit" value="导入" class="btn layui-btn box-title" onclick="iswechat()" style="width: 60px;margin-left: 0px;font-size: 14px;float: left;">
+                                </div>
+                            </form>
+                            <div>
+                                <form method="get" style="float: left;" action="{:U('Shop/shopSearch')}">
+                                    <div class="box-header"style="float:left">
+                                        <select style="width:200px;height: 40px;border: 1px solid #E6E6E6;padding-left: 10px;" name='id' id="name" class="pull-left selectShop">
+                                            <volist name="allShops" id="shopname">
+                                                <option value="{$shopname.id}" <if condition="$id eq $shopname['id']">selected</if> >{$shopname.shop_name}</option>
+                                            </volist>
+                                        </select>
+                                        <input class="layui-input" name="start" id="start" value="{:session('timestart')}" placeholder="开始日" onclick="layui.laydate({elem: this, istime: true, format: 'YYYY-MM-DD hh:mm:ss'})" style="float:left;width:140px;margin-left:10px;">
+                                        <input class="layui-input" name="end" id="end" value="{:session('timeend')}" placeholder="截止日" onclick="layui.laydate({elem: this, istime: true, format: 'YYYY-MM-DD hh:mm:ss'})" style="float:left;width:140px;margin-left:10px;">
+                                    </div>
+
+                                    <div class="box-header" style="float:left">
+                                        <select style="width:80px;height: 40px;border: 1px solid #E6E6E6;padding-left: 10px;" name='ids' class="pull-left selectShop">
+                                            <option value="1" <if condition="1 eq session('wei_ids')">selected</if>>账号</option>
+                                            <option value="2" <if condition="2 eq session('wei_ids')">selected</if>>地址</option>
+                                            <option value="3" <if condition="3 eq session('wei_ids')">selected</if>>手机号</option>
+                                            <option value="4" <if condition="4 eq session('wei_ids')">selected</if>>订单号</option>
+                                            <option value="5" <if condition="5 eq session('wei_ids')">selected</if>>订单状态</option>
+                                        </select>
+                                        <input class="layui-input" name="tiao" value="" placeholder="条件" style="float:left;width:140px;margin-left:10px;">
+                                        <!--<input class="layui-input" name="time[end]" value="{:session('timeend')}" placeholder="截止日" onclick="layui.laydate({elem: this, istime: true, format: 'YYYY-MM-DD hh:mm:ss'})" style="float:left;width:140px;margin-left:10px;">-->
+                                        <input type="submit" value="查询" class="btn layui-btn box-title" style="width: 60px;margin-left:10px;font-size: 14px;">
+                                    </div>
+                                </form>
+                                <input type="submit" value="一键收货" id="receipt" class="btn layui-btn box-title" style="float: left;font-size: 14px;margin-top: 10px;">
+                                <input class="layui-input" id="number" value="" placeholder="数量" style="float: left;font-size: 14px;margin-top: 10px; width: 80px;margin: 10px 5px;">
+                                <input type="submit" value="选择收货笔数" id="pens" class="btn layui-btn box-title" style="float: left;font-size: 14px;margin-top: 10px;margin: 10px 5px;">
+
+
+                            </div>
+                        </div>
+
+                        <!-- /.box-header -->
+                        <div class="box-body">
+                            <table id="example2" class="table table-bordered table-hover">
+                                <thead>
+                                <tr class="tng">
+                                    <th style = "text-align: center;"><input type="checkbox" id="dellAll" value=""></th>
+                                    <th style = "text-align: center;">ID</th>
+                                    <th style = "text-align: center;">手机号</th>
+                                    <th style = "text-align: center;">账号</th>
+                                    <!--<th style = "text-align: center;">密码</th>-->
+                                    <!--<th style = "text-align: center;">支付密码</th>-->
+                                    <!--<th style = "text-align: center;">注册时间</th>-->
+                                    <th style = "text-align: center;">IP</th>
+                                    <th style = "text-align: center;">地址</th>
+                                    <th style = "text-align: center;">状态</th>
+                                    <th style = "text-align: center;">订单号</th>
+                                    <th style = "text-align: center;">SKU</th>
+                                    <th style = "text-align: center;">关键词</th>
+                                    <th style = "text-align: center;">金额</th>
+                                    <th style = "text-align: center;">物流单号</th>
+                                    <th style = "text-align: center;">物流</th>
+                                    <th style = "text-align: center;">下单时间</th>
+                                    <th style = "text-align: center;">下单端口</th>
+                                    <!--<th style = "text-align: center;">收货时间</th>-->
+                                    <th style = "text-align: center;">收货评语</th>
+                                    <!--<th style = "text-align: center;">多久评价</th>-->
+                                    <!--<th style = "text-align: center;">追评评语</th>-->
+                                    <!--<th style = "text-align: center;">追评时间</th>-->
+                                    <th style = "text-align: center;">任务进度</th>
+                                    <th style = "text-align: center;">店铺名</th>
+                                    <th style = "text-align: center;">收货时间</th>
+                                    <th style = "text-align: center;">完成设备</th>
+                                    <th style = "text-align: center;">操作</th>
+                                </tr>
+                                </thead>
+                                <tbody>
+                                <volist name="content" id="as">
+                                    <tr class="tnd" style = "text-align: center;">
+                                        <td style = "text-align: center;"><input type="checkbox" value="{$as.wei_id}" name="delAll"></td>
+                                        <td style = "text-align: center;">{$as.wei_id}</td>
+                                        <td style = "text-align: center;">{$as.wei_number}</td>
+                                        <td style = "text-align: center;">{$as.wei_name}</td>
+                                        <!--<td style = "text-align: center;">{$as.wei_password}</td>-->
+                                        <!--<td style = "text-align: center;">{$as.pay_password}</td>-->
+                                        <!--<td style = "text-align: center;">{$as.wei_time}</td>-->
+                                        <td style = "text-align: center;">{$as.wei_ip}</td>
+                                        <td style = "text-align: center;">{$as.wei_address}</td>
+                                        <td style = "text-align: center;">{$as.wei_static}</td>
+                                        <td style = "text-align: center;">{$as.we_order}</td>
+                                        <td style = "text-align: center;"></td>
+                                        <td style = "text-align: center;"></td>
+                                        <td style = "text-align: center;">{$as.wei_gold}</td>
+                                        <td style = "text-align: center;"></td>
+                                        <td style = "text-align: center;"></td>
+                                        <td style = "text-align: center;">{$as.bought_time}</td>
+                                        <td style = "text-align: center;"></td>
+                                        <!-- <td >{$shop.delivery_time}</td> -->
+                                        <td onclick="add('评论','{:U('Wechat/comment',array('wei_id'=>$as['wei_id']))}')" style="cursor: pointer">
+                                            <a href="javascript:;">{$as.comment|subtext=8}</a>
+                                        </td>
+                                        <!--<td style = "text-align: center;"  >{$as.longs}</td>-->
+                                        <!--<td style = "text-align: center;"  >{$as.ratings}</td>-->
+                                        <!--<td style = "text-align: center;"  >{$as.ratings_time}</td>-->
+                                        <td style = "text-align: center;" onclick="ishide('确定收货么？',this,{$as.wei_id})">{$as.wei_remarks}</td>
+                                        <td style = "text-align: center;" id="sn" >{$as.shop_name}</td>
+                                        <td style = "text-align: center;" >{$as.receipt_time}</td>
+                                        <td style = "text-align: center;" >{$as.we_we}</td>
+                                        <td style = "text-align: center;">
+                                            <a href="javascript:if(confirm('确实要删除吗?'))location='{:U('Wechat/deleteWechat',array('wei_id'=>$as['wei_id'],'gd'=>$groupId,'md'=>$menuId))}'">删除</a>
+                                        </td>
+                                    </tr>
+                                </volist>
+                                </tbody>
+                            </table>
+                            <div class="pagepadding">
+                                <div class="col-sm-5"><div aria-live="polite" role="status" id="example2_info" class="dataTables_info">共{$all}条</div></div><div class="col-sm-7"><div id="example2_paginate" class="dataTables_paginate paging_simple_numbers"><ul class="pagination">{$shoppage}</ul></div></div>
+                            </div>
+                            <!-- /.box-body -->
+                        </div>
+                        <!-- /.box -->
+                    </div>
+                    <!-- /.col -->
+                </div>
+                <!-- /.row -->
+            </div>
+        </section>
+    </div>
+</div>
+<script src="{$resource}admin/plugin/layui/layui.js"></script>
+<script type="text/javascript">
+    var num = 1;
+    var checkbox = $("input[type='checkbox'][name='delAll']");
+    $('#dellAll').on('click',function () {
+        if (num%2){
+            $.each(checkbox, function(i, n){
+                checkbox[i].checked = true;
+            });
+        }else{
+            $.each(checkbox, function(i, n){
+                checkbox[i].checked = false;
+            });
+        }
+        num++;
+    });
+    $('.selectRule').on('click',function () {
+        var classname = $(this).children(".layui-form-checkbox")[0].className;
+        var classArr = classname.split(' ');
+        var checkbox = $(this).next('td').find("input[type='checkbox']");
+        if($.inArray('layui-form-checked',classArr) >= 0){
+            $.each(checkbox,function (i,n) {
+                checkbox[i].checked = true;
+            });
+            $(this).next('td').find(".layui-form-checkbox").addClass('layui-form-checked');
+        }else{
+            $.each(checkbox,function (i,n) {
+                checkbox[i].checked = false;
+            });
+            $(this).next('td').find(".layui-form-checkbox").removeClass('layui-form-checked');
+        }
+    });
+
+
+    layui.use('laydate', function(){
+        var laydate = layui.laydate;
+        var start = {
+            min: laydate.now()
+            ,max: '2099-06-16 23:59:59'
+            ,istoday: false
+            ,choose: function(datas){
+                end.min = datas; //开始日选好后，重置结束日的最小日期
+                end.start = datas //将结束日的初始值设定为开始日
+            }
+        };
+        var end = {
+            min: laydate.now()
+            ,max: '2099-06-16 23:59:59'
+            ,istoday: false
+            ,choose: function(datas){
+                start.max = datas; //结束日选好后，重置开始日的最大日期
+            }
+        };
+        document.getElementById('LAY_demorange_s').onclick = function(){
+            start.elem = this;
+            laydate(start);
+            console.log(start);
+        }
+        document.getElementById('LAY_demorange_e').onclick = function(){
+            end.elem = this
+            laydate(end);
+        }
+    });
+    function comments(title,w,h){
+        var checkbox = $("input[type='checkbox'][name='delAll']");
+        var str = '';
+        $.each(checkbox, function(i, n){
+            if(checkbox[i].checked == true){
+                str += checkbox[i].value+',';
+            }
+        });
+        url = "{:U('Wechat/comment')}"+"?wei_id="+str;
+
+        x_admin_show(title,url,w,h)
+    }
+    function iswechat(){
+        var checkbox = $("input[type='checkbox'][name='delAll']");
+        var str = '';
+        $.each(checkbox, function(i, n){
+            if(checkbox[i].checked == true){
+                str += checkbox[i].value+',';
+            }
+        });
+        $("#ids").val(str);
+    }
+    function ishide(title,obj,id){
+        if(title === undefined){
+            title = '确认要删除吗？';
+        }
+        layer.confirm(title,function(index){
+            var result =  post("{:U('Shop/shopsreceipt')}",{'ids':id});
+            console.log(result == 1);
+            if (result == 1){
+                layer.msg("成功",{icon: 1,time:1000},function(){
+                    $(obj).html('收货');
+                    window.location.reload();
+                });
+            }else{
+                layer.msg("失败",{icon: 5,time:1000});
+            }
+        });
+
+    }
+    $("#receipt").click(function(){
+        var name = $('#name').val();
+        var start = $('#start').val();
+        var end = $('#end').val();
+        $.ajax({
+            url:"{:U('Shop/Receipt')}",
+            type:"post",
+            dataType: "json",
+            data:{'name':name,'start':start,'end':end},
+            async: "false",
+            success:function(result){
+                if(result == '1'){
+                    layer.msg("一键收货成功", { icon: 6 });
+                    parent.location.reload();
+                }else if(result == '2'){
+                    layer.msg("没有账号", { icon: 5 });
+                }else if(result == '4'){
+                    layer.msg("请选择参数", { icon: 5 });
+                }else{
+                    layer.msg("账号数据不足10", { icon: 5 });
+                }
+            }
+        })
+    });
+
+    //收货笔数
+    $("#pens").click(function(){
+        var name = $('#name').val();
+        var start = $('#start').val();
+        var end = $('#end').val();
+        var number = $('#number').val();
+        $.ajax({
+            url:"{:U('Shop/NumberOfPens')}",
+            type:"post",
+            dataType: "json",
+            data:{'name':name,'start':start,'end':end,'number':number},
+            async: "false",
+            success:function(result){
+                if(result == '1'){
+                    layer.msg("一键收货成功", { icon: 6 });
+                    location.reload();
+                }else if(result == '2'){
+                    layer.msg("没有账号", { icon: 5 });
+                }else if(result == '4'){
+                    layer.msg("请选择参数", { icon: 5 });
+                }else{
+                    layer.msg("账号数据不足10", { icon: 5 });
+                }
+            }
+        })
+    });
+</script>
+<include file="Common/button"/>

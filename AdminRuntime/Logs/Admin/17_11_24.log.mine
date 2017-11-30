@@ -1,0 +1,36 @@
+[ 2017-11-24T08:43:15+08:00 ] ::1 /admin/plugin/font-awesome/css/font-awesome.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000078s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001321s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004634s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.031607s ]
+NOTIC: [8] Constant LANG_SET already defined G:\working\PHP\jingdong\ThinkPHPFrame\Library\Behavior\CheckLangBehavior.class.php 第 55 行.
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.010633s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.048991s ]
+ERR: 无法加载控制器:Plugin
+
+[ 2017-11-24T08:43:15+08:00 ] ::1 /admin/plugin/layui/css/layui.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000711s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005871s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.026571s ]
+NOTIC: [8] Constant LANG_SET already defined G:\working\PHP\jingdong\ThinkPHPFrame\Library\Behavior\CheckLangBehavior.class.php 第 55 行.
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.009444s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.045307s ]
+ERR: 无法加载控制器:Plugin
+
+[ 2017-11-24T08:43:15+08:00 ] ::1 /admin/css/animate.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000737s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005792s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.030146s ]
+NOTIC: [8] Constant LANG_SET already defined G:\working\PHP\jingdong\ThinkPHPFrame\Library\Behavior\CheckLangBehavior.class.php 第 55 行.
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.011556s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.050274s ]
+ERR: 无法加载控制器:Css
+

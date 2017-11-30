@@ -1,0 +1,967 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" readonly="true" id="950204f0-4296-497e-ab72-8cd27969446b" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AdminRuntime/Logs/Admin/17_11_17.log" afterPath="$PROJECT_DIR$/AdminRuntime/Logs/Admin/17_11_17.log" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AgentRuntime/Cache/Agent/7ce618adad0bdf0023e2969c358a2ea3.php" afterPath="$PROJECT_DIR$/AgentRuntime/Cache/Agent/7ce618adad0bdf0023e2969c358a2ea3.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AgentRuntime/Cache/Agent/ae5f099bc0dbd8d488d42f801c58b8e6.php" afterPath="$PROJECT_DIR$/AgentRuntime/Cache/Agent/ae5f099bc0dbd8d488d42f801c58b8e6.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AgentRuntime/Logs/Agent/17_11_17.log" afterPath="$PROJECT_DIR$/AgentRuntime/Logs/Agent/17_11_17.log" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AgentRuntime/Logs/Agent/17_11_30.log" afterPath="$PROJECT_DIR$/AgentRuntime/Logs/Agent/17_11_30.log" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AgentTemplate/Agent/Tasks/liuliangtasks.html" afterPath="$PROJECT_DIR$/AgentTemplate/Agent/Tasks/liuliangtasks.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AgentTemplate/Agent/Tasks/single.html" afterPath="$PROJECT_DIR$/AgentTemplate/Agent/Tasks/single.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SellerRuntime/Cache/Seller/d315c631c2b32d76e6166ef26a0b63d2.php" afterPath="$PROJECT_DIR$/SellerRuntime/Cache/Seller/d315c631c2b32d76e6166ef26a0b63d2.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SellerRuntime/Logs/Seller/17_11_17.log" afterPath="$PROJECT_DIR$/SellerRuntime/Logs/Seller/17_11_17.log" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SellerRuntime/Logs/Seller/17_11_30.log" afterPath="$PROJECT_DIR$/SellerRuntime/Logs/Seller/17_11_30.log" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_TABLE_DETAILS" value="true" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <expand />
+    <select />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="TasksController.class.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/AgentApps/Agent/Controller/TasksController.class.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1613">
+              <caret line="1354" column="9" lean-forward="false" selection-start-line="1354" selection-start-column="9" selection-end-line="1354" selection-end-column="9" />
+              <folding>
+                <marker date="1512004852754" expanded="true" signature="11657:13215" ph="..." />
+                <marker date="1512004852754" expanded="true" signature="20190:20244" ph="..." />
+                <marker date="1512004852754" expanded="true" signature="21037:21338" ph="..." />
+                <marker date="1512004852754" expanded="true" signature="21149:21203" ph="..." />
+                <marker date="1512004852754" expanded="true" signature="37149:37162" ph="..." />
+                <marker date="1512004852754" expanded="true" signature="37571:37584" ph="..." />
+                <marker date="1512004852754" expanded="true" signature="37983:37996" ph="..." />
+                <marker date="1512004852754" expanded="true" signature="38384:38397" ph="..." />
+                <marker date="1512004852754" expanded="true" signature="38836:38849" ph="..." />
+                <marker date="1512004852754" expanded="true" signature="39258:39271" ph="..." />
+                <marker date="1512004852754" expanded="true" signature="39670:39683" ph="..." />
+                <marker date="1512004852754" expanded="true" signature="40071:40084" ph="..." />
+                <marker date="1512004852754" expanded="true" signature="40522:40535" ph="..." />
+                <marker date="1512004852754" expanded="true" signature="40948:40961" ph="..." />
+                <marker date="1512004852754" expanded="true" signature="41360:41373" ph="..." />
+                <marker date="1512004852754" expanded="true" signature="41761:41774" ph="..." />
+                <marker date="1512004852754" expanded="true" signature="42627:42640" ph="..." />
+                <marker date="1512004852754" expanded="true" signature="43018:43031" ph="..." />
+                <marker date="1512004852754" expanded="true" signature="43430:43443" ph="..." />
+                <marker date="1512004852754" expanded="true" signature="43831:43844" ph="..." />
+                <marker date="1512004852754" expanded="true" signature="44311:44324" ph="..." />
+                <marker date="1512004852754" expanded="true" signature="44681:44694" ph="..." />
+                <marker date="1512004852754" expanded="true" signature="45093:45106" ph="..." />
+                <marker date="1512004852754" expanded="true" signature="45480:45493" ph="..." />
+                <marker date="1512004852754" expanded="true" signature="45950:45963" ph="..." />
+                <marker date="1512004852754" expanded="true" signature="46340:46353" ph="..." />
+                <marker date="1512004852754" expanded="true" signature="46752:46765" ph="..." />
+                <marker date="1512004852754" expanded="true" signature="47135:47148" ph="..." />
+                <marker date="1512004852754" expanded="true" signature="47774:47787" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="single.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/AgentTemplate/Agent/Tasks/single.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="216">
+              <caret line="82" column="82" lean-forward="false" selection-start-line="82" selection-start-column="76" selection-end-line="82" selection-end-column="82" />
+              <folding>
+                <element signature="n#style#0;n#a#0;n#if#0;n#td#11;n#tr#0;n#volist#0;n#tbody#0;n#table#0;n#div#1;n#div#0;n#div#0;n#div#0;n#section#1;n#div#0;n#div#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="liuliangtasks.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/AgentTemplate/Agent/Tasks/liuliangtasks.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="433">
+              <caret line="103" column="90" lean-forward="false" selection-start-line="103" selection-start-column="90" selection-end-line="103" selection-end-column="90" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="function.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/AdminApps/Admin/Common/function.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="471" column="20" lean-forward="false" selection-start-line="471" selection-start-column="9" selection-end-line="471" selection-end-column="20" />
+              <folding>
+                <marker date="1511745581586" expanded="true" signature="1690:1981" ph="..." />
+                <marker date="1511745581586" expanded="true" signature="2603:2909" ph="..." />
+                <marker date="1511745581586" expanded="true" signature="3380:3433" ph="..." />
+                <marker date="1511745581586" expanded="true" signature="3530:3568" ph="..." />
+                <marker date="1511745581586" expanded="true" signature="3674:3705" ph="..." />
+                <marker date="1511745581586" expanded="true" signature="4231:4284" ph="..." />
+                <marker date="1511745581586" expanded="true" signature="4382:4420" ph="..." />
+                <marker date="1511745581586" expanded="true" signature="4527:4559" ph="..." />
+                <marker date="1511745581586" expanded="true" signature="5089:5142" ph="..." />
+                <marker date="1511745581586" expanded="true" signature="5240:5278" ph="..." />
+                <marker date="1511745581586" expanded="true" signature="5385:5417" ph="..." />
+                <marker date="1511745581586" expanded="true" signature="5917:5970" ph="..." />
+                <marker date="1511745581586" expanded="true" signature="6068:6105" ph="..." />
+                <marker date="1511745581586" expanded="true" signature="6212:6244" ph="..." />
+                <marker date="1511745581586" expanded="true" signature="6917:7222" ph="..." />
+                <marker date="1511745581586" expanded="true" signature="7812:8097" ph="..." />
+                <marker date="1511745581586" expanded="true" signature="8957:9256" ph="..." />
+                <marker date="1511745581586" expanded="true" signature="10628:10650" ph="select * fro... ${$table}" />
+                <marker date="1511745581586" expanded="true" signature="11068:11109" ph="insert into `${$table}`... " />
+                <marker date="1511745581586" expanded="true" signature="12756:12777" ph="DROP TABLE I... " />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>Single</find>
+      <find>deletetimeTasks</find>
+      <find>liuliangEdit</find>
+      <find>Taskaudit</find>
+      <find>edittimeTasks</find>
+      <find>selectShopBySeller</find>
+      <find>add</find>
+      <find>floor</find>
+      <find>ShopSearch</find>
+      <find>Importshop</find>
+      <find>WechaGroupsWhole</find>
+      <find>bindeqis</find>
+      <find>NumberOfPens</find>
+      <find>deletesliulaingS</find>
+      <find>deleteliuliang</find>
+      <find>settlement</find>
+      <find>WeExport</find>
+      <find>sellertask</find>
+      <find>WechaGroupsDisable</find>
+    </findStrings>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/AgentApps/Agent/Controller/QqController.class.php" />
+        <option value="$PROJECT_DIR$/AgentTemplate/Agent/Agent/selectaddress.html" />
+        <option value="$PROJECT_DIR$/AgentTemplate/Agent/Tasks/liuliangEdit.html" />
+        <option value="$PROJECT_DIR$/SellerTemplate/Seller/Tasks/liuliangEdit.html" />
+        <option value="$PROJECT_DIR$/AgentTemplate/Agent/Tasks/selectliuliang.html" />
+        <option value="$PROJECT_DIR$/AgentApps/Agent/Model/ShopModel.class.php" />
+        <option value="$PROJECT_DIR$/AgentTemplate/Agent/Wechat/purchase.html" />
+        <option value="$PROJECT_DIR$/AdminTemplate/Admin/Shop/ShopSearch.html" />
+        <option value="$PROJECT_DIR$/AdminTemplate/Admin/Wechat/listWechatGroups.html" />
+        <option value="$PROJECT_DIR$/AdminApps/Admin/Controller/ShopController.class.php" />
+        <option value="$PROJECT_DIR$/AgentApps/Agent/Controller/ShopController.class.php" />
+        <option value="$PROJECT_DIR$/AdminTemplate/Admin/QQ/listWechatGroups.html" />
+        <option value="$PROJECT_DIR$/SellerTemplate/Seller/Tasks/liuliangcreate.html" />
+        <option value="$PROJECT_DIR$/SellerTemplate/Seller/Index/index.html" />
+        <option value="$PROJECT_DIR$/AgentTemplate/Agent/Index/index.html" />
+        <option value="$PROJECT_DIR$/AdminResource/adminhome/component/layer-v3.0.3/layer/layer.js" />
+        <option value="$PROJECT_DIR$/SellerTemplate/Seller/Wechat/listWechatGroups.html" />
+        <option value="$PROJECT_DIR$/AgentTemplate/Agent/Wechat/listWechatGroups.html" />
+        <option value="$PROJECT_DIR$/SellerApps/Seller/Controller/ShopController.class.php" />
+        <option value="$PROJECT_DIR$/SellerTemplate/Seller/Shop/ShopSearch.html" />
+        <option value="$PROJECT_DIR$/SellerTemplate/Seller/Tasks/taskscreate.html" />
+        <option value="$PROJECT_DIR$/SellerTemplate/Seller/Tasks/liuliangtasks.html" />
+        <option value="$PROJECT_DIR$/SellerApps/Seller/Controller/TasksController.class.php" />
+        <option value="$PROJECT_DIR$/SellerTemplate/Seller/Tasks/listtasks.html" />
+        <option value="$PROJECT_DIR$/AgentTemplate/Agent/Tasks/selecttask.html" />
+        <option value="$PROJECT_DIR$/AgentTemplate/Agent/Tasks/edittimeTasks.html" />
+        <option value="$PROJECT_DIR$/SellerTemplate/Seller/Tasks/edittimeTasks.html" />
+        <option value="$PROJECT_DIR$/AdminApps/Admin/Controller/QqaccountController.class.php" />
+        <option value="$PROJECT_DIR$/AdminApps/Admin/Controller/WechatController.class.php" />
+        <option value="$PROJECT_DIR$/AgentApps/Agent/Controller/WechatController.class.php" />
+        <option value="$PROJECT_DIR$/AgentTemplate/Agent/Wechat/WechaGroupsDisable.html" />
+        <option value="$PROJECT_DIR$/AgentApps/Agent/Controller/TasksController.class.php" />
+        <option value="$PROJECT_DIR$/AgentTemplate/Agent/Tasks/single.html" />
+        <option value="$PROJECT_DIR$/AgentTemplate/Agent/Tasks/liuliangtasks.html" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="26" />
+    <option name="y" value="-25" />
+    <option name="width" value="1203" />
+    <option name="height" value="655" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>AngularJS</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="admin.catsayer.xyz" type="b2602c69:ProjectViewProjectNode" />
+              <item name="admin.catsayer.xyz" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="admin.catsayer.xyz" type="b2602c69:ProjectViewProjectNode" />
+              <item name="admin.catsayer.xyz" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="AdminApps" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="admin.catsayer.xyz" type="b2602c69:ProjectViewProjectNode" />
+              <item name="admin.catsayer.xyz" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="AdminApps" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Admin" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="admin.catsayer.xyz" type="b2602c69:ProjectViewProjectNode" />
+              <item name="admin.catsayer.xyz" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="AdminApps" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Admin" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Common" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="admin.catsayer.xyz" type="b2602c69:ProjectViewProjectNode" />
+              <item name="admin.catsayer.xyz" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="AdminTemplate" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="admin.catsayer.xyz" type="b2602c69:ProjectViewProjectNode" />
+              <item name="admin.catsayer.xyz" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="AgentApps" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="admin.catsayer.xyz" type="b2602c69:ProjectViewProjectNode" />
+              <item name="admin.catsayer.xyz" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="AgentApps" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Agent" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="admin.catsayer.xyz" type="b2602c69:ProjectViewProjectNode" />
+              <item name="admin.catsayer.xyz" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="AgentApps" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Agent" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Controller" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="admin.catsayer.xyz" type="b2602c69:ProjectViewProjectNode" />
+              <item name="admin.catsayer.xyz" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="AgentApps" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Agent" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Model" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="admin.catsayer.xyz" type="b2602c69:ProjectViewProjectNode" />
+              <item name="admin.catsayer.xyz" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="AgentTemplate" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="admin.catsayer.xyz" type="b2602c69:ProjectViewProjectNode" />
+              <item name="admin.catsayer.xyz" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="AgentTemplate" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Agent" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="admin.catsayer.xyz" type="b2602c69:ProjectViewProjectNode" />
+              <item name="admin.catsayer.xyz" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="AgentTemplate" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Agent" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Index" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="admin.catsayer.xyz" type="b2602c69:ProjectViewProjectNode" />
+              <item name="admin.catsayer.xyz" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="AgentTemplate" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Agent" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Shop" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="admin.catsayer.xyz" type="b2602c69:ProjectViewProjectNode" />
+              <item name="admin.catsayer.xyz" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="AgentTemplate" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Agent" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Tasks" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="admin.catsayer.xyz" type="b2602c69:ProjectViewProjectNode" />
+              <item name="admin.catsayer.xyz" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="AgentTemplate" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Agent" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Wechat" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="admin.catsayer.xyz" type="b2602c69:ProjectViewProjectNode" />
+              <item name="admin.catsayer.xyz" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="SellerApps" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="admin.catsayer.xyz" type="b2602c69:ProjectViewProjectNode" />
+              <item name="admin.catsayer.xyz" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="SellerApps" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Seller" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="admin.catsayer.xyz" type="b2602c69:ProjectViewProjectNode" />
+              <item name="admin.catsayer.xyz" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="SellerApps" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Seller" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Controller" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="admin.catsayer.xyz" type="b2602c69:ProjectViewProjectNode" />
+              <item name="admin.catsayer.xyz" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="SellerApps" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Seller" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Model" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="admin.catsayer.xyz" type="b2602c69:ProjectViewProjectNode" />
+              <item name="admin.catsayer.xyz" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="SellerTemplate" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="admin.catsayer.xyz" type="b2602c69:ProjectViewProjectNode" />
+              <item name="admin.catsayer.xyz" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="SellerTemplate" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Seller" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="admin.catsayer.xyz" type="b2602c69:ProjectViewProjectNode" />
+              <item name="admin.catsayer.xyz" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="SellerTemplate" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Seller" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Index" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="admin.catsayer.xyz" type="b2602c69:ProjectViewProjectNode" />
+              <item name="admin.catsayer.xyz" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="SellerTemplate" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Seller" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Shop" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="admin.catsayer.xyz" type="b2602c69:ProjectViewProjectNode" />
+              <item name="admin.catsayer.xyz" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="SellerTemplate" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Seller" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Tasks" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="admin.catsayer.xyz" type="b2602c69:ProjectViewProjectNode" />
+              <item name="admin.catsayer.xyz" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="SellerTemplate" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Seller" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Wechat" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+      <pane id="Scratches" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="settings.editor.selected.configurable" value="Errors" />
+    <property name="WebServerToolWindowFactoryState" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.symlinks" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.mappings" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\kai\Desktop\admin.catsayer.xyz\SellerTemplate\Seller\Tasks" />
+      <recent name="C:\Users\kai\Desktop\admin.catsayer.xyz\SellerApps\Seller\Controller" />
+      <recent name="C:\Users\kai\Desktop\admin.catsayer.xyz\AgentTemplate\Agent\Tasks" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration" cleanupOnStartRun="true">
+    <configuration>C:\Users\kai\AppData\Roaming\Subversion</configuration>
+    <supportedVersion>125</supportedVersion>
+  </component>
+  <component name="SvnFileUrlMappingImpl">
+    <option name="myMappingRoots">
+      <list>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="C:\Users\kai\Desktop\admin.catsayer.xyz" />
+          <option name="myCopyRoot" value="C:\Users\kai\Desktop\admin.catsayer.xyz" />
+        </SvnCopyRootSimple>
+      </list>
+    </option>
+    <option name="myMoreRealMappingRoots">
+      <list>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="C:\Users\kai\Desktop\admin.catsayer.xyz" />
+          <option name="myCopyRoot" value="C:\Users\kai\Desktop\admin.catsayer.xyz" />
+        </SvnCopyRootSimple>
+      </list>
+    </option>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="950204f0-4296-497e-ab72-8cd27969446b" name="Default" comment="" />
+      <created>1511854186467</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1511854186467</updated>
+      <workItem from="1511854189110" duration="1987000" />
+      <workItem from="1511916075969" duration="18385000" />
+      <workItem from="1511951393967" duration="20083000" />
+      <workItem from="1512002708962" duration="3553000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="44008000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329429" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14128843" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329429" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/AdminResource/adminhome/component/layer-v3.0.3/layer/layer.js</url>
+          <line>1</line>
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="2" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/SellerApps/Seller/Controller/TasksController.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AgentTemplate/Agent/Tasks/single.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2880">
+          <caret line="80" column="107" lean-forward="false" selection-start-line="80" selection-start-column="104" selection-end-line="80" selection-end-column="107" />
+          <folding>
+            <element signature="n#style#0;n#a#0;n#if#0;n#td#11;n#tr#0;n#volist#0;n#tbody#0;n#table#0;n#div#1;n#div#0;n#div#0;n#div#0;n#section#1;n#div#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AdminResource/js/script123.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="10440">
+          <caret line="290" column="11" lean-forward="true" selection-start-line="269" selection-start-column="8" selection-end-line="290" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SellerTemplate/Seller/Tasks/liuliangcreate.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3672">
+          <caret line="102" column="2" lean-forward="true" selection-start-line="102" selection-start-column="2" selection-end-line="102" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AgentApps/Agent/Controller/QqController.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="267" column="49" lean-forward="false" selection-start-line="267" selection-start-column="49" selection-end-line="267" selection-end-column="49" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AgentTemplate/Agent/Agent/selectaddress.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="27" column="43" lean-forward="false" selection-start-line="27" selection-start-column="40" selection-end-line="27" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SellerTemplate/Seller/Tasks/edittasks.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-4536">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SellerApps/Seller/Controller/WechatController.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="197" column="5" lean-forward="true" selection-start-line="159" selection-start-column="3" selection-end-line="197" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AgentTemplate/Agent/Tasks/liuliangEdit.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="18" column="40" lean-forward="false" selection-start-line="18" selection-start-column="40" selection-end-line="18" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SellerTemplate/Seller/Tasks/liuliangEdit.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1260">
+          <caret line="71" column="157" lean-forward="false" selection-start-line="71" selection-start-column="153" selection-end-line="71" selection-end-column="157" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AgentApps/Agent/Model/ShopModel.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="56" column="5" lean-forward="false" selection-start-line="56" selection-start-column="5" selection-end-line="56" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SellerApps/Seller/Model/ShopModel.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="25" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AgentTemplate/Agent/Tasks/selectliuliang.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="39" column="5" lean-forward="true" selection-start-line="39" selection-start-column="5" selection-end-line="39" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AgentTemplate/Agent/Wechat/purchase.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="17" column="96" lean-forward="false" selection-start-line="17" selection-start-column="96" selection-end-line="17" selection-end-column="100" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SellerTemplate/Seller/Tasks/addtask.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-5724">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AdminResource/js/script123.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="290" column="11" lean-forward="false" selection-start-line="269" selection-start-column="8" selection-end-line="290" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AdminTemplate/Admin/Wechat/listWechatGroups.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="25" column="48" lean-forward="false" selection-start-line="25" selection-start-column="48" selection-end-line="25" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AgentTemplate/Agent/Wechat/WeExport.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AdminApps/Admin/Controller/AdminController.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-4536">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ThinkPHPFrame/Common/functions.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-15">
+          <caret line="1451" column="9" lean-forward="false" selection-start-line="1451" selection-start-column="9" selection-end-line="1451" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AdminApps/Admin/Controller/LoginController.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="58" column="55" lean-forward="true" selection-start-line="58" selection-start-column="39" selection-end-line="58" selection-end-column="55" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AdminTemplate/Admin/Shop/ShopSearch.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="372">
+          <caret line="30" column="31" lean-forward="true" selection-start-line="25" selection-start-column="24" selection-end-line="30" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AdminApps/Admin/Controller/ShopController.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="74">
+          <caret line="352" column="5" lean-forward="true" selection-start-line="294" selection-start-column="4" selection-end-line="352" selection-end-column="5" />
+          <folding>
+            <element signature="e#11357#13682#0#PHP" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AdminResource/admin/plugin/layui/layui.all.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="1" column="514" lean-forward="false" selection-start-line="1" selection-start-column="514" selection-end-line="1" selection-end-column="514" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SellerTemplate/Seller/Index/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2421">
+          <caret line="2" column="6" lean-forward="true" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AgentTemplate/Agent/Index/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="185">
+          <caret line="13" column="39" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="157" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AdminResource/adminhome/component/layer-v3.0.3/layer/layer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="1" column="2712" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="1" selection-end-column="21527" />
+          <folding>
+            <element signature="n#!!doc" expanded="false" />
+            <marker date="1511964522930" expanded="true" signature="3347:3500" ph="..." />
+            <marker date="1511964522930" expanded="true" signature="3768:3811" ph="..." />
+            <marker date="1511964522930" expanded="true" signature="20504:20512" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SellerApps/Seller/Controller/ShopController.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="505" column="5" lean-forward="true" selection-start-line="470" selection-start-column="3" selection-end-line="505" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AgentApps/Agent/Controller/ShopController.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="298">
+          <caret line="458" column="5" lean-forward="true" selection-start-line="423" selection-start-column="3" selection-end-line="458" selection-end-column="5" />
+          <folding>
+            <element signature="e#15821#16888#0#PHP" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SellerTemplate/Seller/Shop/ShopSearch.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="162" column="2" lean-forward="true" selection-start-line="162" selection-start-column="2" selection-end-line="162" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AgentTemplate/Agent/Shop/ShopSearch.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4830">
+          <caret line="305" column="7" lean-forward="true" selection-start-line="280" selection-start-column="2" selection-end-line="305" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SellerTemplate/Seller/Wechat/listWechatGroups.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="353">
+          <caret line="49" column="42" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="304" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SellerTemplate/Seller/Tasks/liuliangcreate.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4536">
+          <caret line="126" column="49" lean-forward="true" selection-start-line="125" selection-start-column="27" selection-end-line="126" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SellerTemplate/Seller/Tasks/liuliangtasks.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="120" column="135" lean-forward="false" selection-start-line="120" selection-start-column="121" selection-end-line="120" selection-end-column="135" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SellerTemplate/Seller/Tasks/taskscreate.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="353">
+          <caret line="245" column="7" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="354" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SellerTemplate/Seller/Tasks/listtasks.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="173">
+          <caret line="134" column="86" lean-forward="false" selection-start-line="134" selection-start-column="86" selection-end-line="134" selection-end-column="86" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AgentTemplate/Agent/Tasks/edittimeTasks.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="102" column="148" lean-forward="false" selection-start-line="102" selection-start-column="148" selection-end-line="102" selection-end-column="148" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SellerApps/Seller/Controller/TasksController.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="301">
+          <caret line="542" column="7" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="1598" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AgentTemplate/Agent/Tasks/selecttask.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1800">
+          <caret line="50" column="71" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="87" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SellerTemplate/Seller/Tasks/edittimeTasks.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="95" column="26" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="347" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AdminTemplate/Admin/QQ/listWechatGroups.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="23" column="92" lean-forward="false" selection-start-line="23" selection-start-column="84" selection-end-line="23" selection-end-column="92" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AdminApps/Admin/Controller/QqaccountController.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="229">
+          <caret line="181" column="58" lean-forward="false" selection-start-line="181" selection-start-column="58" selection-end-line="181" selection-end-column="58" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AdminApps/Admin/Controller/WechatController.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="179" column="86" lean-forward="false" selection-start-line="179" selection-start-column="86" selection-end-line="179" selection-end-column="86" />
+          <folding>
+            <element signature="e#14024#15058#0#PHP" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AgentApps/Agent/Model/SellerTaskModel.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="86" column="111" lean-forward="false" selection-start-line="86" selection-start-column="38" selection-end-line="86" selection-end-column="111" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AgentApps/Agent/Controller/WechatController.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-897">
+          <caret line="157" column="38" lean-forward="false" selection-start-line="157" selection-start-column="20" selection-end-line="157" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AgentTemplate/Agent/Wechat/listWechatGroups.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="309" column="9" lean-forward="true" selection-start-line="273" selection-start-column="6" selection-end-line="309" selection-end-column="9" />
+          <folding>
+            <element signature="e#16475#17820#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AgentTemplate/Agent/Wechat/WechaGroupsDisable.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="509">
+          <caret line="307" column="5" lean-forward="false" selection-start-line="307" selection-start-column="5" selection-end-line="307" selection-end-column="5" />
+          <folding>
+            <element signature="e#15789#16998#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AgentApps/Agent/Controller/TasksController.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1613">
+          <caret line="1354" column="9" lean-forward="false" selection-start-line="1354" selection-start-column="9" selection-end-line="1354" selection-end-column="9" />
+          <folding>
+            <marker date="1512004852754" expanded="true" signature="11657:13215" ph="..." />
+            <marker date="1512004852754" expanded="true" signature="20190:20244" ph="..." />
+            <marker date="1512004852754" expanded="true" signature="21037:21338" ph="..." />
+            <marker date="1512004852754" expanded="true" signature="21149:21203" ph="..." />
+            <marker date="1512004852754" expanded="true" signature="37149:37162" ph="..." />
+            <marker date="1512004852754" expanded="true" signature="37571:37584" ph="..." />
+            <marker date="1512004852754" expanded="true" signature="37983:37996" ph="..." />
+            <marker date="1512004852754" expanded="true" signature="38384:38397" ph="..." />
+            <marker date="1512004852754" expanded="true" signature="38836:38849" ph="..." />
+            <marker date="1512004852754" expanded="true" signature="39258:39271" ph="..." />
+            <marker date="1512004852754" expanded="true" signature="39670:39683" ph="..." />
+            <marker date="1512004852754" expanded="true" signature="40071:40084" ph="..." />
+            <marker date="1512004852754" expanded="true" signature="40522:40535" ph="..." />
+            <marker date="1512004852754" expanded="true" signature="40948:40961" ph="..." />
+            <marker date="1512004852754" expanded="true" signature="41360:41373" ph="..." />
+            <marker date="1512004852754" expanded="true" signature="41761:41774" ph="..." />
+            <marker date="1512004852754" expanded="true" signature="42627:42640" ph="..." />
+            <marker date="1512004852754" expanded="true" signature="43018:43031" ph="..." />
+            <marker date="1512004852754" expanded="true" signature="43430:43443" ph="..." />
+            <marker date="1512004852754" expanded="true" signature="43831:43844" ph="..." />
+            <marker date="1512004852754" expanded="true" signature="44311:44324" ph="..." />
+            <marker date="1512004852754" expanded="true" signature="44681:44694" ph="..." />
+            <marker date="1512004852754" expanded="true" signature="45093:45106" ph="..." />
+            <marker date="1512004852754" expanded="true" signature="45480:45493" ph="..." />
+            <marker date="1512004852754" expanded="true" signature="45950:45963" ph="..." />
+            <marker date="1512004852754" expanded="true" signature="46340:46353" ph="..." />
+            <marker date="1512004852754" expanded="true" signature="46752:46765" ph="..." />
+            <marker date="1512004852754" expanded="true" signature="47135:47148" ph="..." />
+            <marker date="1512004852754" expanded="true" signature="47774:47787" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AgentTemplate/Agent/Tasks/single.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="82" column="82" lean-forward="false" selection-start-line="82" selection-start-column="76" selection-end-line="82" selection-end-column="82" />
+          <folding>
+            <element signature="n#style#0;n#a#0;n#if#0;n#td#11;n#tr#0;n#volist#0;n#tbody#0;n#table#0;n#div#1;n#div#0;n#div#0;n#div#0;n#section#1;n#div#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AgentTemplate/Agent/Tasks/liuliangtasks.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="433">
+          <caret line="103" column="90" lean-forward="false" selection-start-line="103" selection-start-column="90" selection-end-line="103" selection-end-column="90" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AdminApps/Admin/Common/function.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="471" column="20" lean-forward="false" selection-start-line="471" selection-start-column="9" selection-end-line="471" selection-end-column="20" />
+          <folding>
+            <marker date="1511745581586" expanded="true" signature="1690:1981" ph="..." />
+            <marker date="1511745581586" expanded="true" signature="2603:2909" ph="..." />
+            <marker date="1511745581586" expanded="true" signature="3380:3433" ph="..." />
+            <marker date="1511745581586" expanded="true" signature="3530:3568" ph="..." />
+            <marker date="1511745581586" expanded="true" signature="3674:3705" ph="..." />
+            <marker date="1511745581586" expanded="true" signature="4231:4284" ph="..." />
+            <marker date="1511745581586" expanded="true" signature="4382:4420" ph="..." />
+            <marker date="1511745581586" expanded="true" signature="4527:4559" ph="..." />
+            <marker date="1511745581586" expanded="true" signature="5089:5142" ph="..." />
+            <marker date="1511745581586" expanded="true" signature="5240:5278" ph="..." />
+            <marker date="1511745581586" expanded="true" signature="5385:5417" ph="..." />
+            <marker date="1511745581586" expanded="true" signature="5917:5970" ph="..." />
+            <marker date="1511745581586" expanded="true" signature="6068:6105" ph="..." />
+            <marker date="1511745581586" expanded="true" signature="6212:6244" ph="..." />
+            <marker date="1511745581586" expanded="true" signature="6917:7222" ph="..." />
+            <marker date="1511745581586" expanded="true" signature="7812:8097" ph="..." />
+            <marker date="1511745581586" expanded="true" signature="8957:9256" ph="..." />
+            <marker date="1511745581586" expanded="true" signature="10628:10650" ph="select * fro... ${$table}" />
+            <marker date="1511745581586" expanded="true" signature="11068:11109" ph="insert into `${$table}`... " />
+            <marker date="1511745581586" expanded="true" signature="12756:12777" ph="DROP TABLE I... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

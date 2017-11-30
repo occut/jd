@@ -1,0 +1,74 @@
+<include file="Common/top"/>
+<include file="Common/nav"/>
+<div class="layui-body">
+    <div class="content-wrapper" style = "margin-left:1px ;">
+        <!-- Content Header (Page header) -->
+        <section class="content-header">
+            <h1>
+                {$value}
+
+            </h1>
+
+        </section>
+
+        <!-- Main content -->
+        <section class="content">
+            <div class="row">
+                <div class="col-xs-12">
+                    <div class="box">
+                        <div class="box-header">
+                        </div>
+                        <!-- /.box-header -->
+                        <!-- /.box-header -->
+                        <!-- form start -->
+                        <form action="{:U('Agent/editsave')}" method="post" >
+                            <div class="box-body">
+                                <div class="form-group">
+                                    <label for="adminname">用户名</label>
+                                    <input type="text" class="form-control"  value="{$con.ag_name}" disabled="disabled">
+                                </div>
+                                <div class="form-group">
+                                    <label for="email">邮箱</label>
+                                    <input type="email" class="form-control" name="ag_mb" value="{$con.ag_mb}"  id="email" placeholder="请输入邮箱">
+                                </div>
+                                <div class="form-group">
+                                    <label for="tel">手机号码</label>
+                                    <input type="text" class="form-control" name="ag_phone" value="{$con.ag_phone}" id="tel" pattern="^((13)|18|15)+\d{9}$" placeholder="请输入手机号码">
+                                </div>
+                                <div class="form-group">
+                                    <label for="tel">单价</label>
+                                    <input type="text" class="form-control" name="ag_money" value="{$con.ag_money}"   placeholder="请输入单价">
+                                </div>
+                                <input type="hidden" name="id" value="{$con.ag_id}">
+                                <!-- radio -->
+                                <div class="form-group">
+                                    <label for="t7">状态</label>
+                                    <div class="radio">
+
+                                        <label>
+                                            <input type="radio" name="ag_ban" class="flat-red" value="1" {$con['ag_ban']==1?'checked':''} >
+                                            正常
+                                        </label>
+                                        <label class="paat">
+                                            <input type="radio" name="ag_ban"  value="0" class="flat-red" {$con['ag_ban']==0?'checked':''} >
+                                            禁用
+                                        </label>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- /.box-body -->
+
+                            <div class="box-footer">
+                                <button type="submit" class="btn btn-primary">提交</button>
+                            </div>
+                        </form>
+                    </div>
+                    <!-- /.box -->
+                </div>
+            </div>
+        </section>
+        <!--/.col (right) -->
+    </div>
+
+
+        <include file="Common/button"/>

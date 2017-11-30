@@ -1,0 +1,51 @@
+<include file="Common/top"/>
+
+<div class="layui-body" style="left: 0px">
+    <div class="content-wrapper" style = "margin-left:1px ;">
+        <!-- Content Header (Page header) -->
+        <section class="content-header">
+            <h1>
+                {$value}
+            </h1>
+        </section>
+        <!-- Main content -->
+        <section class="content">
+            <div class="row">
+                <div class="col-xs-12" style="margin-right:0px; ">
+                    <div class="box">
+                        <div class="box-header">
+                            <h3 class="box-title"><a href="{:U('Wechat/Record')}" class="btn btn-block btn-primary">购买记录</a></h3>
+                            <h3 class="box-title"><a href="">余额：{$con['ba_balance']}</a></h3>
+                            <br/>
+                            <hr/>
+                        </div>
+                        <!-- /.box-header -->
+                        <div class="box-body">
+
+                            <form class="layui-form" action="{:U('Wechat/purchases')}" method="post">
+                                <div class="layui-form-item">
+                                    <label class="layui-form-label">数量</label>
+                                    <div class="layui-input-block">
+                                        <input type="text" name="title" required  lay-verify="required" placeholder="请输入订单号" autocomplete="off" class="layui-input">
+                                    </div>
+                                </div>
+                                <div class="layui-form-item">
+                                    <div class="layui-input-block">
+                                        <button class="layui-btn" lay-submit lay-filter="formDemo">购买</button>
+                                        <button type="reset" class="layui-btn layui-btn-primary">重置</button>
+                                    </div>
+                                </div>
+                            </form>
+                            <!-- /.box-body -->
+                        </div>
+                        <!-- /.box -->
+                    </div>
+                    <!-- /.col -->
+                </div>
+                <!-- /.row -->
+            </div>
+        </section>
+        <!-- /.content -->
+    </div>
+</div>
+<include file="Common/button"/>

@@ -1,0 +1,576 @@
+[ 2017-11-10T17:12:38+08:00 ] 27.209.205.175 /api.php/Api/returnshop
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Api\Controller\ApiController::get() should be compatible with Think\Controller::get($name = '') D:\phpStudy\WWW\ApiApps\Api\Controller\ApiController.class.php 第 1130 行.
+SQL: SHOW COLUMNS FROM `yefan_shop` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `yefan_shop`  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-11-10T17:35:45+08:00 ] 58.247.212.98 /api.php/api/returnshop
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.015600s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015600s ]
+NOTIC: [2048] Declaration of Api\Controller\ApiController::get() should be compatible with Think\Controller::get($name = '') D:\phpStudy\WWW\ApiApps\Api\Controller\ApiController.class.php 第 1130 行.
+SQL: SHOW COLUMNS FROM `yefan_shop` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `yefan_shop`  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-11-10T18:24:15+08:00 ] 183.12.221.226 /api.php/Api/returnshop
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Api\Controller\ApiController::get() should be compatible with Think\Controller::get($name = '') D:\phpStudy\WWW\ApiApps\Api\Controller\ApiController.class.php 第 1130 行.
+SQL: SHOW COLUMNS FROM `yefan_shop` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `yefan_shop`  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-11-10T18:24:34+08:00 ] 183.12.221.226 /api.php/Api/returnshopsreceipt
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Api\Controller\ApiController::get() should be compatible with Think\Controller::get($name = '') D:\phpStudy\WWW\ApiApps\Api\Controller\ApiController.class.php 第 1130 行.
+SQL: SHOW COLUMNS FROM `yefan_weichat` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `yefan_weichat` WHERE `wei_remarks` = '收货' AND `wei_static` = '6' AND `receipt_time` <> '' LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-11-10T18:26:42+08:00 ] 183.12.221.226 /api.php/Api/returnshop
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Api\Controller\ApiController::get() should be compatible with Think\Controller::get($name = '') D:\phpStudy\WWW\ApiApps\Api\Controller\ApiController.class.php 第 1130 行.
+SQL: SHOW COLUMNS FROM `yefan_shop` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `yefan_shop`  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-11-10T18:27:02+08:00 ] 183.12.221.226 /api.php/Api/returnshopsreceipt
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Api\Controller\ApiController::get() should be compatible with Think\Controller::get($name = '') D:\phpStudy\WWW\ApiApps\Api\Controller\ApiController.class.php 第 1130 行.
+SQL: SHOW COLUMNS FROM `yefan_weichat` [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-11-10T18:28:42+08:00 ] 183.12.221.226 /api.php/Api/returnshop
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Api\Controller\ApiController::get() should be compatible with Think\Controller::get($name = '') D:\phpStudy\WWW\ApiApps\Api\Controller\ApiController.class.php 第 1130 行.
+SQL: SHOW COLUMNS FROM `yefan_shop` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `yefan_shop`  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-11-10T18:29:01+08:00 ] 183.12.221.226 /api.php/Api/returnshopsreceipt
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Api\Controller\ApiController::get() should be compatible with Think\Controller::get($name = '') D:\phpStudy\WWW\ApiApps\Api\Controller\ApiController.class.php 第 1130 行.
+SQL: SHOW COLUMNS FROM `yefan_weichat` [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-11-10T18:29:07+08:00 ] 183.12.221.226 /api.php/Api/returnshop
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Api\Controller\ApiController::get() should be compatible with Think\Controller::get($name = '') D:\phpStudy\WWW\ApiApps\Api\Controller\ApiController.class.php 第 1130 行.
+SQL: SHOW COLUMNS FROM `yefan_shop` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `yefan_shop`  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-11-10T18:29:26+08:00 ] 183.12.221.226 /api.php/Api/returnshopsreceipt
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Api\Controller\ApiController::get() should be compatible with Think\Controller::get($name = '') D:\phpStudy\WWW\ApiApps\Api\Controller\ApiController.class.php 第 1130 行.
+SQL: SHOW COLUMNS FROM `yefan_weichat` [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-11-10T18:31:10+08:00 ] 183.12.221.226 /api.php/Api/returnshop
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Api\Controller\ApiController::get() should be compatible with Think\Controller::get($name = '') D:\phpStudy\WWW\ApiApps\Api\Controller\ApiController.class.php 第 1130 行.
+SQL: SHOW COLUMNS FROM `yefan_shop` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `yefan_shop`  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-11-10T18:31:49+08:00 ] 183.12.221.226 /api.php/Api/returnshopsreceipt
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Api\Controller\ApiController::get() should be compatible with Think\Controller::get($name = '') D:\phpStudy\WWW\ApiApps\Api\Controller\ApiController.class.php 第 1130 行.
+SQL: SHOW COLUMNS FROM `yefan_weichat` [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-11-10T18:46:02+08:00 ] 183.12.221.226 /api.php/Api/returnshop
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.015600s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015600s ]
+NOTIC: [2048] Declaration of Api\Controller\ApiController::get() should be compatible with Think\Controller::get($name = '') D:\phpStudy\WWW\ApiApps\Api\Controller\ApiController.class.php 第 1130 行.
+SQL: SHOW COLUMNS FROM `yefan_shop` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `yefan_shop`  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-11-10T18:46:23+08:00 ] 183.12.221.226 /api.php/Api/returnshopsreceipt
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Api\Controller\ApiController::get() should be compatible with Think\Controller::get($name = '') D:\phpStudy\WWW\ApiApps\Api\Controller\ApiController.class.php 第 1130 行.
+SQL: SHOW COLUMNS FROM `yefan_weichat` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `yefan_weichat` WHERE `wei_remarks` = '收货' AND `wei_static` = '6' AND `receipt_time` <> '' LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-11-10T23:55:58+08:00 ] 183.12.221.226 /api.php/Api/getTask?admin=admin&eq_id=ZC4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Api\Controller\ApiController::get() should be compatible with Think\Controller::get($name = '') D:\phpStudy\WWW\ApiApps\Api\Controller\ApiController.class.php 第 1130 行.
+SQL: SHOW COLUMNS FROM `yefan_grouping` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `yefan_grouping` WHERE `equlist` = 'ZC4' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `yefan_admin` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `yefan_admin` WHERE `admin_name` = 'admin' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `yefan_taskstime` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `yefan_taskstime` WHERE `admin_id` = '46' AND `group_name` = 'ZC4'  [ RunTime:0.0156s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-11-10T23:56:04+08:00 ] 183.12.221.226 /api.php/Api/getUrl?address=厦门
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Api\Controller\ApiController::get() should be compatible with Think\Controller::get($name = '') D:\phpStudy\WWW\ApiApps\Api\Controller\ApiController.class.php 第 1130 行.
+SQL: SHOW COLUMNS FROM `yefan_vpnaddress` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `yefan_vpnaddress` WHERE ( `address_addr` LIKE '%厦门%' OR `address_city` LIKE '%厦门%' )  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-11-10T23:56:07+08:00 ] 183.12.221.226 /api.php/api/getEqu?equ=ZC4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Api\Controller\ApiController::get() should be compatible with Think\Controller::get($name = '') D:\phpStudy\WWW\ApiApps\Api\Controller\ApiController.class.php 第 1130 行.
+SQL: SHOW COLUMNS FROM `yefan_vpnaccount` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `yefan_vpnaccount` WHERE `equipment` LIKE '%ZC4%'  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-11-10T23:56:45+08:00 ] 27.159.46.90 /api.php/Api/ipJudge?ip=27.159.43.1&id=ZC4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Api\Controller\ApiController::get() should be compatible with Think\Controller::get($name = '') D:\phpStudy\WWW\ApiApps\Api\Controller\ApiController.class.php 第 1130 行.
+SQL: SHOW COLUMNS FROM `yefan_ipjudge` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `yefan_ipjudge` LIMIT 1   [ RunTime:0.0312s ]
+SQL: DELETE FROM `yefan_ipjudge` WHERE `ip_tatic` = 1 [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `yefan_tasks_group` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `yefan_tasks_group`  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `yefan_ipjudge` WHERE `ip_value` = '27.159.43.1'  [ RunTime:0.0000s ]
+SQL: INSERT INTO `yefan_ipjudge` (`ip_value`,`ip_equipment`,`ip_time`) VALUES ('27.159.43.1','ZC4','2017-11-10 23:56:45') [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-11-10T23:56:48+08:00 ] 27.159.46.90 /api.php/Api/ipJudge?ip=27.159.43.1&id=ZC4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Api\Controller\ApiController::get() should be compatible with Think\Controller::get($name = '') D:\phpStudy\WWW\ApiApps\Api\Controller\ApiController.class.php 第 1130 行.
+SQL: SHOW COLUMNS FROM `yefan_ipjudge` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `yefan_ipjudge` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `yefan_tasks_group` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `yefan_tasks_group`  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `yefan_ipjudge` WHERE `ip_value` = '27.159.43.1'  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-11-10T23:56:55+08:00 ] 27.159.46.90 /api.php/Api/ipJudge?ip=27.159.43.1&id=ZC4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Api\Controller\ApiController::get() should be compatible with Think\Controller::get($name = '') D:\phpStudy\WWW\ApiApps\Api\Controller\ApiController.class.php 第 1130 行.
+SQL: SHOW COLUMNS FROM `yefan_ipjudge` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `yefan_ipjudge` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `yefan_tasks_group` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `yefan_tasks_group`  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `yefan_ipjudge` WHERE `ip_value` = '27.159.43.1'  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-11-10T23:57:03+08:00 ] 110.80.56.238 /api.php/Api/ipJudge?ip=27.159.43.1&id=ZC4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Api\Controller\ApiController::get() should be compatible with Think\Controller::get($name = '') D:\phpStudy\WWW\ApiApps\Api\Controller\ApiController.class.php 第 1130 行.
+SQL: SHOW COLUMNS FROM `yefan_ipjudge` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `yefan_ipjudge` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `yefan_tasks_group` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `yefan_tasks_group`  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `yefan_ipjudge` WHERE `ip_value` = '27.159.43.1'  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-11-10T23:57:06+08:00 ] 121.204.137.157 /api.php/Api/ipJudge?ip=27.159.43.1&id=ZC4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.015600s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015600s ]
+NOTIC: [2048] Declaration of Api\Controller\ApiController::get() should be compatible with Think\Controller::get($name = '') D:\phpStudy\WWW\ApiApps\Api\Controller\ApiController.class.php 第 1130 行.
+SQL: SHOW COLUMNS FROM `yefan_ipjudge` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `yefan_ipjudge` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `yefan_tasks_group` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `yefan_tasks_group`  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `yefan_ipjudge` WHERE `ip_value` = '27.159.43.1'  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-11-10T23:57:15+08:00 ] 121.204.137.157 /api.php/Api/ipJudge?ip=27.159.43.1&id=ZC4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Api\Controller\ApiController::get() should be compatible with Think\Controller::get($name = '') D:\phpStudy\WWW\ApiApps\Api\Controller\ApiController.class.php 第 1130 行.
+SQL: SHOW COLUMNS FROM `yefan_ipjudge` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `yefan_ipjudge` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `yefan_tasks_group` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `yefan_tasks_group`  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `yefan_ipjudge` WHERE `ip_value` = '27.159.43.1'  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-11-10T23:57:18+08:00 ] 121.204.137.157 /api.php/Api/ipJudge?ip=27.159.43.1&id=ZC4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Api\Controller\ApiController::get() should be compatible with Think\Controller::get($name = '') D:\phpStudy\WWW\ApiApps\Api\Controller\ApiController.class.php 第 1130 行.
+SQL: SHOW COLUMNS FROM `yefan_ipjudge` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `yefan_ipjudge` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `yefan_tasks_group` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `yefan_tasks_group`  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `yefan_ipjudge` WHERE `ip_value` = '27.159.43.1'  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-11-10T23:57:22+08:00 ] 183.12.221.226 /api.php/Api/getUrl?address=厦门
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Api\Controller\ApiController::get() should be compatible with Think\Controller::get($name = '') D:\phpStudy\WWW\ApiApps\Api\Controller\ApiController.class.php 第 1130 行.
+SQL: SHOW COLUMNS FROM `yefan_vpnaddress` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `yefan_vpnaddress` WHERE ( `address_addr` LIKE '%厦门%' OR `address_city` LIKE '%厦门%' )  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-11-10T23:57:25+08:00 ] 183.12.221.226 /api.php/api/getEqu?equ=ZC4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Api\Controller\ApiController::get() should be compatible with Think\Controller::get($name = '') D:\phpStudy\WWW\ApiApps\Api\Controller\ApiController.class.php 第 1130 行.
+SQL: SHOW COLUMNS FROM `yefan_vpnaccount` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `yefan_vpnaccount` WHERE `equipment` LIKE '%ZC4%'  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-11-10T23:57:35+08:00 ] 110.80.56.48 /api.php/Api/ipJudge?ip=110.80.56.48&id=ZC4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Api\Controller\ApiController::get() should be compatible with Think\Controller::get($name = '') D:\phpStudy\WWW\ApiApps\Api\Controller\ApiController.class.php 第 1130 行.
+SQL: SHOW COLUMNS FROM `yefan_ipjudge` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `yefan_ipjudge` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `yefan_tasks_group` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `yefan_tasks_group`  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `yefan_ipjudge` WHERE `ip_value` = '110.80.56.48'  [ RunTime:0.0000s ]
+SQL: INSERT INTO `yefan_ipjudge` (`ip_value`,`ip_equipment`,`ip_time`) VALUES ('110.80.56.48','ZC4','2017-11-10 23:57:35') [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-11-10T23:57:43+08:00 ] 110.80.56.48 /api.php/Api/ipJudge?ip=110.80.56.48&id=ZC4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.015600s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015600s ]
+NOTIC: [2048] Declaration of Api\Controller\ApiController::get() should be compatible with Think\Controller::get($name = '') D:\phpStudy\WWW\ApiApps\Api\Controller\ApiController.class.php 第 1130 行.
+SQL: SHOW COLUMNS FROM `yefan_ipjudge` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `yefan_ipjudge` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `yefan_tasks_group` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `yefan_tasks_group`  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `yefan_ipjudge` WHERE `ip_value` = '110.80.56.48'  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-11-10T23:57:46+08:00 ] 110.80.56.48 /api.php/Api/ipJudge?ip=110.80.56.48&id=ZC4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Api\Controller\ApiController::get() should be compatible with Think\Controller::get($name = '') D:\phpStudy\WWW\ApiApps\Api\Controller\ApiController.class.php 第 1130 行.
+SQL: SHOW COLUMNS FROM `yefan_ipjudge` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `yefan_ipjudge` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `yefan_tasks_group` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `yefan_tasks_group`  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `yefan_ipjudge` WHERE `ip_value` = '110.80.56.48'  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-11-10T23:58:00+08:00 ] 110.85.254.207 /api.php/Api/ipJudge?ip=110.80.56.48&id=ZC4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.015600s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Api\Controller\ApiController::get() should be compatible with Think\Controller::get($name = '') D:\phpStudy\WWW\ApiApps\Api\Controller\ApiController.class.php 第 1130 行.
+SQL: SHOW COLUMNS FROM `yefan_ipjudge` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `yefan_ipjudge` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `yefan_tasks_group` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `yefan_tasks_group`  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `yefan_ipjudge` WHERE `ip_value` = '110.80.56.48'  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-11-10T23:58:03+08:00 ] 121.207.189.12 /api.php/Api/ipJudge?ip=110.80.56.48&id=ZC4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Api\Controller\ApiController::get() should be compatible with Think\Controller::get($name = '') D:\phpStudy\WWW\ApiApps\Api\Controller\ApiController.class.php 第 1130 行.
+SQL: SHOW COLUMNS FROM `yefan_ipjudge` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `yefan_ipjudge` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `yefan_tasks_group` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `yefan_tasks_group`  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `yefan_ipjudge` WHERE `ip_value` = '110.80.56.48'  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-11-10T23:58:09+08:00 ] 121.207.189.12 /api.php/Api/ipJudge?ip=110.80.56.48&id=ZC4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Api\Controller\ApiController::get() should be compatible with Think\Controller::get($name = '') D:\phpStudy\WWW\ApiApps\Api\Controller\ApiController.class.php 第 1130 行.
+SQL: SHOW COLUMNS FROM `yefan_ipjudge` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `yefan_ipjudge` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `yefan_tasks_group` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `yefan_tasks_group`  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `yefan_ipjudge` WHERE `ip_value` = '110.80.56.48'  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-11-10T23:58:17+08:00 ] 121.207.189.12 /api.php/Api/ipJudge?ip=110.80.56.48&id=ZC4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Api\Controller\ApiController::get() should be compatible with Think\Controller::get($name = '') D:\phpStudy\WWW\ApiApps\Api\Controller\ApiController.class.php 第 1130 行.
+SQL: SHOW COLUMNS FROM `yefan_ipjudge` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `yefan_ipjudge` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `yefan_tasks_group` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `yefan_tasks_group`  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `yefan_ipjudge` WHERE `ip_value` = '110.80.56.48'  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-11-10T23:58:20+08:00 ] 121.207.189.12 /api.php/Api/ipJudge?ip=110.80.56.48&id=ZC4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Api\Controller\ApiController::get() should be compatible with Think\Controller::get($name = '') D:\phpStudy\WWW\ApiApps\Api\Controller\ApiController.class.php 第 1130 行.
+SQL: SHOW COLUMNS FROM `yefan_ipjudge` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `yefan_ipjudge` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `yefan_tasks_group` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `yefan_tasks_group`  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `yefan_ipjudge` WHERE `ip_value` = '110.80.56.48'  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-11-10T23:58:32+08:00 ] 110.84.8.42 /api.php/Api/ipJudge?ip=110.80.56.48&id=ZC4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Api\Controller\ApiController::get() should be compatible with Think\Controller::get($name = '') D:\phpStudy\WWW\ApiApps\Api\Controller\ApiController.class.php 第 1130 行.
+SQL: SHOW COLUMNS FROM `yefan_ipjudge` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `yefan_ipjudge` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `yefan_tasks_group` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `yefan_tasks_group`  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `yefan_ipjudge` WHERE `ip_value` = '110.80.56.48'  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+

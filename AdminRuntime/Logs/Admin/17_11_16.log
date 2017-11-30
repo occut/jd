@@ -1,0 +1,72 @@
+[ 2017-11-16T14:18:06+08:00 ] ::1 /admin/css/animate.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000749s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002128s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002288s ]
+NOTIC: [8] Constant LANG_SET already defined C:\Users\kai\Desktop\admin.catsayer.xyz\ThinkPHPFrame\Library\Behavior\CheckLangBehavior.class.php 第 55 行.
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001164s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006140s ]
+ERR: 无法加载控制器:Css
+
+[ 2017-11-16T14:18:06+08:00 ] ::1 /admin/plugin/layui/css/layui.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000722s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001440s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002102s ]
+NOTIC: [8] Constant LANG_SET already defined C:\Users\kai\Desktop\admin.catsayer.xyz\ThinkPHPFrame\Library\Behavior\CheckLangBehavior.class.php 第 55 行.
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002386s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006437s ]
+ERR: 无法加载控制器:Plugin
+
+[ 2017-11-16T14:18:06+08:00 ] ::1 /admin/plugin/font-awesome/css/font-awesome.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000725s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001450s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002176s ]
+NOTIC: [8] Constant LANG_SET already defined C:\Users\kai\Desktop\admin.catsayer.xyz\ThinkPHPFrame\Library\Behavior\CheckLangBehavior.class.php 第 55 行.
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000851s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004986s ]
+ERR: 无法加载控制器:Plugin
+
+[ 2017-11-16T15:50:48+08:00 ] ::1 /admin/plugin/layui/css/layui.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000638s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001222s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001349s ]
+NOTIC: [8] Constant LANG_SET already defined C:\Users\kai\Desktop\admin.catsayer.xyz\ThinkPHPFrame\Library\Behavior\CheckLangBehavior.class.php 第 55 行.
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000853s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004019s ]
+ERR: 无法加载控制器:Plugin
+
+[ 2017-11-16T15:50:48+08:00 ] ::1 /admin/css/animate.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000867s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001768s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.022955s ]
+NOTIC: [8] Constant LANG_SET already defined C:\Users\kai\Desktop\admin.catsayer.xyz\ThinkPHPFrame\Library\Behavior\CheckLangBehavior.class.php 第 55 行.
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002383s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.027632s ]
+ERR: 无法加载控制器:Css
+
+[ 2017-11-16T15:50:48+08:00 ] ::1 /admin/plugin/font-awesome/css/font-awesome.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001087s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001041s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001684s ]
+NOTIC: [8] Constant LANG_SET already defined C:\Users\kai\Desktop\admin.catsayer.xyz\ThinkPHPFrame\Library\Behavior\CheckLangBehavior.class.php 第 55 行.
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000840s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.027838s ]
+ERR: 无法加载控制器:Plugin
+

@@ -1,0 +1,1 @@
+a:3:{s:6:"status";i:0;s:7:"message";s:8:"query ok";s:6:"result";a:2:{s:8:"location";a:2:{s:3:"lng";d:117.227239;s:3:"lat";d:31.820587;}s:7:"ad_info";a:4:{s:6:"nation";s:6:"中国";s:8:"province";s:9:"安徽省";s:4:"city";s:9:"合肥市";s:6:"adcode";i:340100;}}}

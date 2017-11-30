@@ -1,0 +1,152 @@
+<include file="Common/top"/>
+<div class="layui-body"  style="left:0px">
+<div class="content-wrapper" style="margin-left: 0px">
+    <!-- Content Header (Page header) -->
+    <section class="content-header">
+        <h1>
+           资金管理
+        </h1>
+    </section>
+
+    <!-- Main content -->
+    <section class="content">
+        <div class="row">
+            <div class="col-xs-12">
+                <div class="box">
+                    <br/>
+                    <!--<form class="layui-form"   action="{:U('Finance/index')}" style="margin-left: 10px">-->
+                        <!--<div class="layui-form-item">-->
+                            <!--<div class="layui-inline">-->
+                                <!--<div class="layui-input-inline" style="">-->
+                                    <!--<input class="layui-input" name="skuid" value="" placeholder="skuid" >-->
+                                <!--</div>-->
+                            <!--</div>-->
+                            <!--<div class="layui-inline">-->
+                                <!--<div class="layui-input-inline" style="width: 200px;">-->
+                                    <!--<input type="text" id="startTime" name="startTime"  placeholder="开始时间" class="form-control form-boxed">-->
+                                <!--</div>-->
+                                <!--<div class="layui-form-mid">-</div>-->
+                                <!--<div class="layui-input-inline" style="width: 200px;">-->
+                                    <!--<input type="text" id="endTime" name="endTime"  placeholder="结束时间" class="form-control form-boxed">-->
+                                <!--</div>-->
+                            <!--</div>-->
+                            <!--<div class="layui-inline">-->
+                                <!--<div class="form-cont">-->
+                                    <!--<div class="layui-input-inline">-->
+                                        <!--<input type="submit" class="layui-btn" value="搜索" />-->
+                                    <!--</div>-->
+                                <!--</div>-->
+                            <!--</div>-->
+                        <!--</div>-->
+                    <!--</form>-->
+                    <div class="box-body">
+                        <div class="layui-tab">
+                            <ul class="layui-tab-title">
+                                <li><a href="{:U('Finance/index')}" >费用明细</a></li>
+                                <li><a href="{:U('Finance/charge')}" class="layui-this">充值明细</a></li>
+                                <li><a href="{:U('Finance/liuliang')}">流量明细</a></li>
+                            </ul>
+                            <div class="layui-tab-content">
+                                <!--充值明细Start-->
+                                <div class="layui-tab-item layui-show" >
+                                    <form class="layui-form"   action="{:U('Finance/charge')}" style="margin-left: 10px">
+                                        <div class="layui-form-item">
+                                            <div class="layui-inline">
+                                                <div class="layui-input-inline" style="">
+                                                    <input class="layui-input" name="ordernum" value="" placeholder="交易订单号" >
+                                                </div>
+                                            </div>
+                                            <div class="layui-inline">
+                                                <div class="layui-input-inline" style="width: 200px;">
+                                                    <input type="text" id="chargeStart" name="chargeStart"  placeholder="开始时间" class="form-control form-boxed">
+                                                </div>
+                                                <div class="layui-form-mid">-</div>
+                                                <div class="layui-input-inline" style="width: 200px;">
+                                                    <input type="text" id="chargeEnd" name="chargeEnd"  placeholder="结束时间" class="form-control form-boxed">
+                                                </div>
+                                            </div>
+                                            <div class="layui-inline">
+                                                <div class="form-cont">
+                                                    <div class="layui-input-inline">
+                                                        <input type="submit" class="layui-btn" value="搜索" />
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </form>
+                                    <table id="" class="table table-bordered table-hover">
+                                        <thead>
+                                        <tr class="tng">
+                                            <th style = "text-align: center;">充值金币</th>
+                                            <th style = "text-align: center;">交易订单号</th>
+                                            <th style = "text-align: center;">充值途径</th>
+                                            <th style = "text-align: center;">备注信息</th>
+                                            <th style = "text-align: center;">充值时间</th>
+                                            <th style = "text-align: center;">状态</th>
+                                        </tr>
+                                        </thead>
+                                        <tbody>
+                                        <volist name="usergroups1" id="vo">
+                                            <tr class="tnd" style = "text-align: center;">
+                                                <td>{$vo.money}</td>
+                                                <td>{$vo.order_num}</td>
+                                                <td>
+                                                    <if condition="$vo.charge_way eq 1">
+                                                            银行卡
+                                                        <elseif condition="$vo.charge_way eq 2" />
+                                                            支付宝
+                                                        <else/>
+                                                            微信
+                                                    </if>
+                                                </td>
+                                                <td>{$vo.mark}</td>
+                                                <td>{$vo.time}</td>
+                                                <td>
+                                                    <if condition="$vo.status eq 1">
+                                                       未完成
+                                                        <else/>
+                                                        已完成
+                                                    </if>
+                                                </td>
+                                            </tr>
+                                        </volist>
+                                        </tbody>
+                                    </table>
+                                    <div class="pagepadding">
+                                        <div class="col-sm-5"><div aria-live="polite" role="status" class="example2_info" class="dataTables_info">共{$count1}条</div></div><div class="col-sm-7"><div class="example2_paginate" class="dataTables_paginate paging_simple_numbers"><ul class="pagination">{$page1}</ul></div></div>
+                                    </div>
+                                </div>
+                                <!--充值明细Over-->
+                </div>
+                    <!-- /.box-body -->
+                </div>
+                <!-- /.box -->
+            </div>
+            <!-- /.col -->
+        </div>
+        <!-- /.row -->
+    </section>
+    <!-- /.content -->
+</div>
+<div>
+<!-- /.content-wrapper -->
+
+<!-- Content Wrapper. Contains page content -->
+
+<!-- /.box -->
+<include file="Common/button"/>
+    <script>
+        //        时间选择Start
+        layui.use('laydate', function(){
+            var laydate = layui.laydate;
+
+            //执行一个laydate实例
+            laydate.render({
+                elem: '#chargeStart' //指定元素
+            });
+            laydate.render({
+                elem: '#chargeEnd' //指定元素
+            });
+        });
+        //        时间选择Over
+    </script>

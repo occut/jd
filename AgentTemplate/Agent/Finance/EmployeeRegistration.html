@@ -1,0 +1,116 @@
+<include file="Common/top"/>
+<div class="layui-body"  style="left:0px">
+    <div class="content-wrapper" style="margin-left: 0px">
+        <!-- Content Header (Page header) -->
+        <section class="content-header">
+            <h1>
+                {$value}
+            </h1>
+        </section>
+
+        <!-- Main content -->
+        <section class="content">
+            <div class="row">
+                <div class="col-xs-12">
+                    <div class="box">
+                        <div class="box-header">
+                            <h3 class="box-title"><a href="{:U('Finance/index')}" class="btn btn-block btn-primary">员工做单登记</a></h3>
+                            <h3 class="box-title"><a href="{:U('Finance/logistics')}" class="btn btn-block btn-primary">物流登记</a></h3>
+                            <h3 class="box-title"><a href="{:U('Finance/flow')}" class="btn btn-block btn-primary">流量登记</a></h3>
+                            <h3 class="box-title"><a href="{:U('Finance/volume')}" class="btn btn-block btn-primary">单量登记</a></h3>
+                        <br/>
+                        </div>
+                        <form class="layui-form"   action="" style="margin-left: 10px">
+                            <div class="layui-form-item">
+                                <div class="layui-inline">
+                                    <div class="layui-input-inline" style="">
+                                        <input class="layui-input" name="skuid" value="" placeholder="skuid" >
+                                    </div>
+                                </div>
+                                <div class="layui-inline">
+                                    <div class="layui-input-inline" style="width: 200px;">
+                                        <input type="text" id="startTime" name="startTime"  placeholder="开始时间" class="form-control form-boxed">
+                                    </div>
+                                    <div class="layui-form-mid">-</div>
+                                    <div class="layui-input-inline" style="width: 200px;">
+                                        <input type="text" id="endTime" name="endTime"  placeholder="结束时间" class="form-control form-boxed">
+                                    </div>
+                                </div>
+                                <div class="layui-inline">
+                                    <div class="form-cont">
+                                        <div class="layui-input-inline">
+                                            <input type="submit" class="layui-btn" value="搜索" />
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+                        <div class="box-body">
+                            <div class="layui-tab">
+
+                                <div class="layui-tab-content">
+                                    <div class="layui-tab-item layui-show">
+                                        <table id="example2" class="table table-bordered table-hover">
+                                            <thead>
+                                            <tr class="tng">
+                                                <!--<th style = "text-align: center;"><input type="checkbox" id="" value=""></th>-->
+                                                <th style = "text-align: center;">ID</th>
+                                                <th style = "text-align: center;">{$va}</th>
+                                                <th style = "text-align: center;">单量</th>
+                                                <th style = "text-align: center;">当天日期</th>
+                                            </tr>
+                                            </thead>
+                                            <tbody>
+                                            <volist name="usergroups" id="vo">
+                                                <tr class="tnd" style = "text-align: center;">
+                                                    <!--<td><input type="checkbox" value="{$vo.id}" name="delAll"></td>-->
+                                                    <td>{$vo.em_id}</td>
+                                                    <td>{$vo.eq_id}</td>
+                                                    <td>{$vo.en_nubmer}</td>
+                                                    <td>{$vo.en_time}</td>
+
+                                                </tr>
+                                            </volist>
+                                            </tbody>
+                                        </table>
+                                        <div class="pagepadding">
+                                            <div class="col-sm-5"><div aria-live="polite" role="status" id="example2_info" class="dataTables_info">共{$count}条</div></div><div class="col-sm-7"><div id="example2_paginate" class="dataTables_paginate paging_simple_numbers"><ul class="pagination">{$page}</ul></div></div>
+                                        </div>
+
+                                    </div>
+
+                                </div>
+                                <!-- /.box-body -->
+                            </div>
+                            <!-- /.box -->
+                        </div>
+                        <!-- /.col -->
+                    </div>
+                    </div>
+                    </div>
+                    <!-- /.row -->
+        </section>
+        <!-- /.content -->
+    </div>
+    <div>
+        <!-- /.content-wrapper -->
+
+        <!-- Content Wrapper. Contains page content -->
+
+        <!-- /.box -->
+        <include file="Common/button"/>
+        <script>
+            //        时间选择Start
+            layui.use('laydate', function(){
+                var laydate = layui.laydate;
+
+                //执行一个laydate实例
+                laydate.render({
+                    elem: '#startTime' //指定元素
+                });
+                laydate.render({
+                    elem: '#endTime' //指定元素
+                });
+            });
+            //        时间选择Over
+        </script>

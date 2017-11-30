@@ -1,0 +1,365 @@
+<include file="Common/top"/>
+
+<div class="layui-body" style="left: 0px">
+    <div class="content-wrapper" style = "margin-left:1px ;">
+        <!-- Content Header (Page header) -->
+        <section class="content-header">
+            <h1>
+                <!--{$value}-->
+                任务界面
+            </h1>
+        </section>
+        <!-- Main content -->
+        <section class="content">
+            <div class="layui-tab">
+                <ul class="layui-tab-title">
+                    <li ><a href="{:U('Tasks/listTasks')}">任务管理</a></li>
+                    <li><a href="{:U('Tasks/taskscreate')}">添加任务</a></li>
+                    <li><a href="{:U('Tasks/liuliangtasks')}" class="layui-this">流量管理</a></li>
+                    <li><a href="{:U('Tasks/liuliangcreate')}" >添加流量任务</a></li>
+                </ul>
+                <div class="layui-tab-content">
+                    <div class="layui-tab-item layui-show">
+                        <div class="row">
+                            <div class="col-xs-12" style="margin-right:0px; ">
+                                <div class="box">
+                                    <div class="box-header">
+                                        <!--<a href="{:U('Tasks/taskscreate')}" class="layui-btn ">添加任务</a>-->
+                                        <h3 class="box-title layui-btn"><button class="btn layui-btn " onclick="delAll('{:U('Tasks/deletesliulaingS')}')">批量删除</button></h3>
+                                        <br/>
+                                        <hr/>
+                                        <form action="{:U('Tasks/liuliangtasks')}"  class="layui-form">
+                                            <div class="layui-form-item">
+                                                <!--<div class="layui-inline">-->
+                                                    <!--<div class="layui-input-inline" style="width: 200px;">-->
+                                                        <!--<select name="status" lay-verify="">-->
+                                                            <!--<option value="">请选择付款状态</option>-->
+                                                            <!--<option value="0">未支付</option>-->
+                                                            <!--<option value="1">已支付</option>-->
+                                                        <!--</select>-->
+                                                    <!--</div>-->
+                                                <!--</div>-->
+                                                <!--<div class="layui-inline">-->
+                                                <!--<div class="layui-input-inline" style="width: 200px;">-->
+                                                <!--<select name="type" lay-verify="">-->
+                                                <!--<option value="0">添加时间</option>-->
+                                                <!--<option value="1">未支付</option>-->
+                                                <!--<option value="2">已支付</option>-->
+                                                <!--</select>-->
+                                                <!--</div>-->
+                                                <!--</div>-->
+                                                <!--<div class="layui-inline">-->
+                                                <!--<div class="layui-input-inline" style="width: 200px;">-->
+                                                <!--<input type="text" name="keyword" value="" placeholder="请输入关键字..." class="form-control form-boxed">-->
+                                                <!--</div>-->
+                                                <!--</div>-->
+                                                <div class="layui-inline">
+                                                    <div class="layui-input-inline" style="width:200px;margin-left:0px;">
+                                                        <input class="layui-input" name="start" placeholder="添加时间" onclick="layui.laydate({elem: this, istime: true, format: 'YYYY-MM-DD hh:mm:ss'})">
+                                                    </div>
+                                                    <div class="layui-form-mid">-</div>
+                                                    <div class="layui-input-inline">
+                                                        <input class="layui-input" name="end" placeholder="截止日" onclick="layui.laydate({elem: this, istime: true, format: 'YYYY-MM-DD hh:mm:ss'})">
+                                                    </div>
+                                                </div>
+                                                <div class="layui-inline">
+                                                    <div class="form-cont">
+                                                        <div class="layui-input-inline">
+                                                            <input type="submit" class="layui-btn" value="搜索" />
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </form>
+                                    </div>
+                                    <!-- /.box-header -->
+                                    <div class="box-body">
+                                        <table id="example2" class="table table-bordered table-hover layui-table" style = "text-align: center;">
+                                            <thead >
+                                            <tr class="tng" >
+                                                <th style = "width:5%;text-align: center;"><input type="checkbox" id="dellAll" value=""></th>
+                                                <th style="text-align: center;">ID</th>
+                                                <th style="text-align: center;">店铺名</th>
+                                                <th style="text-align: center;">SKU</th>
+                                                <th style="text-align: center;">关键词</th>
+                                                <th style="text-align: center;">发布数量</th>
+                                                <th style="text-align: center;">端口</th>
+                                                <th style="text-align: center;">总费用</th>
+                                                <th style="text-align: center;">添加时间</th>
+                                                <th style="text-align: center;">执行时间</th>
+                                                <th style="text-align: center;">状态</th>
+                                                <th style="text-align: center;">操作</th>
+                                            </tr>
+                                            </thead>
+                                            <tbody>
+                                            <volist name="tasks" id="vo">
+                                                <tr class="tnd">
+                                                    <td style="text-align: center;"><input type="checkbox" id="{$vo.liuliang_id}" value="{$vo.liuliang_id}" name="delAll"></td>
+                                                    <td style="text-align: center;"><span>{$vo.liuliang_id}</span></td>
+                                                    <td style="text-align: center;"><span>{$vo.shop_name}</span></td>
+                                                    <td style="text-align: center;"><span>{$vo.sku}</span></td>
+                                                    <td style="text-align: center;"><span>{$vo.keyword}</span></td>
+                                                    <td style="text-align: center;"><span>{$vo.fabushuliang}</span></td>
+                                                    <td style="text-align: center;">
+                                                        <span>
+                                                            <if condition="$vo.port eq 1">
+                                                                无限流量
+                                                            <else/>
+                                                                PC流量
+                                                            </if>
+                                                        </span>
+                                                    </td>
+                                                    <td style="text-align: center;"><span>{$vo.cost}</span></td>
+                                                    <td style="text-align: center;">{$vo.addtime}</td>
+                                                    <td style="text-align: center;">{$vo.excute}</td>
+                                                    <td style="text-align: center;">
+                                                        <!--<eq name="vo.status" value="0"><a href="#" name="0" onclick="ishide(this,{$vo.task_id})">开始任务</a><else/><a href="#" name="1" onclick="ishide(this,{$vo.task_id})" style="color: red">关闭任务</a></eq>-->
+                                                        <if condition="$vo.status eq 0">未审核 <else/>已审核</if>
+                                                    </td>
+                                                    <td style="text-align: center;">
+                                                        <a  href="{:U('Tasks/liuliangEdit',array('liuliang_id'=>$vo['liuliang_id']))}" style="display: <if condition='$vo.status eq 1'>none<else/>block</if>">编辑</a>
+                                                        <a  href="javascript:if(confirm('确实要删除吗?')) location='{:U('Tasks/deleteliuliang',array('liuliang_id'=>$vo['liuliang_id']))}'" style="display: <if condition='$vo.status eq 1'>none<else/>block</if>">删除</a>
+                                                        <a href="javascript:void(0)" style="display: <if condition='$vo.status eq 0'>none<else/>block</if>">审核已通过,不可进行操作</a>
+                                                    </td>
+                                                </tr>
+                                            </volist>
+                                            </tbody>
+                                        </table>
+                                        <div class="pagepadding">
+                                            <div class="col-sm-5"><div aria-live="polite" role="status" id="example2_info" class="dataTables_info">共{$count}条</div></div><div class="col-sm-7"><div id="example2_paginate" class="dataTables_paginate paging_simple_numbers"><ul class="pagination">{$page}</ul></div></div>
+                                        </div>
+                                        <!-- /.box-body -->
+                                    </div>
+                                    <!-- /.box -->
+                                </div>
+
+                                <!-- /.col -->
+                            </div>
+                            <!-- /.row -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+        <!-- /.content -->
+    </div>
+</div>
+
+<include file="Common/button"/>
+<script src="/AdminResource/admin/plugin/layui/layui.js"></script>
+<script src="/AdminResource/admin/plugin/layui/lay/modules/laydate.js"></script>
+<script src="/AdminResource/js/script123.js"></script>
+<script>
+    //批量删除提交
+    function delAll (action,title) {
+        if(title === undefined){
+            title = '确认要删除吗？';
+        }
+        layer.confirm(title,function(index){
+            var checkbox = $("input[type='checkbox'][name='delAll']");
+            var str = [];
+            $.each(checkbox, function(i, n){
+                if(checkbox[i].checked == true){
+                    str[i] = {name:'ids[]',value:checkbox[i].value};
+                }
+            });
+            //str.join() 分割成 字符串
+            var result =  post(action,str);
+            console.log(str);
+            if (result == 1){
+                // console.log(result.msg);
+                // alert(123);
+                layer.msg("成功",{icon: 1,time:1000},function(){
+                    window.location.reload();
+                });
+            }else{
+                layer.msg("失败",{icon: 5,time:1000});
+            }
+        });
+    }
+    function post(action, formData,dataType) {
+        var result = '';
+        if(dataType === undefined){
+            dataType = 'json';
+        }
+        layui.use(['jquery'], function() {
+            $ = layui.jquery;//jquery
+            $.ajax({
+                type: 'post',
+                url: action,
+                data: formData, //'id=1&aid=2' {id:1,aid:2}
+                cache: false,
+                async: false,
+                dataType: dataType,
+                success: function (data) {
+                    //    layer.close(index);
+                    result = data;
+                },
+                error: function () {
+                    result['error'] = true;
+                    result['info'] = '请求异常！';
+                }
+            });
+        });
+        return result;
+    }
+    $(".input").change(function(data){
+        var id = $(this).attr('data-node_id');
+        var value = $(this).val();
+        $.ajax({
+            url:"{:U('Tasks/ip')}",
+            type:"post",
+            dataType: "json",
+            data:{'time_id':id ,'ip':value },
+            async: "false",
+            success:function(result){
+                if(result == 1){
+                    layer.msg("更新经纬度成功", { icon: 6 });
+                    parent.location.reload();
+                }
+                if(result == 2){
+                    layer.msg("更新经纬度失败", { icon: 5 });
+                }
+                if(result == 3){
+                    layer.msg("当前任务已过期", { icon: 5 });
+                }
+            }
+        })
+    })
+</script>
+<script>
+    $(document).ready(function () {
+        var num = 1;
+        var checkbox = $("input[type='checkbox'][name='delAll']");
+        $('#dellAll').on('click',function () {
+//                alert(123);
+            if (num%2){
+                $.each(checkbox, function(i, n){
+                    checkbox[i].checked = true;
+                });
+            }else{
+                $.each(checkbox, function(i, n){
+                    checkbox[i].checked = false;
+                });
+            }
+            num++;
+        });
+        $('.selectRule').on('click',function () {
+            var classname = $(this).children(".layui-form-checkbox")[0].className;
+            var classArr = classname.split(' ');
+            var checkbox = $(this).next('td').find("input[type='checkbox']");
+            if($.inArray('layui-form-checked',classArr) >= 0){
+                $.each(checkbox,function (i,n) {
+                    checkbox[i].checked = true;
+                });
+                $(this).next('td').find(".layui-form-checkbox").addClass('layui-form-checked');
+            }else{
+                $.each(checkbox,function (i,n) {
+                    checkbox[i].checked = false;
+                });
+                $(this).next('td').find(".layui-form-checkbox").removeClass('layui-form-checked');
+            }
+        });
+
+    });
+</script>
+
+<script>
+    $(document).ready(function () {
+        var num = 1;
+        var checkbox = $("input[type='checkbox'][name='delAll']");
+        $('#dellAll').on('click',function () {
+//                alert(123);
+            if (num%2){
+                $.each(checkbox, function(i, n){
+                    checkbox[i].checked = true;
+                });
+            }else{
+                $.each(checkbox, function(i, n){
+                    checkbox[i].checked = false;
+                });
+            }
+            num++;
+        });
+        $('.selectRule').on('click',function () {
+            var classname = $(this).children(".layui-form-checkbox")[0].className;
+            var classArr = classname.split(' ');
+            var checkbox = $(this).next('td').find("input[type='checkbox']");
+            if($.inArray('layui-form-checked',classArr) >= 0){
+                $.each(checkbox,function (i,n) {
+                    checkbox[i].checked = true;
+                });
+                $(this).next('td').find(".layui-form-checkbox").addClass('layui-form-checked');
+            }else{
+                $.each(checkbox,function (i,n) {
+                    checkbox[i].checked = false;
+                });
+                $(this).next('td').find(".layui-form-checkbox").removeClass('layui-form-checked');
+            }
+        });
+
+    });
+
+</script>
+
+<script>
+    function ishide(obj,id){
+        var b= $(obj).html();
+        console.log(b);
+        console.log(id);
+        if(b =="开始任务"){
+            var c =1
+        }
+        else if(b=="关闭任务"){
+            var c = 0
+        }
+        $.ajax({
+            url:"{:U('Tasks/isHidden')}",
+            type:"post",
+            dataType: "json",
+            data:{'task_id':id ,'status':c },
+            async: "false",
+            success:function(result){
+                if(result == 1){
+                    layer.msg("更新状态成功", { icon: 6 });
+                    location.reload();
+                }
+                if(result == 2){
+                    layer.msg("更新状态失败", { icon: 5 });
+                }
+                if(result == 3){
+                    layer.msg("当前任务已过期", { icon: 5 });
+                }
+            }
+        })
+    }
+    function isstate(obj,aid){
+        var b= $(obj).html();
+        console.log(aid);
+        var c = 0;
+        $.ajax({
+            url:"{:U('Article/isHidden')}",
+            type:"post",
+            dataType: "json",
+            data:{'articleid':aid ,'ishidden':c },
+            async: "false",
+            success:function(ishiddens){
+                layer.alert("重启中",{ icon: 1,skin: 'layer-ext-moon' },function(){
+                    location.reload();
+                });
+//                if(b=="开始任务"){
+//                    $(obj).html('关闭任务');
+//                    $(obj).css('color','red');
+//                }
+                if(b=="关闭任务"){
+                    $(obj).html('开始任务');
+                    $(obj).css('color','#3c8dbc');
+                }
+            }
+
+        })
+
+    }
+
+</script>

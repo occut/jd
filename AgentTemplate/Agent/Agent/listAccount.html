@@ -1,0 +1,186 @@
+<include file="Common/top"/>
+<include file="Common/nav"/>
+<div class="layui-body">
+    <div class="content-wrapper" style = "margin-left:1px ;">
+        <!-- Content Header (Page header) -->
+        <section class="content-header">
+            <h1>
+                {$value}
+            </h1>
+        </section>
+
+        <!-- Main content -->
+        <section class="content">
+            <div class="row">
+                <div class="col-xs-12">
+                    <div class="box">
+                        <div class="box-header">
+                            <a href="{:U('Agent/create')}" class="layui-btn ">添加代理</a>
+
+                        </div>
+                        <!-- /.box-header -->
+                        <div class="box-body">
+                            <table id="example2" class="table table-bordered table-hover layui-table" style = "text-align: center;">
+                                <thead >
+                                <tr class="tng">
+                                    <th style = "text-align: center;"><input type="checkbox" id="dellAll" value=""></th>
+                                    <th style = "text-align: center;">ID</th>
+                                    <th style = "text-align: center;">账号</th>
+                                    <th style = "text-align: center;">时间</th>
+                                    <th style = "text-align: center;">数量</th>
+                                </tr>
+                                </thead>
+                                <tbody>
+                                <volist name="Agent" id="vo">
+                                    <tr class="tnd">
+                                        <td><input type="checkbox" value="{$vo.ac_id}" name="delAll"></td>
+                                        <td>{$vo['ac_id']}</td>
+                                        <td>{:selectid($vo['ac_name'])['ag_name']}</td>
+                                        <td>{$vo['ac_time']}</td>
+                                        <td>{$vo['ac_number']}</td>
+                                    </tr>
+                                </volist>
+                                </tbody>
+                            </table>
+                            <div class="pagepadding">
+                                <div class="col-sm-5"><div aria-live="polite" role="status" id="example2_info" class="dataTables_info">共{$count}条</div></div><div class="col-sm-7"><div id="example2_paginate" class="dataTables_paginate paging_simple_numbers"><ul class="pagination">{$page}</ul></div></div>
+                            </div>
+                            <!-- /.box-body -->
+                        </div>
+                        <!-- /.box -->
+                    </div>
+                    <!-- /.col -->
+                </div>
+                <!-- /.row -->
+            </div>
+        </section>
+        <!-- /.content -->
+    </div>
+    <include file="Common/button"/>
+    <!-- /.content-wrapper -->
+    <script>
+        $(document).ready(function () {
+            $("#nubmer").change(function(){
+                var con = $(this).val();
+                console.log(con);
+
+                $.ajax({
+                    url:"{:U('Wechat/Nubmer')}",
+                    type:"post",
+                    dataType: "json",
+                    data:{'con':con},
+                    async: "false",
+                    success:function(result){
+                        if(result != 'ok'){
+                            if(result == 0){
+                                result = '';
+                            }
+                            $("#nubmer").val(result);
+                            layer.msg("数据不足", { icon: 5 });
+                            $(this).css("background-color","#FFFFCC");
+                        }
+                    }
+                })
+            });
+            var num = 1;
+            var checkbox = $("input[type='checkbox'][name='delAll']");
+            $('#dellAll').on('click',function () {
+                if (num%2){
+                    $.each(checkbox, function(i, n){
+                        checkbox[i].checked = true;
+                    });
+                }else{
+                    $.each(checkbox, function(i, n){
+                        checkbox[i].checked = false;
+                    });
+                }
+                num++;
+            });
+            $('.selectRule').on('click',function () {
+                var classname = $(this).children(".layui-form-checkbox")[0].className;
+                var classArr = classname.split(' ');
+                var checkbox = $(this).next('td').find("input[type='checkbox']");
+                if($.inArray('layui-form-checked',classArr) >= 0){
+                    $.each(checkbox,function (i,n) {
+                        checkbox[i].checked = true;
+                    });
+                    $(this).next('td').find(".layui-form-checkbox").addClass('layui-form-checked');
+                }else{
+                    $.each(checkbox,function (i,n) {
+                        checkbox[i].checked = false;
+                    });
+                    $(this).next('td').find(".layui-form-checkbox").removeClass('layui-form-checked');
+                }
+            });
+        });
+        // 搜索地址
+        // function search(){
+        //     var val=$(".searcharea").val();
+        //     $.ajax({
+        //         url:"{:U('Wechat/searchAddr')}",
+        //         type:"post",
+        //         dataType: "json",
+        //         data:{'value':val},
+        //         async: "false",
+        //         success:function(result){
+        //         if(result){
+        //             layer.msg("更新状态成功", { icon: 6 });
+        //             parent.location.reload();
+        //         }else{
+        //             layer.msg("更新状态失败", { icon: 5 });
+        //             }
+        //         }
+        //     })
+
+        // }
+        function iswechat(){
+            var checkbox = $("input[type='checkbox'][name='delAll']");
+            var str = '';
+            $.each(checkbox, function(i, n){
+                if(checkbox[i].checked == true){
+                    str += checkbox[i].value+',';
+                }
+
+            });
+            $("#ids").val(str);
+//        alert(str)
+        }
+        //批量绑定设备
+
+        function bindEqis (url,title) {
+            if(title === undefined){
+                title = '确定绑定么';
+            }
+            layer.confirm(title,function(index){
+                var checkbox = $("input[type='checkbox'][name='delAll']");
+                var str = [];
+                $.each(checkbox, function(i, n){
+                    if(checkbox[i].checked == true){
+                        str[i] = checkbox[i].value;
+
+                    }
+                });
+                var eq_id = $('#eq_id').val();
+                var nubmer = $('#nubmer').val();
+                // console.log(str);
+                // alert(str);
+                // alert(eq_id);
+                $.ajax({
+                    url:"{:U('Wechat/bindeqis')}",
+                    type:"post",
+                    dataType: "json",
+                    data:{'ids':str,'id':eq_id,'nubmer':nubmer},
+                    async: "false",
+                    success:function(result){
+                        if(result == 1){
+                            layer.msg("绑定设备成功", { icon: 6 });
+                            parent.location.reload();
+                        }else{
+                            layer.msg("绑定设备失败", { icon: 5 });
+                        }
+                    }
+                })
+
+            });
+        }
+    </script>
